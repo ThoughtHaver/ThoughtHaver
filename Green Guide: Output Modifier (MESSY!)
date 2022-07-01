@@ -1,0 +1,1049 @@
+
+// Checkout the repo examples to get an idea of other ways you can use scripting 
+// https://github.com/latitudegames/Scripting/blob/master/examples
+
+
+
+
+const modifier = (text) => {
+  let modifiedText = text
+  const lowered = text.toLowerCase()
+    const lowercharacter = state.character.toLowerCase()
+  // The text passed in is either the user's input or players output to modify.
+    console.log(info)
+status = " "
+name = " "
+judge = "Mamamia"
+//var firstchar = modifiedText.charAt(0);
+// if (firstchar.includes('"')){modifiedText = '\n' + modifiedText }
+//state.plot=state.reset 
+location(lowered)
+
+first = state.character.substring(0, state.character.indexOf(" "),);
+last = state.character.substring(state.character.indexOf(" "), 100,);
+state.outputoriginal=modifiedText
+
+var first=first.trim()
+var last=last.trim()
+state.first=first
+state.last=last
+
+
+if(state.ozfactor <= 0){
+n = [cr(7, 14)]
+state.ozfactor =  n}
+
+if(state.commacheck===false){
+if(!modifiedText.includes("\"")){
+  xxx = [cr(0, 1)]
+if (xxx == 1){
+
+modifiedText = modifiedText.replace(/\n\tYou/gi, 'You')  }}}
+modifiedText = modifiedText.replace(/\n"/gi, "\n\t\"")
+state.commacheck=false
+
+ if (modifiedText.includes("\"")){
+state.commacheck=true}
+ if (modifiedText.includes("\"" )){
+state.commacheck=true}
+
+
+state.sample=lowered
+//plot(lowered)//
+location(lowered)
+
+if (state.her===false){
+  
+//  tryagain(lowered)
+ 
+  modifiedText = modifiedText.replace(" .", ".")
+}
+
+  modifiedText = modifiedText.replace(">", "")
+
+  if(state.ozfactor >= 100){
+state.ozfactor = 80 
+
+  if(state.isgag === true)
+  {action = 'You speak again.'
+  state.ozfactor = 80
+    state.isgag = false
+ state.memory = {frontmemory: ""}}
+  state.ozfactor = 80}
+
+if(state.ozfactor >= 100){state.theme = state.theme1c}
+if(state.ozfactor <= 100) { state.theme = state.theme2c}
+if(state.ozfactor <= 95) { state.theme = state.theme3c}
+if(state.ozfactor <= 90) { state.theme = state.theme4c}
+if(state.ozfactor <= 85) { state.theme = state.theme5c}
+if(state.ozfactor <= 80) { state.theme = state.theme5c}
+if(state.ozfactor <= 75) { state.theme = state.theme6c}
+if(state.ozfactor <= 70) { state.theme = state.theme7c}
+if(state.ozfactor <= 65) { state.theme = state.theme8c}
+if(state.ozfactor <= 60) { state.theme = state.theme9c}
+if(state.ozfactor <= 55) { state.theme = state.theme10c}
+if(state.ozfactor <= 50) { state.theme = state.theme11c}
+if(state.ozfactor <= 45) { state.theme = state.theme12c}
+if(state.ozfactor <= 40) { state.theme = state.theme13c}
+if(state.ozfactor <= 35) { state.theme = state.theme14c}
+if(state.ozfactor <= 30) { state.theme = state.theme15c}
+if(state.ozfactor <= 25) { state.theme = state.theme16c}
+if(state.ozfactor <= 20) { state.theme = state.theme17c}
+if(state.ozfactor <= 15) { state.theme = state.theme18c}
+if(state.ozfactor <= 10) { state.theme = state.theme19c}
+if(state.ozfactor <= 5) {state.theme = state.theme20c}
+
+
+
+
+
+
+if(lowered.match(/\nshe | her | she |\nher |\nshe |woman|lady|women|"/)) 
+{state.her = true} 
+ 
+    if(text.match(state.character)) {    
+     
+     }
+
+
+
+
+
+
+
+if (state.her ===true){
+
+state.echo = modifiedText
+     thing = JSON.stringify(history)
+       var extract = thing.lastIndexOf("\"text\"");
+
+  var last = thing.substring(extract, -700)
+  state.last=thing
+
+ 
+
+
+  modifiedText = modifiedText.replace(/  /gi, " ")
+  modifiedText = modifiedText.replace(/  /gi, " ")
+    modifiedText = modifiedText.replace(/  /gi, " ")
+    state.mod=false
+//    state.character=state.first}
+}
+
+
+
+
+
+if (state.naughty===true){
+           action = 'You cannot speak.'
+         modifiedText = modifiedText + "\n" + action
+             state.isgag = true 
+         state.ozfactor = 20
+         state.naughty=false
+}
+
+
+
+     thing = JSON.stringify(history)
+
+state.sss = thing.substr(-100)
+sarg=state.sss
+     if(sarg.includes(state.character)) {
+state.zap=true}
+
+modifiedText = modifiedText.replace(/\" A/g, '\" a')
+modifiedText = modifiedText.replace(/\" B/g, '\" b')
+modifiedText = modifiedText.replace(/\" C/g, '\" c')
+modifiedText = modifiedText.replace(/\" D/g, '\" d')
+modifiedText = modifiedText.replace(/\" E/g, '\" e')
+modifiedText = modifiedText.replace(/\" F/g, '\" f')
+modifiedText = modifiedText.replace(/\" G/g, '\" g')
+modifiedText = modifiedText.replace(/\" H/g, '\" h')
+modifiedText = modifiedText.replace(/\" I/g, '\" i')
+modifiedText = modifiedText.replace(/\" J/g, '\" j')
+modifiedText = modifiedText.replace(/\" K/g, '\" k')
+modifiedText = modifiedText.replace(/\" L/g, '\" l')
+modifiedText = modifiedText.replace(/\" M/g, '\" m')
+modifiedText = modifiedText.replace(/\" N/g, '\" n')
+modifiedText = modifiedText.replace(/\" O/g, '\" o')
+modifiedText = modifiedText.replace(/\" P/g, '\" p')
+modifiedText = modifiedText.replace(/\" Q/g, '\" q')
+modifiedText = modifiedText.replace(/\" R/g, '\" r')
+modifiedText = modifiedText.replace(/\" S/g, '\" s')
+modifiedText = modifiedText.replace(/\" T/g, '\" t')
+modifiedText = modifiedText.replace(/\" U/g, '\" u')
+modifiedText = modifiedText.replace(/\" V/g, '\" v')
+modifiedText = modifiedText.replace(/\" W/g, '\" w')
+modifiedText = modifiedText.replace(/\" X/g, '\" x')
+modifiedText = modifiedText.replace(/\" Y/g, '\" y')
+modifiedText = modifiedText.replace(/\" Z/g, '\" z')
+
+
+state.prose = [ ' ']
+state.array = [ ' ']
+
+    modifiedText = modifiedText.replace(/,/gi, '#############')
+    
+    modifiedText = modifiedText.replace(/\" /gi,  '" WOOOORK')
+modifiedText = modifiedText.replace(/ \"/gi,  'WOOOORK "')
+    modifiedText = modifiedText.replace(/\"\n/gi,  '"\nWOOOORK')
+modifiedText = modifiedText.replace(/\n\"/gi,  'WOOOORK\n"')
+    modifiedText = modifiedText.replace(/\" /gi,  '" WOOOORK')
+modifiedText = modifiedText.replace(/ \"/gi,  'WOOOORK "')
+    modifiedText = modifiedText.replace(/\"\t/gi,  '"\tWOOOORK')
+modifiedText = modifiedText.replace(/\t\"/gi,  'WOOOORK\t"')
+
+
+    modifiedText = modifiedText.replace(/\"\t/gi,  '"\tWOOOORK')
+modifiedText = modifiedText.replace(/\t\"/gi,  'WOOOORK\t"')
+
+
+var result = modifiedText.split("WOOOORK");
+
+array = [" "]
+state.array = [" "]
+result.forEach(gender)
+array= state.array
+modifiedText=array.join()
+
+var n = modifiedText.lastIndexOf("\"");
+   lastclause = modifiedText.substring(n, 10000000);
+state.lastclause = lastclause
+gender(lastclause)
+majority = modifiedText.substring(n-55555555, n);
+modifiedText = majority + lastclause
+
+//modifiedText = JSON.stringify(array)
+
+modifiedText = modifiedText.replace(/WOOOORK/gi,  ' ')
+modifiedText = modifiedText.replace(/,/gi,  ' ')
+    modifiedText = modifiedText.replace(/#############/gi, ',')
+    modifiedText = modifiedText.replace(/ \./gi, '.')
+    modifiedText = modifiedText.replace(/\[|\]/gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\"\t", '"')
+
+modifiedText = modifiedText.replace(/ ,/gi,  ' ')
+modifiedText = modifiedText.replace(/\n,/gi,  '\n')
+modifiedText = modifiedText.replace(/\.,/gi,  '.')
+modifiedText = modifiedText.replace(/\?,/gi,  '?')
+modifiedText = modifiedText.replace(/\!,/gi,  '!')
+modifiedText = modifiedText.replace(/\,,/gi,  ',')
+modifiedText = modifiedText.replace(/ \./gi,  '.')
+modifiedText = modifiedText.replace(/\, \./gi,  '. "')
+modifiedText = modifiedText.replace(/\. \./gi,  '"')
+modifiedText = modifiedText.replace(/\t/gi,  '\n\t')
+modifiedText = modifiedText.replace(/\n\n/gi,  '\n')
+
+
+
+
+
+
+
+
+state.isweak = false
+
+
+
+
+
+
+
+                  
+
+
+  // You must return an object with the text property defined.
+  
+  //gender correction
+    
+if(!state.initialised){
+state.callback =" "
+state.sample =" "
+state.account =" "
+}
+
+
+
+randisc= [state.mindc, state.mind2c, state.mind3c, state.eyefeelsc+"-eyed", state.racec, state.adjectivec, state.lookc, state.eyecolorc + "-eyed", state.clothesc +"-wearing", state.hobbie1c+"-loving", state.hobbie2c+"-enjoying",state.hobbie2c+"-appreciating", state.haircolourc+"-haired", state.agec+"-year-old", state.hot1, state.hot2, state.hot3, state.hot4, state.hot5, state.hot6, state.placec+'-born', state.animalc +'-fearing',  state.clothcolor2c +'-clad',state.clothcolorc +'-lit'][cr (0, 23)]
+
+
+modifiedText = modifiedText.replace(/undefined/gi, randisc)
+
+modifiedText = modifiedText.replace("- ", "-")
+modifiedText = modifiedText.replace(" -", "-")
+randwords(modifiedText)
+                modifiedText = modifiedText.replace(/svelk/gi, state.job)
+
+  
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+  
+  modifiedText = modifiedText.replace(/ six /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/ eight /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+  modifiedText = modifiedText.replace(/ eleven /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/ twelve /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/ thirteen /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/ fifteen /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/ seventeen /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/ eighteen /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/ nineteen /gi, " " + number + " ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/ twenty /gi, " twenty-six ")
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+  modifiedText = modifiedText.replace(/fefemale/gi, "female")  
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+    modifiedText = modifiedText.replace(/teenager/gi, "adult")  
+  number = ['twenty-four','twenty-five','twenty-six', 'twenty-seven', 'twenty-eight', 'twenty-nine', 'thirty', 'thirty-one', 'thirty-two','thirty-three', 'thirty-four',   'thirty-five','thirty-six','thirty-seven', ][cr(0,11)]
+
+    modifiedText = modifiedText.replace(/teenage/gi, "adult")  
+  
+  
+              
+        modifiedText = modifiedText.replace(/ \t /gi, " ")        
+        modifiedText = modifiedText.replace(/\n\n/gi, "\n")
+                modifiedText = modifiedText.replace(/\n /gi, "\n")
+                modifiedText = modifiedText.replace(/\n,\n/gi, "\n")
+                modifiedText = modifiedText.replace(/\t,\t/gi, "\t")
+                                modifiedText = modifiedText.replace(/\t\t/gi, "\t")
+
+//job=state.role
+//animal=state.animal
+replacement = [state.job, state.animal][cr(0,1)]
+
+modifiedText = modifiedText.replace(/children|child|baby|babies|toddler|toddlers|kid|kids|teenager/gi, replacement)
+                        modifiedText = modifiedText.replace(/,"/gi, ".\"")
+
+modifiedText = modifiedText.replace(/ boys /gi, " men ")
+modifiedText = modifiedText.replace(/ boy /gi, " man ")
+modifiedText = modifiedText.replace(/ boys\./gi, " men.")
+modifiedText = modifiedText.replace(/ boy\./gi, " man.")
+modifiedText = modifiedText.replace(/ boys,/gi, " men,")
+modifiedText = modifiedText.replace(/ boy,/gi, " man,")
+modifiedText = modifiedText.replace(/ boys\?/gi, " men?")
+modifiedText = modifiedText.replace(/ boy\?/gi, " man?")
+modifiedText = modifiedText.replace(/ boys\!/gi, " men!")
+modifiedText = modifiedText.replace(/ boy\!/gi, " man!")
+modifiedText = modifiedText.replace(/ boys\:/gi, " men:")
+modifiedText = modifiedText.replace(/ boy\:/gi, " man:")
+modifiedText = modifiedText.replace(/ boys\;/gi, " men;")
+modifiedText = modifiedText.replace(/ boy\;/gi, " man;")
+
+modifiedText = modifiedText.replace(/ girls /gi, " women ")
+modifiedText = modifiedText.replace(/ girl /gi, " woman ")
+modifiedText = modifiedText.replace(/ girls\./gi, " women.")
+modifiedText = modifiedText.replace(/ girl\./gi, " woman.")
+modifiedText = modifiedText.replace(/ girls\,/gi, " women,")
+modifiedText = modifiedText.replace(/ girl\,/gi, " woman,")
+modifiedText = modifiedText.replace(/ girls\?/gi, " women?")
+modifiedText = modifiedText.replace(/ girl\?/gi, " woman?")
+modifiedText = modifiedText.replace(/ girls!/gi, " women!")
+modifiedText = modifiedText.replace(/ girl\!/gi, " woman!")
+modifiedText = modifiedText.replace(/ girls\:/gi, " women:")
+modifiedText = modifiedText.replace(/ girl\:/gi, " woman:")
+modifiedText = modifiedText.replace(/ girls\;/gi, " women;")
+modifiedText = modifiedText.replace(/ girl\;/gi, " woman;")
+
+                                    modifiedText = modifiedText.replace(/\n\n/gi, "\n")
+                                    modifiedText = modifiedText.replace(/! "/gi, "!\"")                
+        modifiedText = modifiedText.replace(/" "/gi, "\"")           
+    modifiedText= modifiedText.replace(/ sher /gi, " her ")  
+    
+            modifiedText = modifiedText.replace(/""/gi, "\"")            
+           modifiedText = modifiedText.replace(/\n\."/gi, "\n\"")           
+                      modifiedText = modifiedText.replace(/\n\"\n/gi, "")            
+                                  modifiedText = modifiedText.replace(/\n\n/gi, "\n")            
+
+modifiedText = modifiedText.replace(/\. a/gi, ". A")
+modifiedText = modifiedText.replace(/\. b/gi, ". B")
+modifiedText = modifiedText.replace(/\. c/gi, ". C")
+modifiedText = modifiedText.replace(/\. d/gi, ". D")
+modifiedText = modifiedText.replace(/\. e/gi, ". E")
+modifiedText = modifiedText.replace(/\. f/gi, ". F")
+modifiedText = modifiedText.replace(/\. g/gi, ". G")
+modifiedText = modifiedText.replace(/\. h/gi, ". H")
+modifiedText = modifiedText.replace(/\. i/gi, ". I")
+modifiedText = modifiedText.replace(/\. j/gi, ". J")
+modifiedText = modifiedText.replace(/\. k/gi, ". K")
+modifiedText = modifiedText.replace(/\. l/gi, ". L")
+modifiedText = modifiedText.replace(/\. m/gi, ". M")
+modifiedText = modifiedText.replace(/\. n/gi, ". N")
+modifiedText = modifiedText.replace(/\. o/gi, ". O")
+modifiedText = modifiedText.replace(/\. p/gi, ". P")
+modifiedText = modifiedText.replace(/\. q/gi, ". Q")
+modifiedText = modifiedText.replace(/\. r/gi, ". R")
+modifiedText = modifiedText.replace(/\. s/gi, ". S")
+modifiedText = modifiedText.replace(/\. t/gi, ". T")
+modifiedText = modifiedText.replace(/\. u/gi, ". U")
+modifiedText = modifiedText.replace(/\. v/gi, ". V")
+modifiedText = modifiedText.replace(/\. w/gi, ". W")
+modifiedText = modifiedText.replace(/\. x/gi, ". X")
+modifiedText = modifiedText.replace(/\. y/gi, ". Y")
+modifiedText = modifiedText.replace(/\. z/gi, ". Z")
+modifiedText = modifiedText.replace(/\? a/gi, "? A")
+modifiedText = modifiedText.replace(/\? b/gi, "? B")
+modifiedText = modifiedText.replace(/\? c/gi, "? C")
+modifiedText = modifiedText.replace(/\? d/gi, "? D")
+modifiedText = modifiedText.replace(/\? e/gi, "? E")
+modifiedText = modifiedText.replace(/\? f/gi, "? F")
+modifiedText = modifiedText.replace(/\? g/gi, "? G")
+modifiedText = modifiedText.replace(/\? h/gi, "? H")
+modifiedText = modifiedText.replace(/\? i/gi, "? I")
+modifiedText = modifiedText.replace(/\? j/gi, "? J")
+modifiedText = modifiedText.replace(/\? k/gi, "? K")
+modifiedText = modifiedText.replace(/\? l/gi, "? L")
+modifiedText = modifiedText.replace(/\? m/gi, "? M")
+modifiedText = modifiedText.replace(/\? n/gi, "? N")
+modifiedText = modifiedText.replace(/\? o/gi, "? O")
+modifiedText = modifiedText.replace(/\? p/gi, "? P")
+modifiedText = modifiedText.replace(/\? q/gi, "? Q")
+modifiedText = modifiedText.replace(/\? r/gi, "? R")
+modifiedText = modifiedText.replace(/\? s/gi, "? S")
+modifiedText = modifiedText.replace(/\? t/gi, "? T")
+modifiedText = modifiedText.replace(/\? u/gi, "? U")
+modifiedText = modifiedText.replace(/\? v/gi, "? V")
+modifiedText = modifiedText.replace(/\? w/gi, "? W")
+modifiedText = modifiedText.replace(/\? x/gi, "? X")
+modifiedText = modifiedText.replace(/\? y/gi, "? Y")
+modifiedText = modifiedText.replace(/\? z/gi, "? Z")
+modifiedText = modifiedText.replace(/\! a/gi, "! A")
+modifiedText = modifiedText.replace(/\! b/gi, "! B")
+modifiedText = modifiedText.replace(/\! c/gi, "! C")
+modifiedText = modifiedText.replace(/\! d/gi, "! D")
+modifiedText = modifiedText.replace(/\! e/gi, "! E")
+modifiedText = modifiedText.replace(/\! f/gi, "! F")
+modifiedText = modifiedText.replace(/\! g/gi, "! G")
+modifiedText = modifiedText.replace(/\! h/gi, "! H")
+modifiedText = modifiedText.replace(/\! i/gi, "! I")
+modifiedText = modifiedText.replace(/\! j/gi, "! J")
+modifiedText = modifiedText.replace(/\! k/gi, "! K")
+modifiedText = modifiedText.replace(/\! l/gi, "! L")
+modifiedText = modifiedText.replace(/\! m/gi, "! M")
+modifiedText = modifiedText.replace(/\! n/gi, "! N")
+modifiedText = modifiedText.replace(/\! o/gi, "! O")
+modifiedText = modifiedText.replace(/\! p/gi, "! P")
+modifiedText = modifiedText.replace(/\! q/gi, "! Q")
+modifiedText = modifiedText.replace(/\! r/gi, "! R")
+modifiedText = modifiedText.replace(/\! s/gi, "! S")
+modifiedText = modifiedText.replace(/\! t/gi, "! T")
+modifiedText = modifiedText.replace(/\! u/gi, "! U")
+modifiedText = modifiedText.replace(/\! v/gi, "! V")
+modifiedText = modifiedText.replace(/\! w/gi, "! W")
+modifiedText = modifiedText.replace(/\! x/gi, "! X")
+modifiedText = modifiedText.replace(/\! y/gi, "! Y")
+modifiedText = modifiedText.replace(/\! z/gi, "! Z")
+modifiedText = modifiedText.replace(/\n a/gi, "\n A")
+modifiedText = modifiedText.replace(/\n b/gi, "\n B")
+modifiedText = modifiedText.replace(/\n c/gi, "\n C")
+modifiedText = modifiedText.replace(/\n d/gi, "\n D")
+modifiedText = modifiedText.replace(/\n e/gi, "\n E")
+modifiedText = modifiedText.replace(/\n f/gi, "\n F")
+modifiedText = modifiedText.replace(/\n g/gi, "\n G")
+modifiedText = modifiedText.replace(/\n h/gi, "\n H")
+modifiedText = modifiedText.replace(/\n i/gi, "\n I")
+modifiedText = modifiedText.replace(/\n j/gi, "\n J")
+modifiedText = modifiedText.replace(/\n k/gi, "\n K")
+modifiedText = modifiedText.replace(/\n l/gi, "\n L")
+modifiedText = modifiedText.replace(/\n m/gi, "\n M")
+modifiedText = modifiedText.replace(/\n n/gi, "\n N")
+modifiedText = modifiedText.replace(/\n o/gi, "\n O")
+modifiedText = modifiedText.replace(/\n p/gi, "\n P")
+modifiedText = modifiedText.replace(/\n q/gi, "\n Q")
+modifiedText = modifiedText.replace(/\n r/gi, "\n R")
+modifiedText = modifiedText.replace(/\n s/gi, "\n S")
+modifiedText = modifiedText.replace(/\n t/gi, "\n T")
+modifiedText = modifiedText.replace(/\n u/gi, "\n U")
+modifiedText = modifiedText.replace(/\n v/gi, "\n V")
+modifiedText = modifiedText.replace(/\n w/gi, "\n W")
+modifiedText = modifiedText.replace(/\n x/gi, "\n X")
+modifiedText = modifiedText.replace(/\n y/gi, "\n Y")
+modifiedText = modifiedText.replace(/\n z/gi, "\n Z")
+modifiedText = modifiedText.replace(/\na/gi, "\nA")
+modifiedText = modifiedText.replace(/\nb/gi, "\nB")
+modifiedText = modifiedText.replace(/\nc/gi, "\nC")
+modifiedText = modifiedText.replace(/\nd/gi, "\nD")
+modifiedText = modifiedText.replace(/\ne/gi, "\nE")
+modifiedText = modifiedText.replace(/\nf/gi, "\nF")
+modifiedText = modifiedText.replace(/\ng/gi, "\nG")
+modifiedText = modifiedText.replace(/\nh/gi, "\nH")
+modifiedText = modifiedText.replace(/\ni/gi, "\nI")
+modifiedText = modifiedText.replace(/\nj/gi, "\nJ")
+modifiedText = modifiedText.replace(/\nk/gi, "\nK")
+modifiedText = modifiedText.replace(/\nl/gi, "\nL")
+modifiedText = modifiedText.replace(/\nm/gi, "\nM")
+modifiedText = modifiedText.replace(/\nn/gi, "\nN")
+modifiedText = modifiedText.replace(/\no/gi, "\nO")
+modifiedText = modifiedText.replace(/\np/gi, "\nP")
+modifiedText = modifiedText.replace(/\nq/gi, "\nQ")
+modifiedText = modifiedText.replace(/\nr/gi, "\nR")
+modifiedText = modifiedText.replace(/\ns/gi, "\nS")
+modifiedText = modifiedText.replace(/\nt/gi, "\nT")
+modifiedText = modifiedText.replace(/\nu/gi, "\nU")
+modifiedText = modifiedText.replace(/\nv/gi, "\nV")
+modifiedText = modifiedText.replace(/\nw/gi, "\nW")
+modifiedText = modifiedText.replace(/\nx/gi, "\nX")
+modifiedText = modifiedText.replace(/\ny/gi, "\nY")
+modifiedText = modifiedText.replace(/\nz/gi, "\nZ")
+modifiedText = modifiedText.replace(/\"a/gi, "\"A")
+modifiedText = modifiedText.replace(/\"b/gi, "\"B")
+modifiedText = modifiedText.replace(/\"c/gi, "\"C")
+modifiedText = modifiedText.replace(/\"d/gi, "\"D")
+modifiedText = modifiedText.replace(/\"e/gi, "\"E")
+modifiedText = modifiedText.replace(/\"f/gi, "\"F")
+modifiedText = modifiedText.replace(/\"g/gi, "\"G")
+modifiedText = modifiedText.replace(/\"h/gi, "\"H")
+modifiedText = modifiedText.replace(/\"i/gi, "\"I")
+modifiedText = modifiedText.replace(/\"j/gi, "\"J")
+modifiedText = modifiedText.replace(/\"k/gi, "\"K")
+modifiedText = modifiedText.replace(/\"l/gi, "\"L")
+modifiedText = modifiedText.replace(/\"m/gi, "\"M")
+modifiedText = modifiedText.replace(/\"n/gi, "\"N")
+modifiedText = modifiedText.replace(/\"o/gi, "\"O")
+modifiedText = modifiedText.replace(/\"p/gi, "\"P")
+modifiedText = modifiedText.replace(/\"q/gi, "\"Q")
+modifiedText = modifiedText.replace(/\"r/gi, "\"R")
+modifiedText = modifiedText.replace(/\"s/gi, "\"S")
+modifiedText = modifiedText.replace(/\"t/gi, "\"T")
+modifiedText = modifiedText.replace(/\"u/gi, "\"U")
+modifiedText = modifiedText.replace(/\"v/gi, "\"V")
+modifiedText = modifiedText.replace(/\"w/gi, "\"W")
+modifiedText = modifiedText.replace(/\"x/gi, "\"X")
+modifiedText = modifiedText.replace(/\"y/gi, "\"Y")
+modifiedText = modifiedText.replace(/\"z/gi, "\"Z")
+
+modifiedText = modifiedText.replace(/\" a/gi, "\" A")
+modifiedText = modifiedText.replace(/\" b/gi, "\" B")
+modifiedText = modifiedText.replace(/\" c/gi, "\" C")
+modifiedText = modifiedText.replace(/\" d/gi, "\" D")
+modifiedText = modifiedText.replace(/\" e/gi, "\" E")
+modifiedText = modifiedText.replace(/\" f/gi, "\" F")
+modifiedText = modifiedText.replace(/\" g/gi, "\" G")
+modifiedText = modifiedText.replace(/\" h/gi, "\" H")
+modifiedText = modifiedText.replace(/\" i/gi, "\" I")
+modifiedText = modifiedText.replace(/\" j/gi, "\" J")
+modifiedText = modifiedText.replace(/\" k/gi, "\" K")
+modifiedText = modifiedText.replace(/\" l/gi, "\" L")
+modifiedText = modifiedText.replace(/\" m/gi, "\" M")
+modifiedText = modifiedText.replace(/\" n/gi, "\" N")
+modifiedText = modifiedText.replace(/\" o/gi, "\" O")
+modifiedText = modifiedText.replace(/\" p/gi, "\" P")
+modifiedText = modifiedText.replace(/\" q/gi, "\" Q")
+modifiedText = modifiedText.replace(/\" r/gi, "\" R")
+modifiedText = modifiedText.replace(/\" s/gi, "\" S")
+modifiedText = modifiedText.replace(/\" t/gi, "\" T")
+modifiedText = modifiedText.replace(/\" u/gi, "\" U")
+modifiedText = modifiedText.replace(/\" v/gi, "\" V")
+modifiedText = modifiedText.replace(/\" w/gi, "\" W")
+modifiedText = modifiedText.replace(/\" x/gi, "\" X")
+modifiedText = modifiedText.replace(/\" y/gi, "\" Y")
+modifiedText = modifiedText.replace(/\" z/gi, "\" Z")
+
+modifiedText = modifiedText.replace(/\" Said/gi, "\" said")
+modifiedText = modifiedText.replace(/\" Says/gi, "\" says")
+modifiedText = modifiedText.replace(/\" Answer/gi, "\" answer")
+
+
+modifiedText = modifiedText.replace(/\n\n/gi, "\n")
+modifiedText = modifiedText.replace(/\n\n/gi, "\n")
+modifiedText = modifiedText.replace(/\n /gi, "\n")
+modifiedText = modifiedText.replace(/\  /gi, " ")
+modifiedText = modifiedText.replace(/\  /gi, " ")
+modifiedText = modifiedText.replace(/\  /gi, " ")
+modifiedText = modifiedText.replace(/\^/gi, " ")
+            
+
+modifiedText = modifiedText.replace(/\."A/g, '. A')
+modifiedText = modifiedText.replace(/\."B/g, '. B')
+modifiedText = modifiedText.replace(/\."C/g, '. C')
+modifiedText = modifiedText.replace(/\."D/g, '. D')
+modifiedText = modifiedText.replace(/\."E/g, '. E')
+modifiedText = modifiedText.replace(/\."F/g, '. F')
+modifiedText = modifiedText.replace(/\."G/g, '. G')
+modifiedText = modifiedText.replace(/\."H/g, '. H')
+modifiedText = modifiedText.replace(/\."I/g, '. I')
+modifiedText = modifiedText.replace(/\."J/g, '. J')
+modifiedText = modifiedText.replace(/\."K/g, '. K')
+modifiedText = modifiedText.replace(/\."L/g, '. L')
+modifiedText = modifiedText.replace(/\."M/g, '. M')
+modifiedText = modifiedText.replace(/\."N/g, '. N')
+modifiedText = modifiedText.replace(/\."O/g, '. O')
+modifiedText = modifiedText.replace(/\."P/g, '. P')
+modifiedText = modifiedText.replace(/\."Q/g, '. Q')
+modifiedText = modifiedText.replace(/\."R/g, '. R')
+modifiedText = modifiedText.replace(/\."S/g, '. S')
+modifiedText = modifiedText.replace(/\."T/g, '. T')
+modifiedText = modifiedText.replace(/\."U/g, '. U')
+modifiedText = modifiedText.replace(/\."V/g, '. V')
+modifiedText = modifiedText.replace(/\."W/g, '. W')
+modifiedText = modifiedText.replace(/\."X/g, '. X')
+modifiedText = modifiedText.replace(/\."Y/g, '. Y')
+modifiedText = modifiedText.replace(/\."Z/g, '. Z')
+
+         modifiedText = modifiedText.replace(/\?"A/g, '? A')
+modifiedText = modifiedText.replace(/\?"B/g, '? B')
+modifiedText = modifiedText.replace(/\?"C/g, '? C')
+modifiedText = modifiedText.replace(/\?"D/g, '? D')
+modifiedText = modifiedText.replace(/\?"E/g, '? E')
+modifiedText = modifiedText.replace(/\?"F/g, '? F')
+modifiedText = modifiedText.replace(/\?"G/g, '? G')
+modifiedText = modifiedText.replace(/\?"H/g, '? H')
+modifiedText = modifiedText.replace(/\?"I/g, '? I')
+modifiedText = modifiedText.replace(/\?"J/g, '? J')
+modifiedText = modifiedText.replace(/\?"K/g, '? K')
+modifiedText = modifiedText.replace(/\?"L/g, '? L')
+modifiedText = modifiedText.replace(/\?"M/g, '? M')
+modifiedText = modifiedText.replace(/\?"N/g, '? N')
+modifiedText = modifiedText.replace(/\?"O/g, '? O')
+modifiedText = modifiedText.replace(/\?"P/g, '? P')
+modifiedText = modifiedText.replace(/\?"Q/g, '? Q')
+modifiedText = modifiedText.replace(/\?"R/g, '? R')
+modifiedText = modifiedText.replace(/\?"S/g, '? S')
+modifiedText = modifiedText.replace(/\?"T/g, '? T')
+modifiedText = modifiedText.replace(/\?"U/g, '? U')
+modifiedText = modifiedText.replace(/\?"V/g, '? V')
+modifiedText = modifiedText.replace(/\?"W/g, '? W')
+modifiedText = modifiedText.replace(/\?"X/g, '? X')
+modifiedText = modifiedText.replace(/\?"Y/g, '? Y')
+modifiedText = modifiedText.replace(/\?"Z/g, '? Z')
+
+              
+
+modifiedText = modifiedText.replace(/\?"A/g, '? A')
+modifiedText = modifiedText.replace(/\?"B/g, '? B')
+modifiedText = modifiedText.replace(/\?"C/g, '? C')
+modifiedText = modifiedText.replace(/\?"D/g, '? D')
+modifiedText = modifiedText.replace(/\?"E/g, '? E')
+modifiedText = modifiedText.replace(/\?"F/g, '? F')
+modifiedText = modifiedText.replace(/\?"G/g, '? G')
+modifiedText = modifiedText.replace(/\?"H/g, '? H')
+modifiedText = modifiedText.replace(/\?"I/g, '? I')
+modifiedText = modifiedText.replace(/\?"J/g, '? J')
+modifiedText = modifiedText.replace(/\?"K/g, '? K')
+modifiedText = modifiedText.replace(/\?"L/g, '? L')
+modifiedText = modifiedText.replace(/\?"M/g, '? M')
+modifiedText = modifiedText.replace(/\?"N/g, '? N')
+modifiedText = modifiedText.replace(/\?"O/g, '? O')
+modifiedText = modifiedText.replace(/\?"P/g, '? P')
+modifiedText = modifiedText.replace(/\?"Q/g, '? Q')
+modifiedText = modifiedText.replace(/\?"R/g, '? R')
+modifiedText = modifiedText.replace(/\?"S/g, '? S')
+modifiedText = modifiedText.replace(/\?"T/g, '? T')
+modifiedText = modifiedText.replace(/\?"U/g, '? U')
+modifiedText = modifiedText.replace(/\?"V/g, '? V')
+modifiedText = modifiedText.replace(/\?"W/g, '? W')
+modifiedText = modifiedText.replace(/\?"X/g, '? X')
+modifiedText = modifiedText.replace(/\?"Y/g, '? Y')
+modifiedText = modifiedText.replace(/\?"Z/g, '? Z')
+
+modifiedText = modifiedText.replace(/a\n\t/gi, "a ")
+modifiedText = modifiedText.replace(/b\n\t/gi, "b ")
+modifiedText = modifiedText.replace(/c\n\t/gi, "c ")
+modifiedText = modifiedText.replace(/d\n\t/gi, "d ")
+modifiedText = modifiedText.replace(/e\n\t/gi, "e ")
+modifiedText = modifiedText.replace(/f\n\t/gi, "f ")
+modifiedText = modifiedText.replace(/g\n\t/gi, "g ")
+modifiedText = modifiedText.replace(/h\n\t/gi, "h ")
+modifiedText = modifiedText.replace(/i\n\t/gi, "i ")
+modifiedText = modifiedText.replace(/j\n\t/gi, "j ")
+modifiedText = modifiedText.replace(/k\n\t/gi, "k ")
+modifiedText = modifiedText.replace(/l\n\t/gi, "l ")
+modifiedText = modifiedText.replace(/m\n\t/gi, "m ")
+modifiedText = modifiedText.replace(/n\n\t/gi, "n ")
+modifiedText = modifiedText.replace(/o\n\t/gi, "o ")
+modifiedText = modifiedText.replace(/p\n\t/gi, "p ")
+modifiedText = modifiedText.replace(/q\n\t/gi, "q ")
+modifiedText = modifiedText.replace(/r\n\t/gi, "r ")
+modifiedText = modifiedText.replace(/s\n\t/gi, "s ")
+modifiedText = modifiedText.replace(/t\n\t/gi, "t ")
+modifiedText = modifiedText.replace(/u\n\t/gi, "u ")
+modifiedText = modifiedText.replace(/v\n\t/gi, "v ")
+modifiedText = modifiedText.replace(/w\n\t/gi, "w ")
+modifiedText = modifiedText.replace(/x\n\t/gi, "x ")
+modifiedText = modifiedText.replace(/y\n\t/gi, "y ")
+modifiedText = modifiedText.replace(/z\n\t/gi, "z ")
+//modifiedText = modifiedText.replace(/ \n\t/gi, " ")
+
+
+
+   modifiedText = modifiedText.replace(/" "/gi, "\"\n\"")            
+   modifiedText = modifiedText.replace(/\n/gi, "\n\t")
+      modifiedText = modifiedText.replace(/\t\t/gi, "\t")
+   modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t", '\n\t')
+modifiedText = modifiedText.replace("\n\n", '\n')
+modifiedText = modifiedText.replace(/\n\t\n\t/gi, "\n\t")
+
+modifiedText = modifiedText.replace("\", ", '," ')
+modifiedText = modifiedText.replace("\". ", '." ')
+modifiedText = modifiedText.replace(" .", '.') 
+modifiedText = modifiedText.replace(" ,", ',') 
+modifiedText = modifiedText.replace(" 's", '\'s')
+modifiedText = modifiedText.replace("\"\"", '"')
+modifiedText= modifiedText.replace(/[^\x00-\x7F]/g, "")
+modifiedText= modifiedText.replace(/ItemTracker/g, "")
+        modifiedText =modifiedText.replace(/#######/gi, ',')    
+        modifiedText =modifiedText.replace(/######/gi, ',')    
+      
+      
+      description=state.describe
+      
+        modifiedText =modifiedText.replace(description, 'TTTTTTT')    
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')            
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')            
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')
+                                
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')
+        modifiedText =modifiedText.replace(description, 'XXXXXXX')
+        modifiedText =modifiedText.replace(/XXXXXXX/gi, '')            
+        modifiedText =modifiedText.replace('TTTTTTT', description)
+
+modifiedText = modifiedText.replace(",  \n", ".  \n")
+
+modifiedText = modifiedText.replace("\n\t\n", "\n")
+modifiedText = modifiedText.replace("\n\t \n", "\n")
+burt=modifiedText
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+random =[state.name,state.adjective,state.adjectivec,state.age,state.agec,state.animal,state.animal1,state.animal2,state.animal3,state.animalc,state.appear,state.appearc,state.beaut1,state.beaut2,state.beaut3,state.beaut4,state.beaut5,state.beaut6,state.bignumber,state.bigwordnumber,state.c0,state.c1,state.c2,state.c3,state.c4,state.c5,state.c6,state.c7,state.c8,state.c9,state.character,state.clothcolor2,state.clothcolor2c,state.clothcolorc,state.clothes,state.clothes2,state.clothes2,state.clothesc,state.day,state.desert,state.eyecolor,state.eyecolorc,state.eyefeels,state.eyefeels,state.eyes,state.eyesc,state.firstname   ,state.firstnamr,state.fuck,state.genre,state.h1,state.h2,state.h3,state.h4,state.h5,state.h7,state.haircolour,state.haircolourc,state.hairstyle,state.hairstylec,state.hobbie1,state.hobbie2,state.hobbie2c,state.hobbie3,state.hobbiec,state.honorifc,state.hot,state.hot2,state.hot3,state.hot4,state.hot5,state.hot6,state.hour,state.i1,state.i2,state.i3,state.i4,state.i5,state.i6,state.jo10,state.job,state.job1,state.job11,state.job12,state.job15,state.job16,state.job17,state.job18,state.job19,state.job2,state.job20,state.job21,state.job22,state.job3,state.job4,state.job5,state.job6,state.job7,state.job8,state.job9,state.jobc,state.kidnap,state.lack,state.lackc,state.loc,state.look,state.lookc,state.m,state.manclothes1,state.manclothes2,state.mental,state.mentalc,state.mind,state.mind2,state.mind2c,state.mind3,state.mind3c,state.mindc,state.minute,state.month,state.moves,state.park,state.party,state.nickname,state.nickname1,state.nickname1c,state.nickname2,state.nickname2c,state.nickname3,state.nickname3c,state.nickname4,state.nickname4c,state.nickname5,state.nickname5c,state.nickname6,state.nickname6c,state.nickname7,state.nickname7c,state.nickname8,state.nickname8c,state.nickname9,state.nickname9c,state.place,state.place,state.placec,state.race,state.racec,state.road,state.role,state.rolec,state.smallnumber,state.smallwordnumber,state.state,state.surname,state.theme,state.theme10,state.theme10c,state.theme11,state.theme11c,state.theme12,state.theme12c,state.theme13,state.theme13c,state.theme14,state.theme14c,state.theme15,state.theme15c,state.theme16,state.theme16c,state.theme17,state.theme17c,state.theme18,state.theme18c,state.theme19,state.theme19c,state.theme1c,state.theme2,state.theme20,state.theme20c,state.theme2c,state.theme3,state.theme3c,state.theme4,state.theme4c,state.theme5,state.theme5c,state.theme6,state.theme6c,state.theme7,state.theme7c,state.theme8,state.theme8c,state.theme9,state.theme9c,state.title,state.titlec,state.tone,state.tonec,state.topic,state.topic1,state.topic10,state.topic2,state.topic3,state.topic4,state.topic5,state.topic6,state.topic7,state.topic9,state.tour,state.town,state.town,state.verb,state.worn,state.wornc,state.year][cr(0,229)]
+modifiedText = modifiedText.replace(/undefined/gi, random)
+
+modifiedText = modifiedText.replace(/you ######/gi, 'me,')
+modifiedText = modifiedText.replace(/I are/gi, "I'm")
+modifiedText =modifiedText.replace(/\. me /gi, '. I ')
+modifiedText =modifiedText.replace(/\? me /gi, '? I ')
+modifiedText =modifiedText.replace(/\! me /gi, '! I ')
+modifiedText =modifiedText.replace(/\, me /gi, ', I ')
+modifiedText =modifiedText.replace(/\" me /gi, '" I ')
+modifiedText =modifiedText.replace(/\t\t/gi, '\t')
+modifiedText =modifiedText.replace(/\t /gi, '\t')
+
+            
+if (modifiedText.match(/Amazon/)) {
+  state.disarray=state.array
+  state.chance=21
+}
+
+            
+var count = (text.match(/\"/g) || []).length;
+
+if (count == 1) {var text = text + "\""
+
+  modifiedText = text}
+if (count == 3) {var text = text + "\""
+
+  modifiedText = text}
+if (count == 5) {var text = text + "\""
+
+  modifiedText = text}
+if (count == 7) {var text = text + "\""
+
+  modifiedText = text}
+modifiedText = modifiedText.replace("\"\"", "")
+
+
+modifiedText = modifiedText.replace(/aNzac/gi, 'ANZAC')
+
+modifiedText = modifiedText.replace(/she "/gi, '"')
+
+modifiedText = modifiedText.replace(/she, "/gi, ', "')
+
+ modifiedText = modifiedText.replace(/n,n/gi, 'n')
+  modifiedText = modifiedText.replace(/^/gi, '')
+  modifiedText =modifiedText.replace(/  /gi, ' ') 
+  
+  
+            modifiedText = modifiedText.replace(/you ,/gi, 'me,')
+modifiedText =modifiedText.replace(/\n"/gi, '\n\t"')
+
+
+//state.d1=descriptive
+//state.d2=descriptiveb
+
+        modifiedText =modifiedText.replace(state.d1, 'TTTTTTT')    
+        modifiedText=modifiedText.replace(state.d1, 'XXXXXXX')            
+        modifiedText=modifiedText.replace(state.d1, 'XXXXXXX')            
+        modifiedText=modifiedText.replace(state.d1, 'XXXXXXX')
+        modifiedText=modifiedText.replace(state.d1, 'XXXXXXX')
+        modifiedText=modifiedText.replace(state.d1, 'XXXXXXX')
+        modifiedText=modifiedText.replace(/XXXXXXX/gi, '')            
+        modifiedText=modifiedText.replace('TTTTTTT', state.d1)
+        
+                modifiedText =modifiedText.replace(state.d2, 'TTTTTTT')    
+        modifiedText=modifiedText.replace(state.d2, 'XXXXXXX')            
+        modifiedText=modifiedText.replace(state.d2, 'XXXXXXX')            
+        modifiedText=modifiedText.replace(state.d2, 'XXXXXXX')
+        modifiedText=modifiedText.replace(state.d2, 'XXXXXXX')
+        modifiedText=modifiedText.replace(state.d2, 'XXXXXXX')
+        modifiedText=modifiedText.replace(/XXXXXXX/gi, '')            
+        modifiedText=modifiedText.replace('TTTTTTT', state.d2)
+                
+
+  return { text: modifiedText }
+}
+
+
+
+
+
+
+first = state.first
+last = state.last
+
+if(!text.includes("her")){
+if(!text.includes("she")){
+if(!text.includes(state.jobc)){
+if(!text.includes(first)){
+if(!text.includes(last)){
+if(!text.includes("\"")){
+     thing = JSON.stringify(history)
+// state.xxx = thing.slice(0, 200)
+state.xxx = thing.substr(-600)
+garg=state.xxx
+     if(!garg.includes(state.character)) {
+state.her=false}}}}}}}
+
+
+if(!text.includes("he")){
+if(!text.includes("him")){
+if(!text.includes(state.jobb)){
+if(!text.includes("\"")){
+     thing = JSON.stringify(history)
+// state.xxx = thing.slice(0, 200)
+state.xxx = thing.substr(-600)
+garg=state.xxx
+     if(!garg.includes(state.characterb)) {
+state.him=false}}}}}
+
+ if (info.actionCount ==1){
+   thing = JSON.stringify(history)
+// state.xxx = thing.slice(0, 200)
+state.xxx = thing.substr(-600)
+garg=state.xxx
+powered = garg.toLowerCase()
+location(powered)
+}
+
+if (text.match(/\nshe | her | she |\nher |\nshe |woman|lady|women|"/)) 
+{state.her = true} 
+
+
+ 
+    if(text.match(state.character)) {    
+     state.her=true
+     }
+
+//  state.message = j
+  
+//  j = j.replace(/\//gi, "")
+  
+
+//      if(j.match(/1/)) { 
+//state.message = j + " point."
+//}
+  //  if(j.match(/2|3|4|5|6|7|8|9|10/)) { 
+    //  state.message = j + " points!"    }
+
+
+
+message= state.message
+
+
+
+
+    state.displayStats = [{key:'Respect', value: state.ozfactor, color: 'white'}, {key:' Steps', value: info.actionCount, color: 'white'}, {key:' Lives', value: state.lives, color: 'white'}, {key:'\nGPS', value: state.loc, color: 'white'}]            
+dj= ['A dope MC but never lost hope in dreaming,', 'All else are castles built in the air', 'All the children say', 'All we want is life beyond the thunderdome', 'Always thought that they\'d dropped the bomb', 'And bail me out, a failure out once again,', 'And burn your bridges down', 'And I could have gone the wrong way, the easy option,', 'And I never will forgive myself, for putting you through all that hell,', 'And I speak what I feel in the booth in the spirit of truth,', 'And i wonder when we are ever gonna change it', 'And I\'ve done too many years to miss this for my missus,', 'And let your hair hang down', 'And man I got no one else to blame', 'And you, you must try to fly', 'Been broke and beaten, even chocked at being,', 'Believing we can make it better', 'Boy, its more than I dare to think about', 'Boy, your lovin\' is all I think about', 'But I chose to go the long way, the streets are watching,', 'But that\'s the breaks right? Started working late nights,', 'But when I crawl into your arms', 'Can hear myself say this is not my day', 'Can\'t make the same mistake this time', 'Cause all these kids that I meet man they mirror my youth,', 'Cause I was going nowhere like a child\'s letters to god,', 'Come loose your dogs upon me', 'Come sail your ships around me', 'Couldn\'t put me back together again, I\'d say', 'Dj Debris c\'mon and break it down like,', 'Don\'t know where I\'ve been', 'Don\'t know where I\'ve been, and don\'t know where to go its like,', 'Don\'t know where I\'ve been, we\'re going down', 'Don\'t leave me left in your heart', 'Down the barrel of a gun?', 'Drop the bomb (didn\'t)', 'Every day', 'Every night', 'Every time you call around', 'Every time you calling \'round', 'Every time you come around', 'Everything comes tumbling down', 'Feel the need in me', 'Floating in the weir, and you think you\'ll never', 'For my love, for my love, my love, for my love, my love...)', 'For what we put out, the brand new flavor for your cookout', 'For you know the time is nigh', 'Give it all or nothing', 'Going down the hard road,', 'Going down the hard road, down the hard road,', 'Got clout, dumped by my girlfriend and locked out,', 'Growing up I needed a guide like, a blind veteran\'s dog,', 'Have strange things happened? Are you going round the twist?', 'Have you ever, ever felt like this?', 'Hey, hey', 'How long can we look at each other', 'I can hear myself say this is not my day', 'I didn\'t believe', 'I didn\'t believe no I didn\'t believe', 'I just can\'t get you out of my head', 'I never did pop pills, or cop deals, just rocked hills', 'I say "what the hey, you won\'t believe me anyway"', 'I spent my youth like life was cheap,', 'I thank my family and music for keeping me sane,', 'I thought that love was science fiction', 'I went from high school dropout to factory laborer,', 'If all the kings horses and kings men', 'If I never had bailed I\'d be dead or in jail,', 'I\'ll finish with a bang like Kurt Cobain\'s biography', 'I\'m sayin\' "what the hey, you won\'t believe me anyway"', 'It wiggled and wriggled and jiggled inside her', 'I\'ve been waiting for a man from space', 'I\'ve thrown all my books away', 'Just to be there in your arms', 'Kids with skills, still got harassed by the cops till,', 'La-la-la-la-la-la-la-la', 'Living under the fear till nothing else remains', 'Looking for something we can rely on', 'Love and compassion, their day is coming', 'Lover friend of mine, we will never lose the time that we\'ve covered in our tears, in our tears.', 'Make a noise and make it clear', 'Never seeing daylight, getting paid like a slave might,', 'Never thought that we\'d last this long', 'Next weekend, bailed me out, drunk again,', 'Now that love is my addiction', 'Oh, whoa', 'Old friend of mine, we will never lose the time that we\'ve shared all these years, all these years.', 'Old friend of mine, we will never lose the time that we\'ve shared allthese years, all these years.', 'Ooh, we\'re all someone\'s daughter', 'Or end in the dark', 'Out from the wreckage', 'Out of the ruins', 'Rain, rain, go away, come again another day', 'Set me free', 'sink, so you forget all your fears, your fears.', 'Slave to the clock until four, went from sleeping on the floor,', 'Smack me, pat me down for a baggy, mums would rock up,', 'So keep a look out, look up, B-ballers keep your hook up,', 'Stay forever and ever, and ever, and ever', 'Tear a page from my book out, and pull out,', 'That I looked for an answer in a medicine box,', 'The human race (didn\'t)', 'The last generation', 'The more broken baggage we carry the larger the load,', 'The only change that I wanted was enough to buy a drink,', 'There\'s a dark secret in me', 'There\'s got to be something better out there', 'They\'d have me in the back of a paddy, down to lock up,', 'This school drop-out got knocked out, chased by the cops out,', 'This time, we know we all can stand together', 'Though life\'s road was hard I was never so lost,', 'To being back on tour, now no stopping me,', 'To come to earth to meet the human race', 'To have to tell my son he nearly never existed', 'Until I saw you today', 'Was on a path nowhere, the harder the road,', 'We are the children', 'We are the ones they left behind', 'We can write what we want to write', 'We define our moral ground', 'We don\'t need another hero', 'We don\'t need to know the way home', 'We gotta make ends meet, before we get much older', 'We have the chance to turn the pages over', 'We leave only a mark', 'We make a little history baby', 'We talk about it all night long', 'We used to thrash boosted cars till the engine would fail,', 'Well, have you heard the word about the bird and the spider?', 'We\'re all someone\'s daughter', 'We\'re all someone\'s son', 'We\'re not gonna live with fear', 'We\'re not gonna sit in silence', 'What do we do with our lives', 'When I must remove your wings', 'When I was young I was so naive', 'When I was young I was, so naive', 'Will our story shine like a life', 'Will you make it in the end, through all the twists and bends? Will you fulfill your dreams-not as easy as it seems.', 'Will you?', 'With the power to be powerful', 'Won\'t you lay', 'Won\'t you stay', 'You are a little mystery to me', 'Your face has fallen sad now', 'Your finger put your foot out and keep a lookout,', 'You\'re the voice, try and understand it', 'The forces of the universe', 'And the elements of space', 'Conjured up your being', 'Your size, your time, your shape', 'You were created', 'With all the beau-eauty they could call', 'And earth, you surely are', 'The measure of them all', 'I left my heart to the sappers round Khe Sanh', 'And my soul was sold with my cigarettes to the blackmarket man', 'I\'ve had the Vietnam cold turkey', 'From the ocean to the Silver City', 'And it\'s only other vets could understand', 'About the long forgotten dockside guarantees', 'How there were no V-day heroes in 1973', 'How we sailed into Sydney Harbour', 'Saw an old friend but couldn\'t kiss her', 'She was lined, and I was home to the lucky land', 'And she was like so many more from that time on', 'Their lives were all so empty, till they found their chosen one', 'And their legs were often open', 'But their minds were always closed', 'And their hearts were held in fast suburban chains', 'And the legal pads were yellow, hours long, paypacket lean', 'And the telex writers clattered where the gunship supports had been', 'But the car parks made me jumpy', 'And I never stopped the dreams', 'Or the growing need for speed and novacaine', 'So I worked across the country end to end', 'Tried to find a place to settle down, where my mixed up life could mend', 'Held a job on an oil-rig', 'Flying choppers when I could', 'But the nightlife nearly drove me round the bend', 'And I\'ve travelled round the world from year to year', 'And each one found me aimless, one more year the worse for wear', 'And I\'ve been back to South East Asia', 'But the answer sure ain\'t there', 'But I\'m drifting north, to check things out again', 'You know the last plane out of Sydney\'s almost gone', 'Only seven flying hours, and I\'ll be landing in Hong Kong', 'There ain\'t nothing like the kisses', 'From a jaded Chinese princess', 'I\'m gonna hit some Hong Kong mattress all night long', 'Well the last plane out of Sydney\'s almost gone', 'Yeah the last plane out of Sydney\'s almost gone', 'And it\'s really got me worried', 'I\'m goin\' nowhere and I\'m in a hurry', 'And the last plane out of Sydney\'s almost gone', '(Hal-le-lu-jah, hal-le-lu-jah)', 'You\'re rocks all turned to gold (Hal-le-lu-jah)', 'And your ti-iny stones to jewels', 'And when your swirlin\' (Hal-le-lu-jah)', 'It\'s that clear you stood so pure', 'And placed so carefully (Hal-le-lu-jah)', 'Each and everything that belonged', 'Earth you were magnificent (Hal-le-lu-jah)', 'Through the pain of bein\' born', 'It was the morning of the ear-ear-ear-earth (Hal-le-lu-jah)', 'It was the morning of the ear-ear-ear-earth', 'From the tallest mountain', 'To the smallest drop of rain', 'Each and everything created', 'Was of the new world', 'People, wasting away in paradise', 'Going backward, once in a while', 'Moving ahead, falling behind', 'What do you believe, what do you believe?', 'What do you believe is true', 'Nothing they say makes a difference this way', 'Nothing they say will do', 'They take all the trouble that you can afford', 'At least you won\'t have time to be bored', 'Oh the power and the passion', 'Oh the temper of the time', 'Sometimes you\'ve got to take the hardest line', 'Sunburnt faces around, with skin so brown', 'Smiling zinc cream and crowds', 'Sundays the beach never a cloud', 'Breathing eucalypti, pushing panel vans', 'Stuff and munch junk food laughing at the truth', '\'Cause gough was tough \'til he hit the rough', 'Uncle Sam and John were quite enough', 'Too much of sunshine too much of sky', 'It\'s enough to make you want to cry', 'Just enough to make you want to cry', 'Buildings, clothing the sky, in paradise', 'Sydney, nights are warm', 'Daytime telly, blue rinse dawn', 'Dad\'s so bad he lives in the pub', 'It\'s a underarms and football clubs', 'Flat chat, pine gap, in every home a big mac', 'And no one goes outback, that\'s that', 'You take what you get and get what you please', 'It\'s better to die on your feet than to live on your knees', 'You are born into this world', 'Looking down the barrel of a gun', 'And those who hold the gun', 'Want you to work fast and die young', 'And if you don\'t work', 'If you don\'t obey', 'They\'ll make you live in fear till your dying day', 'Those who govern hold the gun to your head', 'With religions, corporations, proud of blood', 'They\'ve shed', 'Whether it\'s God or the bomb', 'It\'s just the same', 'It\'s only fear under another name', 'And the corporate snakes coming in to feed', 'On that pathetic fact known as human greed', 'Skin and bone being raked over those hot coals', 'This dump never seems to give time for human soul', 'And all those things that we have learnt', 'No time for questions, you\'ll just get burnt', 'You\'ll just get burnt', 'And those words crush you flat', 'Like your skull\'s under a brick', 'And the fear\'s so damned strong', 'That it makes you sick', 'And you can see right through those eyes', 'That make you fear, that make you lie', 'And you\'re taught to hold high', 'Yet you wonder why', 'Dumb values forced upon you by the', 'Living lie', 'And another thing I\'ve been wondering lately', 'Oh, baby, tell me, where have you been?', 'Now the stage is set, where\'s my Juliet, baby?', 'Is it maybe my Midsummer Night\'s Dream?', 'What\'s my scene?', 'Tell me, what\'s my scene?', 'Uh-huh', 'Like a talent scout always checking out new blood', 'Oh, I\'d do good if you tell me your game', 'Playing Solitaire doesn\'t get me where you would', 'And, honey, you could play by any rules that you name', 'Tell me, I gotta know', 'What\'s my, what\'s my', 'What\'s my, what\'s my scene?', 'They say, yeah, they say', 'Making love, you can make it pay', 'But we know there\'s a better way any day', 'Ooh-ooh-ooh-ooh-ooh, ooh-ooh-ooh', 'Hey', 'Am I crazy to believe in ideals?', 'Oh, I\'m a betting man, but it\'s getting damn lonely', 'Oh, honey, if only I was sure what I feel', '(What\'s my, what\'s my scene?) Ah, what\'s my scene?', '(What\'s my, what\'s my) I wanna know', '(What\'s my, what\'s my scene?) I can see', '(What\'s my, what\'s my) I\'m caught in someone else\'s scene', '(What\'s my, what\'s my scene?)', 'Come and see the real thing', 'Come and see', 'There\'s a meaning there', 'But the meaning there doesn\'t really mean a thing', 'I am the real, thing', 'Oo-mow-ma-mow-mow, Oo-mow-ma-mow-mow', 'Oo-mow-ma-mow-mow, Oo-mow-ma-mow', 'Oo-mow-ma-mow-mow', 'Trying hard to understand that, really not, you\'re seeing me', 'Oo-mow-ma-mow-mow, ma mow', 'I am not seeing you', 'I, I, I', 'I am the real thing'][cr(0,311)]
+
+dj2=['Well we don\'t need no one to tell us what to do', 'Oh yes we\'re on our own and there\'s nothing you can do', 'So we don\'t need no one like you', 'To tell us what to do', 'We don\'t refer to the past when we\'re showing what we\'ve done', 'Our generation gap means the war is never won', 'The past is in your head', 'The future\'s in our hands', '\'Cause I\'m a brat', 'And I know everything', 'And I talk back', '\'Cause I\'m not listening', 'To anything you say', 'And if you count to three (one two three)', 'You\'ll see there\'s no emergency', 'You\'ll see I\'m not the enemy', 'Just a prisoner of society', 'GO', 'Cos I\'m a brat', 'Cos I\'m not listening', 'And if you count to three', 'You\'ll see it\'s no emergency', 'Just a prisoner of society society society society', 'Society, society society, society', 'Standing at the limit of an endless ocean', 'Stranded like a runaway, lost at sea', 'City on a rainy day down in the harbor', 'Watching as the grey clouds shadow the bay', 'Looking everywhere \'cause I had to find you', 'This is not the way that I remember it here', 'Anyone will tell you its a prisoner island', 'Hidden in the summer for a million years', 'Great Southern Land, burned you black', 'So you look into the land and it will tell you a story', 'Story \'bout a journey ended long ago', 'Listen to the motion of the wind in the mountains', 'Maybe you can hear them talking like I do', 'They\'re gonna betray you, they\'re gonna forget you', 'Are you gonna let them take you over that way', 'Great Southern Land, Great Southern Land', 'You walk alone, like a primitive man', 'And they make it work, with sticks and bones', 'See their hungry eyes, its a hungry home', 'I hear the sound of the stranger\'s voices', 'I see their hungry eyes, their hungry eyes', 'They burned you black, black against the ground', 'Great Southern Land, in the sleeping sun', 'You walk alone with the ghost of time', 'Where they burned you black, black against the ground', 'And they make it work with rocks and sand', 'I hear the sound of the strangers voices', 'And they burned you black', 'Yeah, they burned you black', 'Great Southern Land', 'I see your shadow on the street now', 'I hear you push through the rusty gate', 'Click of your heels on the concrete', 'Waiting for a knock coming way too late', 'It seems an age since I\'ve seen you', 'Countdown as the weeks trickle into days', 'So you come in and put your bags down', 'I know there\'s something in the air', 'How can I do this to you right now', 'If you\'re over there when I need you here', 'My happiness is slowly creeping back', 'Now you\'re at home', 'If it ever starts sinking in', 'It must be when you pack up and go', 'I hope that time hasn\'t changed you', 'All I really want is for you to stay', 'I know I know I know what is inside', 'You\'re over there when I need you here', 'We will fly, way up high', 'Where the cold wind blows', 'Or in the sun laughing having fun', 'With the people that she knows', 'And if the situation should keep us separated', 'You know the world won\'t fall apart', 'And you will free the beautiful bird', 'That\'s caught inside your heart', 'Can\'t you hear her?', 'Oh, she cries so loud', 'Casts her wild note over water and cloud', 'That\'s the way it\'s gonna be, little darlin\'', 'We\'ll be riding on the horses, yeah', 'Way up in the sky, little darlin\'', 'And if you fall I\'ll pick you up, pick you up', 'You will grow and until you go', 'I\'ll be right there by your side', 'And even then whisper the wind', 'And she will carry up your ride', 'I hear all the people of the world', 'In one bird\'s lonely cry', 'See them trying every way they know how', 'To make their spirit fly', 'Can\'t you see him?', 'He\'s down on the ground', 'He has a broken wing looking all around', 'You go riding on the horses, yeah', 'I am through with hanging \'round', 'With all the boys in town', 'Now I want a man around', 'Get me out of here', 'I am just a red brassiere', 'To all the boys in town', 'Put this bus in top gear', 'I must have been desperate', 'I must have been pretty low', 'I was always driving home', 'All the boys in town', 'But they never telephoned', 'I think they\'re pretty phoney', 'You\'re not like the rest', 'You\'ve heard of matrimony', 'They\'ve all flunked the test', 'Oh, I\'m tired', 'Oh, I\'m wired', 'Ahhhhhh', 'Too much too young', 'It\'s twelve o\'clock and it\'s a wonderful day', 'I know you hate me but I\'ll ask anyway', 'Won\'t you come with me to a place in a little town', 'The only way to get there\'s to go straight down', 'There\'s no bathroom and there is no sink', 'The water out of the tap is very hard to drink', 'Very hard to drink', 'You wait til tomorrow', 'You say that money isn\'t everything', 'But I\'d like to see you live without it,', 'You think you can keep on going living like a king,', 'Oohh babe, but I strongly doubt it,', 'Very hard to drink,', 'You gonna wait too, fat boy,', 'Fat boy, wait til tomorrow,', 'You, wait til tomorrow,', 'Fat boy, wait til tomorrow', 'Convict state', 'It just don\'t rate', 'He want to get higher', 'The apple Isle, the inbred smile', 'He\'s going to get by\'a', 'His mother\'s hand', 'He could not stand', 'He left for the islands', 'To fish and hunt', 'He\'d take a punt', 'The New Guinea Highlands', 'Ohh Errol', 'I would give everything just to be like him', 'He had to go', 'The Sirocco', 'He\'s sailin the high seas', 'Hollywood, Captain Blood', 'He\'s billing the Nazi\'s', 'Took a rebel stand', 'Contraband', 'Coast of Mexico', 'He want to pounce', 'Like an animal', 'To girls he just can\'t say no, I said', 'He had them all', 'Screamin for more', 'He played the wild scene', 'Ah scandalise, no compromise', 'He\'s down on his knees', 'Swashbuckling', 'He was the king', 'The toast of Tinseltown', 'They build him up', 'They took it all', 'And then they just cut him down, I said', 'Don\'t tell me it\'s true', 'I don\'t wanna hear about it', 'Should you expect to see something that you hadn\'t seen', 'In somebody you\'d known since you were sixteen', 'If love is a bolt from the blue,', 'Then what is that bolt but a glorified screw', 'That doesn\'t hold nothing together?', 'Far from these nonsense bars and their nowhere music', 'It\'s making me sick and I know it\'s making you sick', 'There\'s nothing there; it\'s like eating air', 'It\'s like drinking gin with nothing else in', 'That doesn\'t hold me together', 'But for one crowded hour, you were the only one in the room', 'And I sailed around all those bumps in the night to your beacon in the gloom', 'I thought I had found my golden September in the middle of that purple June', 'But one crowded hour would lead to my wreck and ruin', 'Now I know you like your boys to take their medicine', 'From the bowl with a silver spoon', 'Who run away with the dish and scale the fish', 'By the silvery light of the moon', 'Who were taught from the womb to believe to the tune', 'In as far as their bleeding eyes see', 'It\'s a pleasure pen, meant for them, built for and rent for them', 'Not for the likes of me', 'Not for the like of you and me', 'And for one crowded hour, you were the only one in the room', 'Oh but the green-eyed harpy of the song land', 'She takes into hers my hand', 'She says, "Boy I know you\'re lying', 'Oh but then, so am I, "', 'And to that I said "Oh well"', 'They put me in a cage full of lions, I learned to speak lion', 'In fact I know the language well', 'I picked it up while I was versing myself in the languages', 'They speak in hell', 'That night, the silence gave birth to a baby', 'They took it away to her silent dismay', 'And they raised it to be lady', 'Now she can\'t keep her mouth shut', 'For one crowded hour, you were the only one in the room', 'I sailed around all those bumps in the night to your beacon in the gloom', 'One crowded hour, you were the only one in the room', 'Well I played a few songs for those bumps in the night', 'In fact I played this very tune', 'You said, "What is this six-stringed instrument but an adolescent loom?"', 'And one crowded hour would lead to my wreck and ruin', 'I will come for you at night time', 'I will raise you from your sleep', 'I will kiss you in four places', 'As I go running along your street', 'I will squeeze the life out of you', 'You will make me laugh and make me cry', 'We will never forget it', 'You will make me call your name and I\'ll shout it to the blue summer sky', 'We may never meet again', 'So shed your skin and lets get started', 'And you will throw your arms around me', 'I dreamed of you at night time', 'And I watched you in your sleep', 'I met you in high places', 'I touched your head and touched your feet', 'So if you disappear out of view', 'You know, I will never say goodbye', 'Though I try to forget it', 'Yeah, you will throw your arms around me', 'Went down to Santa Fe, where Renoir paints the walls', 'Described you clearly, but the sky began to fall', 'Am I ever gonna see your face again', 'Trams, cars and taxis, like a waxworks on the move', 'Carry young girls past me, but none of them are you', 'Without you near me, I got no place to go', 'Wait at the bar, maybe you might show', 'I\'ve got to stop these tears, that\'s falling from my eye', 'Go walk out in the rain, so no one sees me cry', 'Can\'t stop the memory, that goes climbing through my brain', 'I get no answers, so the questions still remain', 'Meet me down by the jetty landing', 'Where the pontoons bump and spray', 'The others reading, standing', 'As the Manly Ferry cuts its way to Circular Quay', 'Hear the Captain blow his whistle', 'So long she\'s been away', 'I miss our early morning wrestle', 'Not a very happy way to start the day', 'She don\'t like', 'That kind of behaviour', 'So, throw down your guns', 'Don\'t be so reckless', 'Throw down your guns', 'Don\'t be so-', 'Feel like Scott of the Antarctic', 'Base camp too far away', 'Russian sun beneath the Arctic', 'Burke and Wills and camels', 'Initials in the tree', 'Reckless', 'Don\'t be so', 'I\'ve been to cities that never close down', 'From New York to Rio and old London town', 'But no matter how far', 'Or how wide I roam', 'I still call Australia home', 'I\'m always travelin\'', 'And I love bein\' free', 'So I keep leavin\' the sun and the sea', 'But my heart lies waiting over the foam', 'All the sons and daughters spinning \'round the world', 'Away from their families and friends', 'Ah, but as the world gets older and colder', 'It\'s good to know where your journey ends', 'And someday we\'ll all be together once more', 'When all the ships come back to the shore', 'Then I realize something I\'ve always known', 'No matter how far', 'Hello Dan, it\'s Joe here, I hope you\'re keeping well', 'It\'s the 21st of December, and now they\'re ringing the last bells', 'If I get good behaviour, I\'ll be out of here by July', 'Won\'t you kiss my kids on Christmas Day', 'Please don\'t let \'em cry for me', 'I guess the brothers are driving down from Queensland', 'And Stella\'s flying in from the coast', 'They say it\'s gonna be a hundred degrees, even more maybe', 'But that won\'t stop the roast', 'Who\'s gonna make the gravy now?', 'I bet it won\'t taste the same', 'Just add flour, salt, a little red wine', 'And don\'t forget a dollop of tomato sauce for sweetness and that extra tang', 'And give my love to Angus and to Frank and Dolly', 'Tell \'em all I\'m sorry I screwed up this time', 'And look after Rita, I\'ll be thinking of her early Christmas morning', 'When I\'m standing in line', 'I hear Mary\'s got a new boyfriend, I hope he can hold his own', 'Do you remember the last one?', 'What was his name again?', 'Just a little too much cologne', 'And Roger, you know I\'m even gonna miss Roger', '\'Cause there\'s sure as hell no one in here I want to fight', 'Oh praise the Baby Jesus, have a Merry Christmas', 'I\'m really gonna miss it, all the treasure and the trash', 'And later in the evening, I can just imagine', 'You\'ll put on Junior Murvin and push the tables back', 'And you\'ll dance with Rita, I know you really like her', 'Just don\'t hold her too close', 'Oh brother please don\'t stab me in the back', 'I didn\'t mean to say that, it\'s just my mind it plays up', 'Multiplies each matter, turns imagination into fact', 'You know I love her badly, she\'s the one to save me', 'I\'m gonna make some gravy, I\'m gonna taste the fat', 'Tell her that I\'m sorry, yeah I love her badly', 'Tell \'em all I\'m sorry', 'And kiss the sleepy children for me', 'You know one of these days, I\'ll be making gravy', 'I\'ll be making plenty, I\'m gonna pay \'em all back', 'Monday mornin\' feels so bad', 'Ev\'rybody seems to nag me', 'Comin\' Tuesday I feel better', 'Even my old man looks good', 'Wed\'sday just don\'t go', 'Thursday goes too slow', 'I\'ve got Friday on my mind', 'Gonna have fun in the city', 'Be with my girl, she\'s so pretty', 'She looks fine tonight', 'She is out of sight to me', 'Tonight I\'ll spend my bread, tonight', 'I\'ll lose my head, tonight', 'I\'ve got to get to night', 'Monday I\'ll have Friday on my mind', 'Do the five day grind once more', 'I know of nothin\' else that bugs me', 'More than workin\' for the rich man', 'Hey! I\'ll change that scene one day', 'Today I might be mad, tomorrow I\'ll be glad', '\'Cause I\'ll have Friday on my mind', 'There is freedom within', 'There is freedom without', 'Try to catch the deluge in a paper cup', 'There\'s a battle ahead', 'Many battles are lost', 'But you\'ll never see the end of the road', 'While you\'re travelling with me', 'Hey now, hey now', 'Don\'t dream it\'s over', 'When the world comes in', 'They come, they come', 'To build a wall between us', 'We know they won\'t win', 'Now I\'m towing my car', 'There\'s a hole in the roof', 'My possessions are causing me suspicion', 'But there\'s no proof', 'In the paper today', 'Tales of war and of waste', 'But you turn right over to the TV page', 'Now I\'m walking again'][cr(0,364)] 
+
+
+dj3=['\'cause it just ain\'t your to sin', '\'cause right before my eye', '\'cause that ain\'t yours to sin', '\'til the morphine came and killed the bloody row', 'A four week operation, when each step can mean your last one on two legs', 'A hand asks for a key', 'Ain\'t no carpet on the floor', 'Ain\'t nothin\' you can say', 'All those stars that shine upon you', 'All veils and misty', 'Almond looks', 'And an Asian orange sunset through the scrub', 'And can you tell me, doctor, why i still can\'t get to sleep?', 'And death climbs in the back', 'And don\'t worry about where it hits', 'And Frankie kicked a mine the day that mankind kicked the moon', 'And get them all to fit?', 'And his heart was singing like a lowdown guitar', 'And honey, it ain\'t a mystery', 'And i ain\'t down here for your love', 'And i ain\'t down here for your money', 'And i can still hear Frankie, lying screaming in the jungle', 'And i can still see Frankie, drinkin\' tinnies in the grand hotel', 'And i don\'t intend to get any older', 'And i knew', 'And i knew there was no turning back (thunder)', 'And i thought, what could i do? (thunder)', 'And i was shaking at the knees', 'And i will survive', 'And I\'m counting the steps to the door of your heart', 'And let\'s not worry \'bout its issue', 'And night time\'s just a jungle dark and a barking m16?', 'And see the starry sky', 'And squeeze its little thing', 'And the Anzac legends didn\'t mention mud and blood and tears', 'And the stories that my father told me never seemed quite real', 'And the way he shook him up', 'And the winding cloth holds many moths', 'And their parlors', 'And then someone yelled out "Contact", another bloke swore', 'And there\'s me in me slouch hat with me slr and greens', 'And this a day number one', 'And this is a gun', 'And townspeople lined the footpaths as we marched down to the quay', 'And we discuss the murder plan', 'And we got to go today', 'And we got to go today, yeah', 'And we made our tents a home, vb and pinups on the lockers', 'And we\'ll unload into their heads', 'And we\'re leavin\'', 'And what\'s this rash that comes and goes, can you tell me what it means?', 'And you keep telling me', 'And you\'re my friend', 'And you\'ll never want to leave my side', 'Are headin\' for the sun', 'Around your ku klux furniture', 'As long as i don\'t break these', 'Ashy leaving in their beds', 'Back in a flash', 'Barely clearing the roof', 'Beating in my heart', 'Believe me when i tell you', 'Birds in the winter sky', 'Black and smoking Christmas trees', 'Broke all the rules', 'Broke the limit, we hit the town', 'Broken hearts behind', 'But I\'ve got to get my fun', 'But none has your beauty', 'But this little angel that I\'m squeezin\'', 'But you wouldn\'t let your mates down \'til they had you dusted off', 'Castro in the alley way', 'Come on take me', 'Could he make a picture', 'Could i come again, please?', 'Could i come again, please? Oh', 'Did they have a future?', 'Doesn\'t worry me enough to stop me from doin\' it agai-ai-ain', 'Don\'t let them win (hey now, hey now)', 'Don\'t let them win (hey now, hey now), yeah', 'Don\'t let them win (they come, they come)', 'Don\'t worry about where it\'s been', 'Don\'t you see it in my eyes?', 'Drinking on our ow-ow-ow-own', 'Eternally wild with the power', 'Every muscle aching', 'Fame, won\'t alleviate heartache', 'Find another me', 'For love won\'t annihilate hatred', 'From vung tau riding chinooks to the dust at nui dat', 'Get to know the feeling of liberation and release', 'Gives you the score', 'God help me - he was goin\' home in June', 'God help me - i was only nineteen', 'God help me, i was only nineteen', 'Goes on forever', 'Gonna treat me so right, so right, so right', 'Got a little bar work', 'He came in on a Sunday', 'He started up his drinking', 'He took it pretty badly', 'He was riding through the cane', 'He was shaking in his seat', 'He went to the buttery', 'How can i ever deny', 'I ain\'t down here for your love', 'I ain\'t down here for your love of money', 'I ain\'t down here for your love or money', 'I ain\'t down here for your mon-', 'I ain\'t getting any younger', 'I am a-knocking', 'I can almost smell the perfumed night', 'I caught some pieces in my back that i didn\'t even feel', 'I cum a deaths-head in your frock', 'I didn\'t know how or why', 'I gotta handle you just right', 'I hear its kick, i feel its bang', 'I looked \'round', 'I need perfection', 'I ran right out of beer', 'I see your face', 'I started on a dash of Jamaica rum', 'I took a look into the larder', 'I took you to an intimate restaurant', 'I wanna get animal.', 'I wanna get physical.', 'I was caught', 'I was shaking at the knees', 'I wish you comin\' with me baby', 'I\'d been in and out of choppers now for months', 'I\'m down here for your soul', 'I\'m tired of the city life', 'I\'d better go and get somethin\' harder', 'I\'m sayin\' all the things that i know you\'ll like', 'I\'m sure you\'ll understand my point of view', 'In a silvertop', 'In all that exists', 'In Quasimodo\'s dream', 'In the middle of a railroad track (thunder)', 'In the pouring rain', 'In this cold and rain', 'It builds you up', 'It doesn\'t worry me even though i ain\'t got a lot to spare', 'It was a long march from cadets', 'It was a war within yourself', 'It was nothin\' to do with the letter', 'It\'s gettin\' hard this holdin\' back', 'I\'ve been patient, I\'ve been good', 'Just a couple more', 'Just when you say no more', 'Knocks at your door', '\'less it\'s horizontally.', 'Let me hear your body talk, your body talk.', 'Let me hear your body talk.', 'Let\'s get animal, animal', 'Let\'s get into animal.', 'Let\'s get into physical.', 'Let\'s get physical, physical', 'Like he\'d just been hit', 'Love won\'t annihilate hatred', 'Made me feel a little better', 'Makin\' good conversation.', 'Me and Pat Malone', 'Mum and dad and Danny saw the passing out parade at Puckapunyal', 'Murder takes the wheel of the Cadillac', 'My mind raced', 'Mystify', 'Mystify me', 'Never had no money', 'No bones, nothin\'', 'No, i ain\'t down here for your love', 'Of our little', 'Of our little crimeworn histories', 'Oh Deanna', 'Oh, i never wanted to be', 'Oh, let\'s get physical, physical', 'Oh, oh Deanna', 'Oh, sweet Deanna', 'On a thirty-six hour rec leave in vung tau', 'On Olympic', 'On this house on the hill', 'On this mean season', 'Only shadows ahead', 'Ooh, thunderstruck, yeah', 'Or what i was doin\' there', 'Out the door', 'People tell me i should stay', 'Played all the fools', 'Promises, and they still feel oh so wasted on myself', 'Riding through the streets', 'Rode down the highway', 'Said, "I want to see you"', 'Shaking in his seat', 'Shall i beg the ringmaster please', 'She ain\'t been mean to me', 'She said "I\'m not standing by', 'She said, "Shove it jack, I\'m walking out your fucking door"', 'She sent him up the fare', 'She thought he sounded better', 'She took both the kids', 'She went to her brother\'s', 'Snake eyes on the paradise', 'So don\'t try and hold me back', 'So high i cannot feel the fire', 'So watch me walking', 'So you closed your eyes and thought about somethin\' else', 'Some dancers who gave a good time', 'Some silken moment', 'Some twisted selection', 'Sometimes i wonder what all these chemicals are doin\' to my brain', 'Sound of the drums', 'Started out, just drinkin\' beer', 'Stayed about a year', 'Streets of blue', 'Summer\'s on the run', 'Sweet Deanna', 'Take me to the April sun', 'Take me to the April sun in Cuba (oh-oh-oh)', 'Take me where the April sun', 'Talkin\' \'bout jfk', 'Talkin\' \'bout missile love', 'Telling me that you\'ll be sweet', 'That chill divine', 'That tangles me', 'The animal in me.', 'The sixth battalion was the next to tour and it was me who drew the card', 'The sun a hump at my shoulder', 'The thunder of guns', 'Then he wrote a letter', 'Then they started fighting', 'Then to a suggestive movie.', 'Then when he got laid off', 'Then won\'t let you be', 'Then won\'t set you free', 'There was no help, no help from you (thunder)', 'There\'s nothing left to talk about', 'They are so wasted on myself', 'They got married early', 'They really hit the skids', 'This clipping from the paper shows us young and strong and clean', 'Thunder, thunder', 'Thunder, thunder, thunder, thunder', 'Thunderstruck', 'Thunderstruck, thunderstruck', 'Thunderstruck, whoa, baby, baby', 'Thunderstruck, yeah, yeah, yeah', 'Thunderstruck, you\'ve been thunderstruck', 'Till you\'ve had enough', 'To her', 'To her door', 'To keep me alive', 'To make every moment come alive', '\'to the beat of a drum', 'To watch you slowly die"', 'Tore me apart', 'Try\'n to keep my hands on the table.', 'Walking in slow motion', 'We did Canungra and Shoalwater before we left', 'We discuss murder and the murder act', 'We hooked in there for hours, then a god almighty roar', 'We know each other mentally.', 'We met some girls', 'We will eat out of their pantries', 'Well I\'ll meet you on the corner', 'Well they kiss you every night', 'Well, i ain\'t down here for your money', 'Well, this is a car', 'Well, you know you are my friend, yeah', 'Well, you\'re my friend and my partner', 'Went through to Texas, yeah, Texas, and we had some fun', 'Why should i be so surprised?', 'Why you\'re a mystery to me', 'Wipin\' out brain cells by the millions but i don\'t care', 'With my toolbox and my stocking', 'Woah, we can stick it out', 'Woh-hoh-oh, the nips are gettin\' bigger', 'Wo-hoh-oh, the nips are gettin\' bigger', 'Woh-yeah, the nips are gettin\' bigger', 'Woh-yeah-eah, the nips are gettin\' bigger', 'Would he know his children?', 'Yeah, it\'s alright, we\'re doin\' fine, fine, fine', 'Yeah, them ladies were too kind', 'Yeah, we\'re leavin\'', 'Yeah, yeah, they, they, they blew our minds', 'Yeah, yeah, yeah, said, yeah, it\'s alright, we\'re doin\' fine', 'Yeah, yeah, yeah, thunderstruck', 'Yeah, yeah, yeah, thunderstruck, thunderstruck', 'Yeah-h-h, mmm they\'re gettin\' bigger', 'Yeah-h-h, they\'re gettin\' bigger', 'Yes, you point it like a finger', 'You got me so high', 'You got me so wild', 'You know they won\'t win', 'You know what i mean.', 'You mystify', 'You mystify me', 'You\'re eternally wild with the power', 'You\'ve been', 'You\'ve gotta know that you\'re bringin\' out'][cr(0,297)]
+radio =[ '100.3 Nova', '101.1 MIX', '101.9 FOX', '102.7 3RRR Digital', '1026 ABC NewsRadio', '103.5 3MBS Fine Music', '105.1 Triple M', '105.9 ABC Classic FM', '106.7 PBS Digital', '107.5 triplej', '1116 SEN', '1224 SBS AM', '1377 MyMP', '1503 Kool & Deadly', '3AW', '621 ABC Radio National', '693 3AW', '774 ABC Melbourne', '855 3CR Digital', '90.7 Syn Nation', '91.5 Smooth FM', '92.3 3ZZZ', '927 RSN', '93.1 SBS', 'ABC Classic FM', 'ABC Country', 'ABC Extra', 'ABC Grandstand', 'ABC Jazz', 'ABC News Radio', 'Aussie Digital', 'Buddha', 'Chemist Warehouse Remix', 'Classic Rock Radio', 'Coles Radio', 'Double J', 'Edge Digital', 'Fairfax Radio NTS', 'Flow FM', 'IRIS VA Radio', 'Koffee', 'Koool', 'Light Digital', 'Loveland', 'Macquarie Sports Radio 1278', 'Mix 80s', 'Mix \'90s', 'Pure Gold', 'Radio National', 'RSN', 'RSN Carnival', 'Rythmos', 'SBS Chill', 'SBS Pop Asia', 'SBS PopAraby', 'SBS PopDesi', 'SBS Radio', 'SBS Radio 3', 'SEN', 'SEN Track', 'Smooth FM', 'Triple J', 'Triple J Unearthed', 'Triple M Classic Rock Digital' ][cr(0,63)]
+
+
+up=state.loc.toUpperCase()
+
+selfloathing=100 - state.ozfactor
+ message= radio +": ♫ "+[dj,dj2,dj3][cr(0,2)] + ' ♫' +"\n"+ "[STEPS: " + info.actionCount + "|ANGST: "+ selfloathing + "%|GPS: " + up+"]"
+//message = message.fontcolor("green");
+state.message=message
+         
+
+  xxx = [cr(0, 4)]
+//if (xxx == 1){
+before=state.account 
+
+
+
+
+
+  state.account = " "
+//}
+  mood=state.mood
+//  updateWorldEntry('Author\s Note', mood, isNotHidden = false)
+//updateWorldEntry(mood, 'Author\'s note', isNotHidden = false)
+
+
+  mood=state.mood
+
+//final = final.replace(/\\/gi, "")
+
+n = [cr(0, 4)]
+if (n==10){state.message=state.mood}
+
+
+
+
+recall()
+status ="You are in " + state.loc+"."
+
+//fact =state.character + " is a "+ state.adjectivec + " " + state.jobc + ' who is often ' + state.mindc + ', ' + state.mind2c + ',  or even ' + state.mind3c +', but she looks at you with a ' + state.eyefeelsc + ' look in her ' +state.eyecolorc + ' eyes. With her ' + state.clothcolorc + ' ' + state.clothesc + ' and ' + state.clothcolor2c +' ' + state.clothes2c + ', she looks ' +state.lookc + ' with her ' +state.haircolourc + ' hair arranged in a "' +state.hairstylec + '" style. ' + state.character + " thinks deeply about " + state.hobbie1c +', ' +state.hobbie2c +',  and '+state.hobbie3 +'.'
+       
+
+fact =state.character + " is a "+ state.adjectivec + " " + state.jobc + ' who is often ' + state.mindc + ', ' + state.mind2c + ',  or even ' + state.mind3c +', but she looks at you with a ' + state.eyefeelsc + ' look in her ' +state.eyecolorc + ' eyes. With her ' + state.clothcolorc + ' ' + state.clothesc + ' and ' + state.clothcolor2c +' ' + state.clothes2c + ', the ' + state.agec +'-year-old '+state.rolec+' looks ' +state.lookc + ' with her ' +state.haircolourc + ' hair arranged in a "' +state.hairstylec + '" style. ' + state.character + " thinks deeply about " + state.hobbie1c +', ' +state.hobbie2c +',  and '+state.hobbie3 +'.'
+
+
+//factb = state.characterb+ " is a "+ state.adjectiveb + " " + state.jobb + ' who is often ' + state.mindb + ', ' + state.mind2b + ',  or even ' + state.mind3b +', but he looks at you with a ' + state.eyefeelsb + ' look in his ' +state.eyecolorb + ' eyes. With his ' + state.clothcolorb + ' ' + state.clothesb + ' and ' + state.clothcolor2b +' ' + state.clothes2b + ', he looks ' +state.lookb +' with his '+state.haircolourb + ' hair arranged in a "' +state.hairstyleb + '" style. ' + state.characterb + " thinks deeply about " + state.hobbie1b +', ' +state.hobbie2b +',  and '+state.hobbie3b +'.'
+factb = state.characterb+ " is a "+ state.adjectiveb + " " + state.jobb + ' who is often ' + state.mindb + ', ' + state.mind2b + ',  or even ' + state.mind3b +', but he looks at you with a ' + state.eyefeelsb + ' look in his ' +state.eyecolorb + ' eyes. With his ' + state.clothcolorb + ' ' + state.clothesb + ' and ' + state.clothcolor2b +' ' + state.clothes2b + ', the ' +state.ageb +'-year-old '+state.roleb +' looks ' +state.lookb +' with his '+state.haircolourb + ' hair arranged in a "' +state.hairstyleb + '" style. ' + state.characterb + " thinks deeply about " + state.hobbie1b +', ' +state.hobbie2b +',  and '+state.hobbie3b +'.'
+
+
+
+factb = factb.replace(/  /gi, " ")
+factb = factb.replace(/ a a/gi, " an a")
+
+factb = factb.replace(/ a e/gi, " an e")
+factb = factb.replace(/ a i/gi, " an i")
+factb = factb.replace(/ a o/gi, " an o")
+factb = factb.replace(/ a u/gi, " an u")
+factb = factb.replace(/undefined/gi, "Australian")
+
+
+fact = fact.replace(/  /gi, " ")
+
+fact = fact.replace(/ a a/gi, " an a")
+fact = fact.replace(/ a e/gi, " an e")
+fact = fact.replace(/ a i/gi, " an i")
+fact = fact.replace(/ a o/gi, " an o")
+fact = fact.replace(/ a u/gi, " an u")
+
+
+
+
+fact = fact.replace(/undefined/gi, "Australian")
+
+
+state.beach =   status +', where you ' +state.plot+ "\n" +fact +"\n"+factb
+
+
+state.beach = state.beach.replace(/undefined/gi, " ")
+state.beach = state.beach.replace(/  /gi, " ")
+state.beach = state.beach.replace(/  /gi, " ")
+state.beach = state.beach.replace(/  /gi, " ")
+state.beach = state.beach.replace(/  /gi, " ")
+
+state.beach = state.beach.replace(/ a a/gi, " a an")
+
+state.beach = state.beach.replace(/ , /gi, " ")
+state.beach = state.beach.replace(/\.,/gi, ",")
+state.beach = state.beach.replace(/\.\./gi, ".")
+
+               if(state.person==1){
+                mood=state.beach
+                 mood = mood.replace(/You are/gi, "I'm")
+                 mood = mood.replace(/your/gi, "my")
+                 mood = mood.replace(/ you /gi, " me ")
+state.beach=mood
+                 
+                 
+               }
+
+
+ state.memory.context =   state.beach
+//state.try = state.try +1
+  
+//updateWorldEntry(index, keys, entry, isNotHidden = false)
+//  updateWorldEntry(1, 'Author\'s Note', mood, isNotHidden = false)
+//  context= 
+//ooo
+context=  JSON.stringify(state.memory.context)
+context = context.replace(/\"/gi, "")
+
+removeWorldEntry(1)
+removeWorldEntry(1)
+removeWorldEntry(1)
+removeWorldEntry(1)
+      updateWorldEntry(0, 'What\'s My Scene?', state.mood, isNotHidden = false)
+    updateWorldEntry(1, 'Who The Hell Is ' +state.character +'?', fact, isNotHidden = false)
+    updateWorldEntry(2, 'Who The Hell Is '+state.characterb+'?', factb, isNotHidden = false)
+
+
+state.zap =false
+state.zap2=false
+state.mod=false
+
+
+  const lowercharacter = state.character.toLowerCase()
+
+
+location(text)
+if(info.actionCount==0){state.message=state.mood}
+if(info.actionCount==1){state.message=state.mood}
+
+// Don't modify this part
+
+modifier(text)
+
+/*
+  AVAILABLE BOTS
+['KillBot', 'JudgeBot', 'EmpathyBot', 'SuccessBot', 'SantaBot'] - Score
+['GoblinBot'] - Goblins killed, health lost, loot gained
+['KittenBot'] - Rapport gained, hunger
+['SpaceLootBot'] - Loot
+['DCStatDifficultyBot'] - Stat, Difficulty
+*/
+
+
+
