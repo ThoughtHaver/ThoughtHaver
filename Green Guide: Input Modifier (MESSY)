@@ -1,0 +1,1573 @@
+
+const modifier = (text) => {
+ let modifiedText = text
+ const lowered = text.toLowerCase()
+ const entries = worldInfo
+ let facts = worldInfo
+ stasus = " "
+name = " "
+
+
+ if (!state.initialised) {
+  modifiedText = modifiedText.replace(/\n/gi, "\n\t")
+ state.pop=0
+n = [cr(6, 95)]
+ state.ozfactor = n
+ n = [cr(1, 6)]
+  state.lives = n
+ state.turn = 0
+ state.initialised = true
+ stats = "Things are happening."
+ state.isgag = false
+ state.score = false
+complete =false 
+state.prepare=false
+ state.generic = false
+ //state.her=true
+ state.points = 0
+ state.protag = "Australian."
+
+
+ 
+randwords()
+state.genders=['male','female'][cr(0,1)]
+genders=state.genders
+if(genders.match(/male/)){tryagainplease(modifiedText)
+state.name=state.characterb
+state.jobu=state.job
+}
+
+if(genders.match(/female/)){tryagain(modifiedText)
+state.name=state.character
+state.jobu=state.job
+}
+
+state.plotself=state.genders + " " +state.jobu
+plot(modifiedText)
+
+state.loc=state.place 
+https://play.aidungeon.io/main/scenarioEdit?publicId=43b57a70-de32-11eb-a708-335e9ad38bd4
+ //state.character = "The woman"
+  tryagainplease(modifiedText)
+
+ tryagain(modifiedText)
+//plot(modifiedText)
+//plot()
+// state.plot = "wants to own you. "
+ state.theme = "Australiana"
+ topic()
+ state.topics = "Chuckles, buckles and laughter."
+ place = state.loc.charAt(0).toUpperCase() + state.loc.slice(1)
+state.mood = "MAIN CHARACTER: "+ state.protag + " LOCATION: " + place + ". PLOT: " + state.character + " " + state.plot + " NOTES: " + state.theme +" THEMES: " + state.topics + "."
+
+items = ['Condom', 'shoe']
+ state.skills = {'Futility':1}
+ state.skillPoints = 5
+ state.disableRandomSkill = false
+ state.issummon = false
+ state.banish = false
+ state.naughty=false
+
+state.named=false
+state.person=[cr(1,2)]
+// mood=state.mood
+// addWorldEntry('Author\'s Note', mood, isNotHidden = false)
+character=state.character
+     const lowercharacter = character.toLowerCase()
+ if (info.actionCount ==0){
+  state.account=modifiedText
+prefab(modifiedText)
+modifiedText=state.account
+
+
+
+if(text.match(/#woman#/)){  
+    first = state.character.substring(0, state.character.indexOf(" "),);
+    modifiedText = modifiedText.replace("#woman#", state.character)
+    modifiedText = modifiedText.replace(/#woman#/gi, first)
+
+ }
+
+  if(text.match(/#man#/)){  
+    firstb = state.characterb.substring(0, state.characterb.indexOf(" "),);
+    modifiedText = modifiedText.replace("#man#", state.characterb)
+    modifiedText = modifiedText.replace(/#man#/gi, firstb)
+
+ }
+
+  if(text.match(/#n#/)){  
+
+    firstb = state.name.substring(0, state.characterb.indexOf(" "),);
+
+    modifiedText = modifiedText.replace("#n#", state.name)
+    modifiedText = modifiedText.replace(/#n#/gi, firstb)
+
+ }
+  
+
+
+randwords()
+   modifiedText = modifiedText.replace(/#gender#/gi, state.gender)
+   modifiedText = modifiedText.replace(/#man#/gi, state.characterb)
+
+modifiedText = modifiedText.replace(/#adjective#/gi, state.adjective)
+modifiedText = modifiedText.replace(/#adjectivec#/gi, state.adjectivec)
+modifiedText = modifiedText.replace(/#age#/gi, state.age)
+modifiedText = modifiedText.replace(/#agec#/gi, state.agec)
+modifiedText = modifiedText.replace(/#animal#/gi, state.animal)
+modifiedText = modifiedText.replace(/#animal1#/gi, state.animal1)
+modifiedText = modifiedText.replace(/#animal2#/gi, state.animal2)
+modifiedText = modifiedText.replace(/#animal3#/gi, state.animal3)
+modifiedText = modifiedText.replace(/#animalc#/gi, state.animalc)
+modifiedText = modifiedText.replace(/#appear#/gi, state.appear)
+modifiedText = modifiedText.replace(/#appearc#/gi, state.appearc)
+modifiedText = modifiedText.replace(/#beaut1#/gi, state.beaut1)
+modifiedText = modifiedText.replace(/#beaut2#/gi, state.beaut2)
+modifiedText = modifiedText.replace(/#beaut3#/gi, state.beaut3)
+modifiedText = modifiedText.replace(/#beaut4#/gi, state.beaut4)
+modifiedText = modifiedText.replace(/#beaut5#/gi, state.beaut5)
+modifiedText = modifiedText.replace(/#beaut6#/gi, state.beaut6)
+modifiedText = modifiedText.replace(/#bignumber#/gi, state.bignumber)
+modifiedText = modifiedText.replace(/#bigwordnumber#/gi, state.bigwordnumber)
+modifiedText = modifiedText.replace(/#c0#/gi, state.c0)
+modifiedText = modifiedText.replace(/#c1#/gi, state.c1)
+modifiedText = modifiedText.replace(/#c2#/gi, state.c2)
+modifiedText = modifiedText.replace(/#c3#/gi, state.c3)
+modifiedText = modifiedText.replace(/#c4#/gi, state.c4)
+modifiedText = modifiedText.replace(/#c5#/gi, state.c5)
+modifiedText = modifiedText.replace(/#c6#/gi, state.c6)
+modifiedText = modifiedText.replace(/#c7#/gi, state.c7)
+modifiedText = modifiedText.replace(/#c8#/gi, state.c8)
+modifiedText = modifiedText.replace(/#c9#/gi, state.c9)
+modifiedText = modifiedText.replace(/#character#/gi, state.character)
+modifiedText = modifiedText.replace(/#clothcolor2#/gi, state.clothcolor2)
+modifiedText = modifiedText.replace(/#clothcolor2c#/gi, state.clothcolor2c)
+modifiedText = modifiedText.replace(/#clothcolorc#/gi, state.clothcolorc)
+modifiedText = modifiedText.replace(/#clothes#/gi, state.clothes)
+modifiedText = modifiedText.replace(/#clothes2#/gi, state.clothes2)
+modifiedText = modifiedText.replace(/#clothes2c#/gi, state.clothes2)
+modifiedText = modifiedText.replace(/#clothesc#/gi, state.clothesc)
+modifiedText = modifiedText.replace(/#day#/gi, state.day)
+modifiedText = modifiedText.replace(/#desert#/gi, state.desert)
+modifiedText = modifiedText.replace(/#eyecolor#/gi, state.eyecolor)
+modifiedText = modifiedText.replace(/#eyecolorc#/gi, state.eyecolorc)
+modifiedText = modifiedText.replace(/#eyefeels#/gi, state.eyefeels)
+modifiedText = modifiedText.replace(/#eyefeelsc#/gi, state.eyefeels)
+modifiedText = modifiedText.replace(/#eyes#/gi, state.eyes)
+modifiedText = modifiedText.replace(/#eyesc#/gi, state.eyesc)
+modifiedText = modifiedText.replace(/#firstname#/gi, state.firstnamr)
+modifiedText = modifiedText.replace(/#fuck#/gi, state.fuck)
+modifiedText = modifiedText.replace(/#genre#/gi, state.genre)
+modifiedText = modifiedText.replace(/#h1#/gi, state.h1)
+modifiedText = modifiedText.replace(/#h2#/gi, state.h2)
+modifiedText = modifiedText.replace(/#h3#/gi, state.h3)
+modifiedText = modifiedText.replace(/#h4#/gi, state.h4)
+modifiedText = modifiedText.replace(/#h5#/gi, state.h5)
+modifiedText = modifiedText.replace(/#h6#/gi, state.h7)
+modifiedText = modifiedText.replace(/#haircolour#/gi, state.haircolour)
+modifiedText = modifiedText.replace(/#haircolourc#/gi, state.haircolourc)
+modifiedText = modifiedText.replace(/#hairstyle#/gi, state.hairstyle)
+modifiedText = modifiedText.replace(/#hairstylec#/gi, state.hairstylec)
+modifiedText = modifiedText.replace(/#hobbie1#/gi, state.hobbie1)
+modifiedText = modifiedText.replace(/#hobbie1c#/gi, state.hobbiec)
+modifiedText = modifiedText.replace(/#hobbie2#/gi, state.hobbie2)
+modifiedText = modifiedText.replace(/#hobbie2c#/gi, state.hobbie2c)
+modifiedText = modifiedText.replace(/#hobbie3#/gi, state.hobbie3)
+modifiedText = modifiedText.replace(/#honorific#/gi, state.honorifc)
+modifiedText = modifiedText.replace(/#hot1#/gi, state.hot)
+modifiedText = modifiedText.replace(/#hot2#/gi, state.hot2)
+modifiedText = modifiedText.replace(/#hot3#/gi, state.hot3)
+modifiedText = modifiedText.replace(/#hot4#/gi, state.hot4)
+modifiedText = modifiedText.replace(/#hot5#/gi, state.hot5)
+modifiedText = modifiedText.replace(/#hot6#/gi, state.hot6)
+modifiedText = modifiedText.replace(/#hour#/gi, state.hour)
+modifiedText = modifiedText.replace(/#i1#/gi, state.i1)
+modifiedText = modifiedText.replace(/#i2#/gi, state.i2)
+modifiedText = modifiedText.replace(/#i3#/gi, state.i3)
+modifiedText = modifiedText.replace(/#i4#/gi, state.i4)
+modifiedText = modifiedText.replace(/#i5#/gi, state.i5)
+modifiedText = modifiedText.replace(/#i6#/gi, state.i6)
+modifiedText = modifiedText.replace(/#job#/gi, state.job)
+modifiedText = modifiedText.replace(/#job1#/gi, state.job1)
+modifiedText = modifiedText.replace(/#job10#/gi, state.jo10)
+modifiedText = modifiedText.replace(/#job11#/gi, state.job11)
+modifiedText = modifiedText.replace(/#job12#/gi, state.job12)
+modifiedText = modifiedText.replace(/#job15#/gi, state.job15)
+modifiedText = modifiedText.replace(/#job16#/gi, state.job16)
+modifiedText = modifiedText.replace(/#job17#/gi, state.job17)
+modifiedText = modifiedText.replace(/#job18#/gi, state.job18)
+modifiedText = modifiedText.replace(/#job19#/gi, state.job19)
+modifiedText = modifiedText.replace(/#job2#/gi, state.job2)
+modifiedText = modifiedText.replace(/#job20#/gi, state.job20)
+modifiedText = modifiedText.replace(/#job21#/gi, state.job21)
+modifiedText = modifiedText.replace(/#job22#/gi, state.job22)
+modifiedText = modifiedText.replace(/#job3#/gi, state.job3)
+modifiedText = modifiedText.replace(/#job4#/gi, state.job4)
+modifiedText = modifiedText.replace(/#job5#/gi, state.job5)
+modifiedText = modifiedText.replace(/#job6#/gi, state.job6)
+modifiedText = modifiedText.replace(/#job7#/gi, state.job7)
+modifiedText = modifiedText.replace(/#job8#/gi, state.job8)
+modifiedText = modifiedText.replace(/#job9#/gi, state.job9)
+modifiedText = modifiedText.replace(/#jobc#/gi, state.jobc)
+modifiedText = modifiedText.replace(/#kidnap#/gi, state.kidnap)
+modifiedText = modifiedText.replace(/#lack#/gi, state.lack)
+modifiedText = modifiedText.replace(/#lackc#/gi, state.lackc)
+modifiedText = modifiedText.replace(/#loc#/gi, state.loc)
+modifiedText = modifiedText.replace(/#look#/gi, state.look)
+modifiedText = modifiedText.replace(/#lookc#/gi, state.lookc)
+modifiedText = modifiedText.replace(/#m#/gi, state.m)
+modifiedText = modifiedText.replace(/#manclothes1#/gi, state.manclothes1)
+modifiedText = modifiedText.replace(/#manclothes2#/gi, state.manclothes2)
+modifiedText = modifiedText.replace(/#mental#/gi, state.mental)
+modifiedText = modifiedText.replace(/#mentalc#/gi, state.mentalc)
+modifiedText = modifiedText.replace(/#mind#/gi, state.mind)
+modifiedText = modifiedText.replace(/#mind2#/gi, state.mind2)
+modifiedText = modifiedText.replace(/#mind2c#/gi, state.mind2c)
+modifiedText = modifiedText.replace(/#mind3#/gi, state.mind3)
+modifiedText = modifiedText.replace(/#mind3c#/gi, state.mind3c)
+modifiedText = modifiedText.replace(/#mindc#/gi, state.mindc)
+modifiedText = modifiedText.replace(/#minute#/gi, state.minute)
+modifiedText = modifiedText.replace(/#month#/gi, state.month)
+modifiedText = modifiedText.replace(/#moves#/gi, state.moves)
+modifiedText = modifiedText.replace(/#n#/gi, state.name)
+modifiedText = modifiedText.replace(/#park#/gi, state.park)
+   modifiedText = modifiedText.replace(/#n#/gi, state.firstname)   
+modifiedText = modifiedText.replace(/#party#/gi, state.party)
+modifiedText =modifiedText.replace(/#s#/gi, state.nickname)
+modifiedText = modifiedText.replace(/#s#/gi, state.nickname)
+modifiedText = modifiedText.replace(/#s1#/gi, state.nickname1)
+modifiedText = modifiedText.replace(/#s1c#/gi, state.nickname1c)
+modifiedText = modifiedText.replace(/#s2#/gi, state.nickname2)
+modifiedText = modifiedText.replace(/#s2c#/gi, state.nickname2c)
+modifiedText = modifiedText.replace(/#s3#/gi, state.nickname3)
+modifiedText = modifiedText.replace(/#s3c#/gi, state.nickname3c)
+modifiedText = modifiedText.replace(/#s4#/gi, state.nickname4)
+modifiedText = modifiedText.replace(/#s4c#/gi, state.nickname4c)
+modifiedText = modifiedText.replace(/#s5#/gi, state.nickname5)
+modifiedText = modifiedText.replace(/#s5c#/gi, state.nickname5c)
+modifiedText = modifiedText.replace(/#s6#/gi, state.nickname6)
+modifiedText = modifiedText.replace(/#s6c#/gi, state.nickname6c)
+modifiedText = modifiedText.replace(/#s7#/gi, state.nickname7)
+modifiedText = modifiedText.replace(/#s7c#/gi, state.nickname7c)
+modifiedText = modifiedText.replace(/#s8#/gi, state.nickname8)
+modifiedText = modifiedText.replace(/#s8c#/gi, state.nickname8c)
+modifiedText = modifiedText.replace(/#s9#/gi, state.nickname9)
+modifiedText = modifiedText.replace(/#s9c#/gi, state.nickname9c)
+modifiedText = modifiedText.replace(/#location#/gi, state.place)
+modifiedText = modifiedText.replace(/#place#/gi, state.place)
+modifiedText = modifiedText.replace(/#placec#/gi, state.placec)
+modifiedText = modifiedText.replace(/#race#/gi, state.race)
+modifiedText = modifiedText.replace(/#racec#/gi, state.racec)
+modifiedText = modifiedText.replace(/#road#/gi, state.road)
+modifiedText = modifiedText.replace(/#role#/gi, state.role)
+modifiedText = modifiedText.replace(/#rolec#/gi, state.rolec)
+modifiedText = modifiedText.replace(/#smallnumber#/gi, state.smallnumber)
+modifiedText = modifiedText.replace(/#smallwordnumber#/gi, state.smallwordnumber)
+modifiedText = modifiedText.replace(/#state#/gi, state.state)
+modifiedText = modifiedText.replace(/#surname#/gi, state.surname)
+modifiedText = modifiedText.replace(/#theme1#/gi, state.theme)
+modifiedText = modifiedText.replace(/#theme10#/gi, state.theme10)
+modifiedText = modifiedText.replace(/#theme10c#/gi, state.theme10c)
+modifiedText = modifiedText.replace(/#theme11#/gi, state.theme11)
+modifiedText = modifiedText.replace(/#theme11c#/gi, state.theme11c)
+modifiedText = modifiedText.replace(/#theme12#/gi, state.theme12)
+modifiedText = modifiedText.replace(/#theme12c#/gi, state.theme12c)
+modifiedText = modifiedText.replace(/#theme13#/gi, state.theme13)
+modifiedText = modifiedText.replace(/#theme13c#/gi, state.theme13c)
+modifiedText = modifiedText.replace(/#theme14#/gi, state.theme14)
+modifiedText = modifiedText.replace(/#theme14c#/gi, state.theme14c)
+modifiedText = modifiedText.replace(/#theme15#/gi, state.theme15)
+modifiedText = modifiedText.replace(/#theme15c#/gi, state.theme15c)
+modifiedText = modifiedText.replace(/#theme16#/gi, state.theme16)
+modifiedText = modifiedText.replace(/#theme16c#/gi, state.theme16c)
+modifiedText = modifiedText.replace(/#theme17#/gi, state.theme17)
+modifiedText = modifiedText.replace(/#theme17c#/gi, state.theme17c)
+modifiedText = modifiedText.replace(/#theme18#/gi, state.theme18)
+modifiedText = modifiedText.replace(/#theme18c#/gi, state.theme18c)
+modifiedText = modifiedText.replace(/#theme19#/gi, state.theme19)
+modifiedText = modifiedText.replace(/#theme19c#/gi, state.theme19c)
+modifiedText = modifiedText.replace(/#theme1c#/gi, state.theme1c)
+modifiedText = modifiedText.replace(/#theme2#/gi, state.theme2)
+modifiedText = modifiedText.replace(/#theme20#/gi, state.theme20)
+modifiedText = modifiedText.replace(/#theme20c#/gi, state.theme20c)
+modifiedText = modifiedText.replace(/#theme2c#/gi, state.theme2c)
+modifiedText = modifiedText.replace(/#theme3#/gi, state.theme3)
+modifiedText = modifiedText.replace(/#theme3c#/gi, state.theme3c)
+modifiedText = modifiedText.replace(/#theme4#/gi, state.theme4)
+modifiedText = modifiedText.replace(/#theme4c#/gi, state.theme4c)
+modifiedText = modifiedText.replace(/#theme5#/gi, state.theme5)
+modifiedText = modifiedText.replace(/#theme5c#/gi, state.theme5c)
+modifiedText = modifiedText.replace(/#theme6#/gi, state.theme6)
+modifiedText = modifiedText.replace(/#theme6c#/gi, state.theme6c)
+modifiedText = modifiedText.replace(/#theme7#/gi, state.theme7)
+modifiedText = modifiedText.replace(/#theme7c#/gi, state.theme7c)
+modifiedText = modifiedText.replace(/#theme8#/gi, state.theme8)
+modifiedText = modifiedText.replace(/#theme8c#/gi, state.theme8c)
+modifiedText = modifiedText.replace(/#theme9#/gi, state.theme9)
+modifiedText = modifiedText.replace(/#theme9c#/gi, state.theme9c)
+modifiedText = modifiedText.replace(/#title#/gi, state.title)
+modifiedText = modifiedText.replace(/#titlec#/gi, state.titlec)
+modifiedText = modifiedText.replace(/#tone#/gi, state.tone)
+modifiedText = modifiedText.replace(/#tonec#/gi, state.tonec)
+modifiedText = modifiedText.replace(/#topic#/gi, state.topic)
+modifiedText = modifiedText.replace(/#topic1#/gi, state.topic1)
+modifiedText = modifiedText.replace(/#topic10#/gi, state.topic10)
+modifiedText = modifiedText.replace(/#topic2#/gi, state.topic2)
+modifiedText = modifiedText.replace(/#topic3#/gi, state.topic3)
+modifiedText = modifiedText.replace(/#topic4#/gi, state.topic4)
+modifiedText = modifiedText.replace(/#topic5#/gi, state.topic5)
+modifiedText = modifiedText.replace(/#topic6#/gi, state.topic6)
+modifiedText = modifiedText.replace(/#topic7#/gi, state.topic7)
+modifiedText = modifiedText.replace(/#topic9#/gi, state.topic9)
+modifiedText = modifiedText.replace(/#tour#/gi, state.tour)
+modifiedText = modifiedText.replace(/#city#/gi, state.town)
+modifiedText = modifiedText.replace(/#town#/gi, state.town)
+modifiedText = modifiedText.replace(/#verb#/gi, state.verb)
+modifiedText = modifiedText.replace(/#worn#/gi, state.worn)
+modifiedText = modifiedText.replace(/#wornc#/gi, state.wornc)
+modifiedText = modifiedText.replace(/#year#/gi, state.year)
+
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/##/gi, "#")
+modifiedText = modifiedText.replace(/#/gi, ",")
+
+random =[state.name,state.adjective,state.adjectivec,state.age,state.agec,state.animal,state.animal1,state.animal2,state.animal3,state.animalc,state.appear,state.appearc,state.beaut1,state.beaut2,state.beaut3,state.beaut4,state.beaut5,state.beaut6,state.bignumber,state.bigwordnumber,state.c0,state.c1,state.c2,state.c3,state.c4,state.c5,state.c6,state.c7,state.c8,state.c9,state.character,state.clothcolor2,state.clothcolor2c,state.clothcolorc,state.clothes,state.clothes2,state.clothes2,state.clothesc,state.day,state.desert,state.eyecolor,state.eyecolorc,state.eyefeels,state.eyefeels,state.eyes,state.eyesc,state.firstname   ,state.firstnamr,state.fuck,state.genre,state.h1,state.h2,state.h3,state.h4,state.h5,state.h7,state.haircolour,state.haircolourc,state.hairstyle,state.hairstylec,state.hobbie1,state.hobbie2,state.hobbie2c,state.hobbie3,state.hobbiec,state.honorifc,state.hot,state.hot2,state.hot3,state.hot4,state.hot5,state.hot6,state.hour,state.i1,state.i2,state.i3,state.i4,state.i5,state.i6,state.jo10,state.job,state.job1,state.job11,state.job12,state.job15,state.job16,state.job17,state.job18,state.job19,state.job2,state.job20,state.job21,state.job22,state.job3,state.job4,state.job5,state.job6,state.job7,state.job8,state.job9,state.jobc,state.kidnap,state.lack,state.lackc,state.loc,state.look,state.lookc,state.m,state.manclothes1,state.manclothes2,state.mental,state.mentalc,state.mind,state.mind2,state.mind2c,state.mind3,state.mind3c,state.mindc,state.minute,state.month,state.moves,state.park,state.party,state.nickname,state.nickname1,state.nickname1c,state.nickname2,state.nickname2c,state.nickname3,state.nickname3c,state.nickname4,state.nickname4c,state.nickname5,state.nickname5c,state.nickname6,state.nickname6c,state.nickname7,state.nickname7c,state.nickname8,state.nickname8c,state.nickname9,state.nickname9c,state.place,state.place,state.placec,state.race,state.racec,state.road,state.role,state.rolec,state.smallnumber,state.smallwordnumber,state.state,state.surname,state.theme,state.theme10,state.theme10c,state.theme11,state.theme11c,state.theme12,state.theme12c,state.theme13,state.theme13c,state.theme14,state.theme14c,state.theme15,state.theme15c,state.theme16,state.theme16c,state.theme17,state.theme17c,state.theme18,state.theme18c,state.theme19,state.theme19c,state.theme1c,state.theme2,state.theme20,state.theme20c,state.theme2c,state.theme3,state.theme3c,state.theme4,state.theme4c,state.theme5,state.theme5c,state.theme6,state.theme6c,state.theme7,state.theme7c,state.theme8,state.theme8c,state.theme9,state.theme9c,state.title,state.titlec,state.tone,state.tonec,state.topic,state.topic1,state.topic10,state.topic2,state.topic3,state.topic4,state.topic5,state.topic6,state.topic7,state.topic9,state.tour,state.town,state.town,state.verb,state.worn,state.wornc,state.year][cr(0,229)]
+modifiedText = modifiedText.replace(/undefined/gi, random)
+
+
+modifiedText = modifiedText.replace(/\*/gi, "")
+         
+      modifiedText = modifiedText.replace(/ \./gi, '.')
+            modifiedText = modifiedText.replace(/ \,/gi, ',')
+                        modifiedText = modifiedText.replace(/ \!/gi, '!')
+                                                modifiedText = modifiedText.replace(/ \?/gi, '?')
+   
+      modifiedText = modifiedText.replace(/ a a/gi, ' an a')
+      modifiedText = modifiedText.replace(/ a e/gi, ' an e')
+      modifiedText = modifiedText.replace(/ a i/gi, ' an i')
+      modifiedText = modifiedText.replace(/ a o/gi, ' an o')
+      modifiedText = modifiedText.replace(/ a U/gi, ' an u')
+      
+      modifiedText = modifiedText.replace(/ a A/gi, ' an A')
+      modifiedText = modifiedText.replace(/ a E/gi, ' an E')
+      modifiedText = modifiedText.replace(/ a I/gi, ' an I')
+      modifiedText = modifiedText.replace(/ a O/gi, ' an O')
+      modifiedText = modifiedText.replace(/ a U/gi, ' an U')
+      
+      modifiedText = modifiedText.replace(/ A A/gi, ' An A')
+      modifiedText = modifiedText.replace(/ A E/gi, ' An E')
+      modifiedText = modifiedText.replace(/ A I/gi, ' An I')
+      modifiedText = modifiedText.replace(/ A O/gi, ' An O')
+      modifiedText = modifiedText.replace(/ A U/gi, ' An U')
+
+      modifiedText = modifiedText.replace(/ a A/gi, ' an A')
+      modifiedText = modifiedText.replace(/ a E/gi, ' an E')
+      modifiedText = modifiedText.replace(/ a I/gi, ' an I')
+      modifiedText = modifiedText.replace(/ a O/gi, ' an O')
+      modifiedText = modifiedText.replace(/ a U/gi, ' an U')
+            modifiedText = modifiedText.replace(/aNZAC/gi, 'ANZAC')
+
+
+
+  
+  
+
+location(modifiedText)
+
+
+state.prose = [ ' ']
+state.array = [ ' ']
+
+    modifiedText = modifiedText.replace(/,/gi, '#############')
+    
+    modifiedText = modifiedText.replace(/\" /gi,  '" WOOOORK')
+modifiedText = modifiedText.replace(/ \"/gi,  'WOOOORK "')
+    modifiedText = modifiedText.replace(/\"\n/gi,  '"\nWOOOORK')
+modifiedText = modifiedText.replace(/\n\"/gi,  'WOOOORK\n"')
+
+
+    modifiedText = modifiedText.replace(/\"\n/gi,  '"\nWOOOORK')
+modifiedText = modifiedText.replace(/\n\"/gi,  'WOOOORK\n"')
+
+    modifiedText = modifiedText.replace(/\" /gi,  '" WOOOORK')
+modifiedText = modifiedText.replace(/ \"/gi,  'WOOOORK "')
+    modifiedText = modifiedText.replace(/\"\t/gi,  '"\tWOOOORK')
+modifiedText = modifiedText.replace(/\t\"/gi,  'WOOOORK\t"')
+
+
+    modifiedText = modifiedText.replace(/\"\t/gi,  '"\tWOOOORK')
+modifiedText = modifiedText.replace(/\t\"/gi,  'WOOOORK\t"')
+
+
+var result = modifiedText.split("WOOOORK");
+
+array = [" "]
+state.array = [" "]
+result.forEach(gender)
+array= state.array
+modifiedText=array.join()
+
+var n = modifiedText.lastIndexOf("\"");
+   lastclause = modifiedText.substring(n, 10000000);
+state.lastclause = lastclause
+gender(lastclause)
+majority = modifiedText.substring(n-55555555, n);
+modifiedText = majority + lastclause
+
+//modifiedText = JSON.stringify(array)
+
+modifiedText = modifiedText.replace(/WOOOORK/gi,  ' ')
+modifiedText = modifiedText.replace(/,/gi,  ' ')
+    modifiedText = modifiedText.replace(/#############/gi, ',')
+    modifiedText = modifiedText.replace(/ \./gi, '.')
+    modifiedText = modifiedText.replace(/\[|\]/gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\"\t", '"')
+
+modifiedText = modifiedText.replace(/ ,/gi,  ' ')
+modifiedText = modifiedText.replace(/\n,/gi,  '\n')
+modifiedText = modifiedText.replace(/\.,/gi,  '.')
+modifiedText = modifiedText.replace(/\?,/gi,  '?')
+modifiedText = modifiedText.replace(/\!,/gi,  '!')
+modifiedText = modifiedText.replace(/\,,/gi,  ',')
+modifiedText = modifiedText.replace(/ \./gi,  '.')
+modifiedText = modifiedText.replace(/\, \./gi,  '. "')
+modifiedText = modifiedText.replace(/\. \./gi,  '"')
+modifiedText = modifiedText.replace(/\t/gi,  '\n\t')
+modifiedText = modifiedText.replace(/\n\n/gi,  '\n')
+modifiedText = modifiedText.replace(/\n \n/gi,  '\n')
+    modifiedText = modifiedText.replace(/#############/gi, ',')
+    modifiedText = modifiedText.replace(/#######/gi, ',')
+modifiedText = modifiedText.replace(/######/gi, ',')
+        const lowercharacter = state.character.toLowerCase()
+
+    modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+    modifiedText = modifiedText.replace(/you ######/gi, 'me,')
+what=modifiedText.charAt(modifiedText.length-2);
+state.what=what
+random =[state.name,state.adjective,state.adjectivec,state.age,state.agec,state.animal,state.animal1,state.animal2,state.animal3,state.animalc,state.appear,state.appearc,state.beaut1,state.beaut2,state.beaut3,state.beaut4,state.beaut5,state.beaut6,state.bignumber,state.bigwordnumber,state.c0,state.c1,state.c2,state.c3,state.c4,state.c5,state.c6,state.c7,state.c8,state.c9,state.character,state.clothcolor2,state.clothcolor2c,state.clothcolorc,state.clothes,state.clothes2,state.clothes2,state.clothesc,state.day,state.desert,state.eyecolor,state.eyecolorc,state.eyefeels,state.eyefeels,state.eyes,state.eyesc,state.firstname   ,state.firstnamr,state.fuck,state.genre,state.h1,state.h2,state.h3,state.h4,state.h5,state.h7,state.haircolour,state.haircolourc,state.hairstyle,state.hairstylec,state.hobbie1,state.hobbie2,state.hobbie2c,state.hobbie3,state.hobbiec,state.honorifc,state.hot,state.hot2,state.hot3,state.hot4,state.hot5,state.hot6,state.hour,state.i1,state.i2,state.i3,state.i4,state.i5,state.i6,state.jo10,state.job,state.job1,state.job11,state.job12,state.job15,state.job16,state.job17,state.job18,state.job19,state.job2,state.job20,state.job21,state.job22,state.job3,state.job4,state.job5,state.job6,state.job7,state.job8,state.job9,state.jobc,state.kidnap,state.lack,state.lackc,state.loc,state.look,state.lookc,state.m,state.manclothes1,state.manclothes2,state.mental,state.mentalc,state.mind,state.mind2,state.mind2c,state.mind3,state.mind3c,state.mindc,state.minute,state.month,state.moves,state.park,state.party,state.nickname,state.nickname1,state.nickname1c,state.nickname2,state.nickname2c,state.nickname3,state.nickname3c,state.nickname4,state.nickname4c,state.nickname5,state.nickname5c,state.nickname6,state.nickname6c,state.nickname7,state.nickname7c,state.nickname8,state.nickname8c,state.nickname9,state.nickname9c,state.place,state.place,state.placec,state.race,state.racec,state.road,state.role,state.rolec,state.smallnumber,state.smallwordnumber,state.state,state.surname,state.theme,state.theme10,state.theme10c,state.theme11,state.theme11c,state.theme12,state.theme12c,state.theme13,state.theme13c,state.theme14,state.theme14c,state.theme15,state.theme15c,state.theme16,state.theme16c,state.theme17,state.theme17c,state.theme18,state.theme18c,state.theme19,state.theme19c,state.theme1c,state.theme2,state.theme20,state.theme20c,state.theme2c,state.theme3,state.theme3c,state.theme4,state.theme4c,state.theme5,state.theme5c,state.theme6,state.theme6c,state.theme7,state.theme7c,state.theme8,state.theme8c,state.theme9,state.theme9c,state.title,state.titlec,state.tone,state.tonec,state.topic,state.topic1,state.topic10,state.topic2,state.topic3,state.topic4,state.topic5,state.topic6,state.topic7,state.topic9,state.tour,state.town,state.town,state.verb,state.worn,state.wornc,state.year][cr(0,229)]
+modifiedText = modifiedText.replace(/undefined/gi, random)
+modifiedText = modifiedText.replace(/n,n/gi, 'n')
+            modifiedText = modifiedText.replace(/I are/gi, 'I am')
+if(what.includes('\n')){
+
+beginning = ['A', 'The', 'There', 'Of', 'In', 'Out', 'When', 'Why', 'How', 'If', 'As', 'While', 'An', 'Because', 'Due', 'you ', 'your ', 'She', 'Her', 'The', 'The', 'The', 'The', 'The', 'The', 'The', 'The', 'Even', 'Though'] [cr(0,27)]
+   modifiedText = modifiedText + beginning
+
+}
+modifiedText = modifiedText.replace(/you ######/gi, 'me,')
+
+modifiedText = modifiedText.replace(/I are/gi, "I'm")
+
+modifiedText =modifiedText.replace(/\. me /gi, '. I ')
+modifiedText =modifiedText.replace(/\? me /gi, '? I ')
+modifiedText =modifiedText.replace(/\! me /gi, '! I ')
+modifiedText =modifiedText.replace(/\, me /gi, ', I ')
+modifiedText =modifiedText.replace(/\" me /gi, '" I ')
+modifiedText =modifiedText.replace(/\t\t/gi, '\t')
+modifiedText =modifiedText.replace(/\t /gi, '\t')
+modifiedText =modifiedText.replace(/ \?/gi, '?')
+            modifiedText = modifiedText.replace(/you ,/gi, 'me,')
+
+//state.her=true
+if(modifiedText.includes(state.character)){state.named=true
+ state.mod=true
+}
+
+status ="You are in " + state.loc
+state.beach =   status +', where you ' +state.plot
+ xxx = [cr(1, 2)]
+ if (xxx == 1){  
+
+fact =state.character + " is a "+ state.adjectivec + " " + state.jobc + ' who is often ' + state.mindc + ', ' + state.mind2c + ',  or even ' + state.mind3c +', but she looks at you with a ' + state.eyefeelsc + ' look in her ' +state.eyecolorc + ' eyes. With her ' + state.clothcolorc + ' ' + state.clothesc + ' and ' + state.clothcolor2c +' ' + state.clothes2c + ', the ' + state.agec +'-year-old '+state.rolec+' looks ' +state.lookc + ' with her ' +state.haircolourc + ' hair arranged in a "' +state.hairstylec + '" style. ' + state.character + " thinks deeply about " + state.hobbie1c +', ' +state.hobbie2c +',  and '+state.hobbie3 +'.'
+factb = state.characterb+ " is a "+ state.adjectiveb + " " + state.jobb + ' who is often ' + state.mindb + ', ' + state.mind2b + ',  or even ' + state.mind3b +', but he looks at you with a ' + state.eyefeelsb + ' look in his ' +state.eyecolorb + ' eyes. With his ' + state.clothcolorb + ' ' + state.clothesb + ' and ' + state.clothcolor2b +' ' + state.clothes2b + ', the ' +state.ageb +'-year-old '+state.roleb +' looks ' +state.lookb +' with his '+state.haircolourb + ' hair arranged in a "' +state.hairstyleb + '" style. ' + state.characterb + " thinks deeply about " + state.hobbie1b +', ' +state.hobbie2b +',  and '+state.hobbie3b +'.'
+factb = factb.replace(/  /gi, " ")
+factb = factb.replace(/ a a/gi, " an a")
+factb = factb.replace(/ a e/gi, " an e")
+factb = factb.replace(/ a i/gi, " an i")
+factb = factb.replace(/ a o/gi, " an o")
+factb = factb.replace(/ a u/gi, " an u")
+factb = factb.replace(/undefined/gi, "Australian")
+fact = fact.replace(/  /gi, " ")
+fact = fact.replace(/ a a/gi, " an a")
+fact = fact.replace(/ a e/gi, " an e")
+fact = fact.replace(/ a i/gi, " an i")
+fact = fact.replace(/ a o/gi, " an o")
+fact = fact.replace(/ a u/gi, " an u")
+fact = fact.replace(/undefined/gi, "Australian")
+state.beach =   status +', where you ' +state.plot+ "\n" +fact +"\n"+factb
+state.memory.context=state.beach
+}
+state.memory.context=state.beach
+
+ }
+
+
+
+
+
+ return {text: modifiedText}} else {
+what=modifiedText.charAt(modifiedText.length-2);
+state.what=what
+state.callback=text
+sinput=""
+
+what=modifiedText.charAt(modifiedText.length-2);
+state.what=what
+
+if(what.includes('\n')){
+
+beginning = ['A', 'The', 'There', 'Of', 'In', 'Out', 'When', 'Why', 'How', 'If', 'As', 'While', 'An', 'Because', 'Due', 'you ', 'your ', 'She', 'Her', 'The', 'The', 'The', 'The', 'The', 'The', 'The', 'The', 'Even', 'Though'] [cr(0,27)]
+
+   modifiedText = modifiedText + beginning
+
+}
+doingword="somehow"
+input=text
+state.message = ""
+state.sample=lowered
+//plot(lowered)
+action=""
+location(lowered)
+complete =false 
+talk=false
+ modifiedText = modifiedText.replace(/\n/gi, "\n\t")
+ topic()
+first = state.character.substring(0, state.character.indexOf(" "),);
+last = state.character.substring(state.character.indexOf(" "), 100,);
+//action ="You panic"
+
+
+
+
+ if(state.ozfactor >= 100){
+   
+   state.nickname = state.nickname1c
+   
+ }
+ 
+ if(state.ozfactor >= 100){state.nickname = state.nickname1c}
+if(state.ozfactor <= 100) { state.nickname = state.nickname1c}
+if(state.ozfactor <= 90) { state.nickname = state.nickname2c}
+if(state.ozfactor <= 80) { state.nickname = state.nickname3c}
+if(state.ozfactor <= 70) { state.nickname = state.nickname4c}
+if(state.ozfactor <= 60) { state.nickname = state.nickname4c}
+if(state.ozfactor <= 50) { state.nickname = state.nickname5c}
+if(state.ozfactor <= 40) { state.nickname = state.nickname6c}
+if(state.ozfactor <= 30) { state.nickname = state.nickname7c}
+if(state.ozfactor <= 20) { state.nickname = state.nickname8c}
+if(state.ozfactor <= 10) { state.nickname = state.nickname9c}
+
+
+ 
+ 
+ 
+ 
+// if(text.includes('"')) {
+
+
+
+
+ 
+ randwords()
+
+
+state.contextualString = state.you
+state.inputBot='SimplePossibilityBot'
+state.contextualString = "You are Australian."
+
+ 
+if(state.isgag === true) {state.contextualString = "You have no confidence."
+ state.protage = "Australian, depressed."}
+ 
+if(lowered.includes('> you ')) {
+
+doingword="somehow"
+
+
+if(state.ozfactor >= 100) { doingword = ['heroically','acceptably','accurately','actionably','actively','adequately','advantageously','advisably','affirmatively','agreeably','altogether','applicably','applicatively','appliedly','appropriately','approvingly','aptly','auspiciously','authentically','availably','beneficially','brightly','capably','cleanly','clearly','commodiously','compellingly','competently','comprehensively','conclusively','consentingly','constructively','conveniently','correctly','creatively','decisively','definitively','demonstrably','desirably','determinatively','dynamically','earthshakingly','economically','effectively','effectually','efficaciously','efficiently','encouragingly','energetically','engagedly','enthusiastically','estimably','excellently','exemplarily','expediently','expertly','exploitably','facilitatively','faithfully','famously','fitly','fittingly','flourishingly','flowingly','forcefully','forcibly','fortuitously','fortunately','fruitfully','functionally','gainfully','genially','goodly','handily','happily','hearteningly','helpfully','hopefully','importantly','influentially','inspiringly','instrumentally','invaluably','involvedly','judiciously','justifiably','lively','livingly','logically','luckily','lucratively','majorly','meaningfully','mercifully','meritoriously','movably','movingly','necessarily','niftily','officially','operably','operationally','operatively','opportunely','optimistically','outstandingly','perfectly','positively','potently','powerfully','practicably','practically','pragmatically','preparedly','presentably','pricelessly','productively','proficiently','profitably','progressively','prolifically','promisingly','properly','propitiously','prosperously','providentially','prudently','puissantly','purposefully','pushingly','qualifiedly','rationally','readily','reasonably','reassuringly','reliably','remuneratively','requisitely','resourcefully','rewardingly','rightly','robustly','runningly','sagaciously','satisfactorily','satisfyingly','seasonably','sensibly','serviceably','significantly','skilfully','solidly','soundly','sovereignly','splendidly','steadily','stirringly','strategically','strongly','stupendously','substantially','sufficiently','suitably','supportively','sustainingly','swimmingly','talentedly','tellingly','thankfully','thrivingly','totally','triumphantly','ultimately','unfailingly','upliftingly','usably','useably','usefully','validly','valuably','viably','victoriously','vigorously','virtuously','well','wholeheartedly','wisely','workably','worthily'][cr(0, 187)]}
+if(state.ozfactor <= 100) { doingword = ['heroically','acceptably','accurately','actionably','actively','adequately','advantageously','advisably','affirmatively','agreeably','altogether','applicably','applicatively','appliedly','appropriately','approvingly','aptly','auspiciously','authentically','availably','beneficially','brightly','capably','cleanly','clearly','commodiously','compellingly','competently','comprehensively','conclusively','consentingly','constructively','conveniently','correctly','creatively','decisively','definitively','demonstrably','desirably','determinatively','dynamically','earthshakingly','economically','effectively','effectually','efficaciously','efficiently','encouragingly','energetically','engagedly','enthusiastically','estimably','excellently','exemplarily','expediently','expertly','exploitably','facilitatively','faithfully','famously','fitly','fittingly','flourishingly','flowingly','forcefully','forcibly','fortuitously','fortunately','fruitfully','functionally','gainfully','genially','goodly','handily','happily','hearteningly','helpfully','hopefully','importantly','influentially','inspiringly','instrumentally','invaluably','involvedly','judiciously','justifiably','lively','livingly','logically','luckily','lucratively','majorly','meaningfully','mercifully','meritoriously','movably','movingly','necessarily','niftily','officially','operably','operationally','operatively','opportunely','optimistically','outstandingly','perfectly','positively','potently','powerfully','practicably','practically','pragmatically','preparedly','presentably','pricelessly','productively','proficiently','profitably','progressively','prolifically','promisingly','properly','propitiously','prosperously','providentially','prudently','puissantly','purposefully','pushingly','qualifiedly','rationally','readily','reasonably','reassuringly','reliably','remuneratively','requisitely','resourcefully','rewardingly','rightly','robustly','runningly','sagaciously','satisfactorily','satisfyingly','seasonably','sensibly','serviceably','significantly','skilfully','solidly','soundly','sovereignly','splendidly','steadily','stirringly','strategically','strongly','stupendously','substantially','sufficiently','suitably','supportively','sustainingly','swimmingly','talentedly','tellingly','thankfully','thrivingly','totally','triumphantly','ultimately','unfailingly','upliftingly','usably','useably','usefully','validly','valuably','viably','victoriously','vigorously','virtuously','well','wholeheartedly','wisely','workably','worthily'][cr(0, 187)]}
+
+
+if(state.ozfactor <= 75) { doingword = ['ably', 'accurately', 'actively', 'acutely', 'adaptably', 'adeptly', 'adequately', 'adjustably', 'admirably', 'adroitly', 'agilely', 'alertly', 'ambidextrously', 'aptly', 'archly', 'artfully', 'artistically', 'astutely', 'awesomely', 'beautifully', 'beguilingly', 'blandly', 'brightly', 'brilliantly', 'cagily', 'calculatingly', 'cannily', 'capably', 'carefully', 'categorically', 'cautiously', 'cheatingly', 'choicely', 'classically', 'cleanly', 'cleverly', 'comfortably', 'completely', 'complexly', 'complicatedly', 'conciliatorily', 'connivingly', 'considerately', 'consummately', 'conveniently', 'conversantly', 'coolly', 'courteously', 'craftily', 'creatively', 'crisply', 'cunningly', 'curtly', 'cutely', 'dazzlingly', 'deceitfully', 'decently', 'deceptively', 'decisively', 'deeply', 'deftly', 'delicately', 'designingly', 'devicefully', 'deviously', 'dexterously', 'dextrously', 'diplomatically', 'dirtily', 'discerningly', 'discreetly', 'dishonestly', 'disingenuously', 'distinguishedly', 'dodgily', 'dominantly', 'duplicitously', 'dynamically', 'easily', 'easy', 'effectively', 'effectually', 'efficiently', 'effortlessly', 'elaborately', 'elastically', 'elegantly', 'enterprisingly', 'equally', 'errorlessly', 'evenly', 'exactly', 'excellently', 'exceptionally', 'experiencedly', 'expertly', 'expressly', 'exquisitely', 'extraordinarily', 'fabulously', 'facilely', 'fantastically', 'fastidiously', 'fastly', 'faultlessly', 'feasibly', 'fertilely', 'fiendishly', 'finely', 'fitly', 'flawlessly', 'fleetly', 'flexibly', 'fluently', 'formidably', 'forwardly', 'foxily', 'freely', 'functionally', 'giftedly', 'glibly', 'gloriously', 'goodly', 'gracefully', 'graciously', 'greatly', 'guilefully', 'handily', 'happily', 'hardily', 'hiply', 'hotly', 'imaginatively', 'immaculately', 'impeccably', 'impressively', 'ingeniously', 'ingenuously', 'innovatively', 'insidiously', 'insightfully', 'inspiredly', 'instinctively', 'intelligently', 'intriguingly', 'intuitively', 'inventively', 'judiciously', 'just like that', 'keenly', 'knowingly', 'knowledgeably', 'kosherly', 'leadingly', 'learnedly', 'lightly', 'like nothing', 'long-termly', 'magically', 'magisterially', 'magnificently', 'malleably', 'manifoldly', 'manipulatively', 'manually', 'masterfully', 'masterly', 'maturely', 'meanly', 'mercurially', 'methodically', 'multidimensionally', 'multifacetedly', 'multiformly', 'naturally', 'neatly', 'niftily', 'nimbly', 'nippily', 'notably', 'observantly', 'oldly', 'on cruise control', 'opportunistically', 'orderly', 'originally', 'originatively', 'outstandingly', 'painlessly', 'painstakingly', 'pawkily', 'peerlessly', 'perceptively', 'perfectly', 'perspicaciously', 'phenomenally', 'pioneeringly', 'plastically', 'pliably', 'polishedly', 'politely', 'politically', 'polygonally', 'polymorphically', 'polymorphously', 'powerfully', 'practicably', 'practically', 'precisely', 'precociously', 'preeminently', 'preparedly', 'prodigiously', 'professedly', 'professionally', 'proficiently', 'promptly', 'properly', 'proteanly', 'prudently', 'purely', 'qualifiedly', 'quickly', 'quick-wittedly', 'readily', 'receptively', 'refinedly', 'reliably', 'remarkably', 'resourcefully', 'responsibly', 'satisfactorily', 'savvily', 'schemingly', 'sensationally', 'sensitively', 'serviceably', 'sharply', 'shiftily', 'shonkily', 'shrewdly', 'simply', 'skilfully', 'skillfully', 'slickly', 'slimly', 'slipperily', 'smartly', 'smashingly', 'smoothly', 'sneakily', 'sophisticatedly', 'splendidly', 'spontaneously', 'sportingly', 'steadily', 'stellarly', 'straightforwardly', 'straightly', 'strategically', 'strictly', 'stringently', 'strongly', 'suavely', 'subtly', 'suitably', 'superbly', 'superiorly', 'superlatively', 'superly', 'supremely', 'sure-handedly', 'swimmingly', 'systematically', 'tactfully', 'talentedly', 'tastily', 'terrifically', 'thoroughly', 'thoughtfully', 'transcendently', 'treacherously', 'tremendously', 'trickily', 'trustworthily', 'uncomplicatedly', 'underhandly', 'understandingly', 'universally', 'unscrupulously', 'untrustworthily', 'urbanely', 'usably', 'useably', 'usefully', 'variably', 'variedly', 'variously', 'versatilely', 'very well', 'vigorously', 'volubly', 'vulpinely', 'well', 'wickedly', 'wisely', 'wonderfully', 'worthily' ][cr(0, 305)]}
+
+if(state.ozfactor <= 50) { doingword = ['inconsequentially',   'inconsiderably',   'inconspicuously',   'inferiorly',   'innocently',   'innocuously',   'inoffensively',   'insignificantly',   'insipidly',   'intermediately',   'irrelevantly',   'largely',   'lavishly',   'lightly',   'limitedly',   'majorly',   'markedly',   'meaninglessly',   'meanly',   'medially',   'medianly',   'mediately',   'middlingly',   'mildly',   'minimally',   'moderately',   'modestly',   'monotonously',   'mundanely',   'naturally',   'necessarily',   'neutrally',   'nondescriptly',   'normally',   'noticeably',   'ordinarily',   'passably',   'peaceably',   'peachily',   'pedestrianly',   'piddlingly',   'plainly',   'plastically',   'pleasantly',   'pleasingly',   'plebeianly',   'plenteously',   'plentifully',   'plentily',   'ploddingly',   'pointlessly',   'poorly',   'popularly',   'predictably',   'presentably',   'prettily',   'prevailingly',   'prevalently',   'prodigiously',   'profusely',   'properly',   'proportionately',   'prosaically',   'quotidianly',   'reasonably',   'regularly',   'requisitely',   'residentially',   'respectably',   'routinely',   'safely',   'satisfactorily',   'satisfyingly',   'scantily',   'sensibly',   'seriously',   'serviceably',   'significantly',   'simply',   'sizably',   'sizeably',   'skimpily',   'snugly',   'solidly',   'soullessly',   'soundly',   'sparsely',   'stalely',   'standardly',   'stereotypically',   'substantially',   'substantively',   'sufferably',   'sufficiently',   'suitably',   'supportably',   'sustainably',   'tamely',   'tediously',   'temperately',   'tidily',   'tiredly',   'tolerably',   'traditionally',   'transitionally',   'tremendously',   'trendily',   'tritely',   'typically',   'ubiquitously',   'uncontroversially',   'uneventfully',   'unexceptionably',   'unexceptionally',   'unexcitingly',   'unimaginatively',   'unimpeachably',   'unimportantly',   'unimposingly',   'unimpressively',   'uninspiredly',   'uninspiringly',   'unintellectually',   'uninterestingly',   'unmemorably',   'unobjectionably',   'unoriginally',   'unpretentiously',   'unremarkably',   'unspectacularly',   'usably',   'uselessly',   'usually',   'validly',   'vastly',   'wearifully',   'wearisomely',   'welcomely',   'wholesomely',   'wontedly',   'worthlessly'][cr(0, 139)]}
+
+if(state.ozfactor <= 25) { doingword = ['abstemiously', 'abundantly', 'acceptably', 'accommodatingly', 'accustomedly', 'adequately', 'admissibly', 'agreeably', 'allowably', 'amateurishly', 'amateurly', 'amply', 'anaemically', 'anemically', 'anonymously', 'appositely', 'appreciably', 'appropriately', 'astronomically', 'attractively', 'averagely', 'banally', 'basically', 'bearably', 'becomingly', 'bigly', 'blandly', 'boringly', 'boundlessly', 'bounteously', 'bountifully', 'centrally', 'certainly', 'characterlessly', 'clichédly', 'cogently', 'colorlessly', 'colourlessly', 'comfortably', 'commensurably', 'commensurately', 'commodiously', 'commonly', 'commonplacely', 'competently', 'compromisingly', 'congruously', 'considerably', 'conveniently', 'conventionally', 'coolly', 'copiously', 'cornily', 'correctly', 'customarily', 'decently', 'derivatively', 'drably', 'drearily', 'emptily', 'endurably', 'enjoyably', 'enormously', 'extensively', 'fairishly', 'fairly', 'familiarly', 'featurelessly', 'finely', 'fitly', 'fittingly', 'forgettably', 'formulaically', 'frequently', 'functionally', 'generally', 'generically', 'generously', 'goodly', 'grayly', 'greatly', 'greyly', 'groovily', 'habitably', 'habitually', 'hackily', 'handsomely', 'harmlessly', 'healthily', 'heftily', 'hiply', 'homelily', 'honestly', 'hospitably', 'hugely', 'humbly', 'humdrumly', 'immaterially', 'immemorably', 'immensely', 'inconsequentially', 'inconsiderably', 'inconspicuously', 'indifferently', 'inferiorly', 'innocently', 'innocuously', 'inoffensively', 'insignificantly', 'insipidly', 'intermediately', 'irrelevantly', 'kosherly', 'lacklusterly', 'lacklustrely', 'largely', 'lavishly', 'lightly', 'limitedly', 'lowlily', 'majorly', 'markedly', 'meagerly', 'meagrely', 'meaninglessly', 'meanly', 'medially', 'medianly', 'mediately', 'mediumly', 'middlingly', 'mildly', 'minimally', 'moderately', 'modestly', 'monotonously', 'mundanely', 'naturally', 'necessarily', 'neutrally', 'nondescriptly', 'normally', 'noticeably', 'okayly', 'ordinarily', 'ornerily', 'palatably', 'paltrily', 'passably', 'peaceably', 'peachily', 'pedestrianly', 'piddlingly', 'plainly', 'plastically', 'pleasantly', 'pleasingly', 'plebeianly', 'plenteously', 'plentifully', 'plentily', 'ploddingly', 'pointlessly', 'poorly', 'popularly', 'predictably', 'presentably', 'prettily', 'prevailingly', 'prevalently', 'prodigiously', 'profusely', 'properly', 'proportionately', 'prosaically', 'quotidianly', 'reasonably', 'regularly', 'requisitely', 'residentially', 'respectably', 'routinely', 'safely', 'satisfactorily', 'satisfyingly', 'scantily', 'sensibly', 'seriously', 'serviceably', 'significantly', 'simply', 'sizably', 'sizeably', 'skimpily', 'snugly', 'solidly', 'soullessly', 'soundly', 'sparsely', 'stalely', 'standardly', 'stereotypically', 'substantially', 'substantively', 'sufferably', 'sufficiently', 'suitably', 'superabundantly', 'supportably', 'sustainably', 'tamely', 'tediously', 'temperately', 'tidily', 'tiredly', 'tolerably', 'traditionally', 'transitionally', 'tremendously', 'trendily', 'tritely', 'typically', 'ubiquitously', 'unchallengingly', 'uncontroversially', 'undistinguishedly', 'uneventfully', 'unexceptionably', 'unexceptionally', 'unexcitingly', 'unimaginatively', 'unimpeachably', 'unimportantly', 'unimposingly', 'unimpressively', 'uninspiredly', 'uninspiringly', 'unintellectually', 'uninterestingly', 'unmemorably', 'unobjectionably', 'unoriginally', 'unpretentiously', 'unremarkably', 'unspectacularly', 'usably', 'uselessly', 'usually', 'validly', 'vastly', 'wearifully', 'wearisomely', 'welcomely', 'wholesomely', 'wontedly', 'worthlessly'][cr(0, 250)]}
+
+ 
+  c = doingword.charAt(0).toUpperCase() + doingword.slice(1)
+
+
+input = [c + ', you ', 'You ' + doingword][cr(0,1)]
+
+state.odds= state.ozfactor / 20
+state.odds=Math.ceil(state.odds)
+state.odds=[cr(0,state.odds)]
+
+ if(state.odds == 1) {
+fail=   ['cannot', 'can\'t', 'fail to', 'are too #mind# to', 'are unable to', 'refuse to', 'are not #mind# enough to'][cr(0,6)]
+
+fail=fail.replace('#mind#', state.mind)
+   input = [c + ', you ' +fail, 'You ' + fail+ ' '+doingword][cr(0,1)]
+ }
+
+
+
+
+ var n = text.indexOf("\"");
+ var dialogue = text.slice(n, 300);
+ sinput=modifiedText
+sinput=sinput.replace(dialogue, '')
+
+
+endpart = text.replace(/> you /i, '')
+endpart = endpart.replace(/\t/, '')
+endpart = endpart.replace(/\n/, '')
+
+input = input + ' ' + endpart
+input = input.replace(/  /gi, ' ')
+
+
+ modifiedText = input
+ 
+ xxx = [cr(1, 2)]
+ if (xxx == 1){   
+
+    var n = input.indexOf("\"");
+  input = input.slice(0,n);
+
+
+modifiedText = '\n>' + dialogue + ' '+input
+modifiedText = modifiedText.replace(/\n/g, '')
+modifiedText = modifiedText.replace(/\nt/g, '')
+modifiedText = '\n\t>' + modifiedText   
+
+   
+ }
+
+
+
+
+
+ modifiedText = modifiedText.replace('  ', ' ')
+  modifiedText = modifiedText.replace('lily', 'ly') 
+if (!modifiedText.includes('"')){
+x = [cr(0, 10)]
+modifiedText = modifiedText.slice(0, -1)
+
+if(x ==10) {modifiedText = modifiedText + "@@@"}  
+if(x ==9) {modifiedText = modifiedText + "!"} 
+if(x ==8) {modifiedText = modifiedText + ","} 
+if(x ==7) {modifiedText = modifiedText + ","} 
+if(x ==5) {modifiedText = modifiedText + "."} 
+if(x ==4) {modifiedText = modifiedText + "."} 
+if(x ==3) {modifiedText = modifiedText + "."} 
+if(x ==2) {modifiedText = modifiedText + "."} 
+if(x ==1) {modifiedText = modifiedText + "."} 
+if(x ==0) {modifiedText = modifiedText + "."} 
+
+if(modifiedText.match(/\.|\?|\!/))(complete=true)
+}
+
+ if(text.match(/word|come|love|i'm|body|baby|like|follow|lead|shape|every|day|discovering|something|brand|new|oh-i-oh-i-oh-i-oh-i|talk|put|push|pull|magnet|although|heart|falling|last|night|room|bedsheets|smell|go|start|singing|girl|know|want|handmade|somebody|may|crazy|mind|say|boy|let's|much|grab|waist|fill|hours|club|best|place|find|lover|bar|friends|table|shots|drinking|fast|slow|conversation|trust|i'll|give|chance|take|hand|stop|van|man|jukebox|dance|one|week|let|story|begin|we're|going|first|date|thrifty|eat|bag|plate|sweet|sour|family|okay|leave|get|taxi|kiss|backseat|tell|driver|make|radio|play/)) {
+n = [cr(1, 5)]
+state.ozfactor = state.ozfactor - n
+}
+
+ if(text.match(/jesus|christ|bitch|shit|fuck|son|arse|ass|bastard|bollocks|bugger|bullshit|crap|cunt|damn|motherfucker|pissed|prick|twat|and|arsehole|asshole|balls|beaver|beef|bellend|bike|bint|bloodclaat|bloody|brotherfucker|child-fucker|clunge|cock|cocksucker|cow|cracker|curtains|dick|dickhead|effing|fanny|fatherfucker|feck|flaps|frigger|gash|ginger|git|god|goddam|goddamn|godsdamn|harold|hell|holy|horseshit|joseph|judas|knob|mary|minge|minger|munter|nigga|piss|priest|punani|pussy|shitass|sisterfucker|slut|snatch|sod-off|sweet|tits|wept|whore/)) {
+n = [cr(10, 20)]
+state.ozfactor = state.ozfactor - n
+}
+
+
+ if(text.match(/kiss|love|fuck|sex|date/)) {
+n = [cr(1, 50)]
+state.ozfactor = state.ozfactor - n
+}
+
+
+
+if(text.match(/come|around|i'm|tooth|eye|little|time|he's|every|history|he'll|head|truth|sail|ships|burn|bridges|make|baby|way|told|mercy|seat|anyway|like|man|past|red|right|hand|sick|breath|hind|think|upon|comes|never|god|see|done|afraid|die|loose|dogs|let|hair|hang|mystery|arms|know|must|go|across|hey|stacks|gathering|black|coat|dreams|ghost|guru|get|one|buddy|seems|that's|e|v|l|throne|made|blood|hoping|talk|night|long|define|moral|ground|crawl|everything|tumbling|face|fallen|sad|nigh|remove|wings|try|fly|take|walk|edge|town|tracks|viaduct|looms|bird|doom|shifts|cracks|secrets|lie|border|fires|humming|wires|coming|back|square|bridge|mills|storm|tall|handsome|dusty|wrap|tell|good|boy|rekindle|took|lifetime|destroy|reach|deep|hole|heal|shrinking|soul|single|thing|they're|whispering|name|disappearing|land|hidden|money|car|self-respect|feel|insect|well|worry|'cause|ghettos|barrio|bowery|slum|shadow|cast|wherever|stands|green|paper|nightmares|appear|nowhere|ain't|tv|screen|warning|turn|microscopic|cog|catastrophic|plan|designed|directed|interpret|signs|catalogue|blackened|scarlet|fog|walls|bad|bottom|kind|hear|stories|chamber|christ|born|manger|ragged|stranger|died|cross|might|say|fitting|carpenter|trade|least|tattooed|brother's|fist|filthy|five|nothing|resist|heaven|gold|ark|testament|stowed|unfold|wood|wire|body|fire|far|away|climb|shaved|wired|moth|tries|enter|bright|shuffling|life|hide|death|awhile|lied|kill-hand|called|wears|wedding|band|g|'tis|long-suffering|shackle|collaring|rebel|waiting|burning|yearning|measuring|a-burning|flowing|weighing|glowing|smoking|looks|disbelief|proof|motive|melting|boiling|spoiling|fun|consequence/)) {
+state.ozfactor = state.ozfactor * 1.80
+state.ozfactor = Math.floor(state.ozfactor)
+}
+
+
+if(text.match(/zack|yous|yobbo|yewy|yawn|yakka|yabby|yabber|ya|xxxx|wuss|wucka’s|wowser|worth|worries|woop|wombat|wog|wobbly|within|with|wire|who|whiteant|white|whingeing|whinge|whacker|whacker|whacka|weekend|warrior|walkabout|waggin|waca|vinnie|verb|vejjo|veg|vee|vedgies|van|ute|usually|useful|used|unit|uni|under|u-ie|ugh|ugg|two|turps|tucker-bag|tucker|true|truckie|trough|troppo|train|trackies|trackie|towel|top|too|togs|toad|tits|tinny|tin-arsed|tickets|throw-down|through|thongs|thingo|their|thatd|telly|tee-up|technicolor|tea|taswegian|tassie|tallie|tall|system|syndrome|swagman|swaggie|swag|surfies|sunnies|sunbake|suck|stump|stuffed|stubby|strollout|strine|strides|strewth|street|straya|stonkered|stoked|stiffy|stickybeak|station|stands|standover|standard|squizz|spunk|sprung|spruiker|spit|spiffy|spewin|spag|sook|something|somebody|sock|snorter|snake|snag|smugglers|smoko|smoke|slip|sleepout|slab|skull|skol|skull|skite|sickie|sick|shower|show|shout|shot|shop|shoot|shonky|shits|shitless|shit|shell|sheila|sheepshagger|she’ll|shark|shag|servo|seppo|screamer|scratchy|schooner|school|sav|sanger|sandgroper|salvos|salute|salesman|s|runners|rubbish|rotten|rort|ropeable|rooted|root|roo|rollie|rock|roadie|road|ripper|rip|right|ridgydidge|rice|relo|rello|rellie|rego|reffo|reckon|real|razoo|raw|rate|ratbag|rat|rapt|rage|rack|quid|property|prezzy|pretty|prawn|pozzy|pot|postie|port|porky|poppy|poppies|pony|pommy|pommy|pommie|pom|polly|politicians|pole|pokies|pointers|plonk|plate|pissed|pint|pink|pingpong|piker|pig|piece|perve|pav|pash|paddock|ozzie|oz|oyster|outback|or|opened|op|onya|onto|oneself|one|one|oldies|old|oil|offsider|ocker|oath|nut|nun|nuddy|noun|not|nohoper|nipper|night|never|naughty|nasty|nasho|mystery|my|muster|mullet|mull|mug|muddy|mozzie|mouse|motorbike|moolah|mongrel|mob|milko|milk|might|middy|mickey|mexican|metho|mean|matilda|mate|mate|mappa|manchester|man|mallee|make|mad|maccas|lurk|lunch|countery|lunch|lucky|loose|loop|longneck|long|london|lolly|lollies|lob|lizard|little|liquid|lippy|lend|legless|laugh|larrikin|lappy|lair|know|knocker|knock|knickers|kindie|kero|kelpie|kangaroos|jumbuck|jug|journo|joey|jillaroo|jackaroo|it|iso|ill|iffy|icy|ice|i|house|hottie|hotel|horse|hooroo|hoon|holy|holt|holder|hit|his|he|heaps|he|have|hasnt|harold|hard|hanky|handle|gyno|gutser|gutful|grundies|grouse|grog|grinning|greenie|got|goon|goog|good|gone|going|gobsmacked|gobful|go|gnarly|give|get|gday|garbologist|garbo|galah|gaffa|gafa|gabba|g’day|furphy|full|fruit|frothy|from|frog|freo|fremantle|freckle|franger|fox|fossicker|fossick|footy|fly|fluid|floss|flies|flick|flat|flanno|flannie|flake|fit|fisho|figjam|fiddling|feral|fella|feel|fat|fairy|fair|facey|face|eye|exy|etc.|estate|esky|end|ekka|eater|earbashing|dux|durry|dunny|dummy|duffer|duchess|dub|dry|drum|dropkick|drongo|drinking|drink|drama|down|doovalacky|dooley|doodle|donger|dole|dog|dog|doesnt|doctor|doco|docket|dob|do|divvy|discount|dipstick|dinky-di|dinkum|dingo|dill|digger|dickhead|devo|deter|dero|defrauding|defo|dealer|dealer|deadset|dead|date|dardy|damper|daks|dacks|daks|dag|cut|cunning|cubby|crow|cross|crook|criticise|crikey|cream|cranky|crack|cozzie|country|counter|corroboree|corker|coppers|cook|cooee|conchy|conch|compo|commando|come|coldie|cold|cockroach|cockie|cobber|coathanger|clucky|click|cleanskin|clayton|clacker|ciggy|cigar|chunder|chuck|christmas|chrissie|chook|chokkie|choccy|choc|chewie|cheating|chance|cattle|cat|cat|cars|cark|car|captain|cane|cactus|cab|byo|buying|butcher|busy|bushranger|bushman|bushie|bush|bus|burying|burl|bunyip|bundy|bull|built|buggered|budgie|buck|buckley|buckleys|brumby|bruce|brown-eyed|brolly|brizzie|brisvegas|bring|brickie|brick|brekky|brekkie|breakfast|brass|bowl|bourke|bounce|bottling|bottler|bottle-o|bottle|bored|boozer|booze|boots|boot|boomer|boogie|bonzer|bondi|bol|boil-over|bogged|bogan|bog|bodgy|board|bluey|blue|bludger|blowie|blow|bloody|blood|bloke|block|bloc|black|bizzo|bitzer|bities|biter|biscuit|bingle|billy|billabong|bikkie|big-note|big|biccy|beyond|bender|beer|beauty|beaut|battler|bathers|bastard|bash|barrack|barbie|bar|banana|balls|bail|bag|back|avos|avo|aussie|ashtray|arvo|arse|apples|another|ankle|and|an|ambo|amber|agent\|aerial|ace|accadacca/)) {
+
+state.ozfactor = state.ozfactor *1.70
+state.ozfactor = Math.floor(state.ozfactor)
+}
+
+
+n = [cr(-4, 4)]
+state.ozfactor = state.ozfactor - n}
+//delete
+randwords()
+
+  nnn = [cr(2, 2)]
+  if (nnn !== 1){
+
+    //  modifiedText = modifiedText.replace(/\w"/gi, "[\b]\"")
+      modifiedText = modifiedText.replace(/"/gi, ".\"")
+      modifiedText = modifiedText.replace(/\.\."/gi, ".\"")
+      modifiedText = modifiedText.replace(/\n\."/gi, "\n\"")
+      modifiedText = modifiedText.replace(/ \."/gi, "\.\"")
+      modifiedText = modifiedText.replace(/\?\."/gi, "?\"")
+      modifiedText = modifiedText.replace(/,  "/gi, ".  ")
+      modifiedText = modifiedText.replace(/\!\."/gi, "!\"")
+      modifiedText = modifiedText.replace(/\.\."/gi, '.\"')
+//      modifiedText = modifiedText.replace(/\.\"/g, '.\"')
+      modifiedText = modifiedText.replace(/\. \"/gi, ".\"")
+      modifiedText = modifiedText.replace(".\"", ". \"")
+         modifiedText=modifiedText.replace(/\. \./gi, ".")
+         
+                  modifiedText=modifiedText.replace(/\. \./gi, ".")
+                                    modifiedText=modifiedText.replace(/\!\,/gi, "!")
+         
+      modifiedText = modifiedText.replace(/#petname#/gi, state.nickname)      
+            modifiedText = modifiedText.replace(/#n#/gi, state.name)      
+      modifiedText = modifiedText.replace(/You say You say/gi, 'You say')
+      modifiedText = modifiedText.replace(/You say ou say/gi, 'You say')
+
+
+
+ if(lowered.match(/\?/)) {
+
+if(state.ozfactor >= 100){ question = ['beseech', 'entreat', 'implore', 'plead', 'pray', 'request' ][cr(0, 4)]  }
+
+if(state.ozfactor <= 100){ question = ['beseech', 'entreat', 'implore', 'plead', 'pray', 'request' ][cr(0, 4)]  }
+if(state.ozfactor <= 75) {  question = ['ask', 'query', 'wonder', 'quiz', 'inquire', 'ponder' ][cr(0, 4)]  }
+if(state.ozfactor <= 50) { question = ['muse', 'venture', 'contemplate', 'consider', 'contemplate', 'reflect' ][cr(0, 4)]  }
+if(state.ozfactor <= 25) {  question = ['demand', 'challenge', 'question', 'appeal', 'supplicate', 'grovel' ][cr(0, 4)]  }
+
+
+  modifiedText = modifiedText.replace(/say/, question)}
+ 
+ if(lowered.match(/\!/)) {
+
+if(state.ozfactor <= 100){ question = ['exult', 'sing', 'chant', 'exclaim', 'celebrate','quaver' ][cr(0, 4)]  }
+if(state.ozfactor >= 100){ question = ['exult', 'sing', 'chant', 'exclaim', 'whoop', 'quaver' ][cr(0, 4)]  }
+
+if(state.ozfactor <= 75) {  question = ['cheer', 'warble', 'whistle', 'burst', 'crow', 'yodel' ][cr(0, 4)]  }
+if(state.ozfactor <= 50) { question = ['shout', 'yell', 'bellow', 'emphasise', 'belt out', 'stress' ][cr(0, 4)]  }
+if(state.ozfactor <= 25) {  question = ['scream', 'shriek', 'screech', 'roar', 'growl', 'wail' ][cr(0, 4)]  }
+
+
+  modifiedText = modifiedText.replace(/say/, question)}
+
+
+ 
+ 
+ 
+ 
+ state.prime = state.her
+ 
+ 
+ nnn = [cr(0, 0)]
+ if(complete ===true){
+if (nnn !== 1){
+
+ 
+
+
+ 
+ if(lowered.includes('> you ')) {
+
+
+n = [cr(8, 15)]
+state.ozfactor = state.ozfactor - n
+
+if(!action.match('"')){
+text = text.slice(0, -2)
+ text = text + '. '}
+
+
+//modifiedText = modifiedText + action
+
+
+
+ 
+ 
+
+  
+ 
+ }}}
+if(text.match(/You say/)) { 
+if(state.isgag === true)
+{ // action = "You cannot talk." 
+result = ["You are too demoralised to speak.", "Instead, you", "Everything is so hard", "But why?", "You need to take a good, long hard look at yourself.", "You shrug.", "This is pointless.", "You understand the appeal of nihilism.", "Why did they have to go cancel Neighbours like that?", "You decide not to do that, and instead"][cr(0, 7)] 
+modifiedText = "\n" + result
+
+if (state.her === true){
+ if(state.ozfactor <= 5){
+ stats="You are anxious."
+ state.you = "You are sad."
+  state.lives = state.lives - 1 
+ state.ozfactor = 20 
+ state.protag = "Australian, depressed. "
+ if(state.isgag === false)
+ {state.naughty = true}}} 
+ 
+
+
+
+
+
+
+ 
+ ///copy state memory stuff here
+ 
+}}
+
+ 
+
+ 
+
+ if (lowered.includes('loose life')){
+state.lives = 0
+}
+
+ if(state.lives <= 0){
+modifiedText = " "
+ }
+ if (state.her === false){tryagain(modifiedText)}
+ if (state.him === false){tryagainplease(modifiedText)}
+
+  state.account=modifiedText
+prefab(modifiedText)
+modifiedText=state.account   
+
+
+ modifiedText = modifiedText.replace(/ /gi, " ")
+ modifiedText = modifiedText.replace(/ /gi, " ")
+ modifiedText = modifiedText.replace(/ /gi, " ")
+
+
+ if(state.lives <= 0){}
+
+
+ 
+  
+ 
+ if(lowered.match(/\nshe | her | she |\nher |woman|lady/)) 
+{state.gone = 0
+ state.her = true} 
+  if(text.includes(state.character)) {  
+   state.gone = 0
+   state.her = true }
+    
+if (state.her ===true){
+
+
+  state.mod=false
+} 
+ 
+
+
+if(state.her === false)
+{
+ state.memory = { context: 'You are an Australian in' + state.loc }
+
+}
+
+  
+
+      capital(modifiedText)
+
+
+//modifiedText =modifiedText.trim()
+
+var lastchar = modifiedText.charAt(-1)
+state.lastcharacter = lastchar
+if(lastchar = " "){
+ modifiedText =modifiedText.trim()
+ modifiedText = '\n'+modifiedText 
+}
+
+
+state.account=modifiedText
+prefab(modifiedText)
+modifiedText=state.account
+
+if(lowered.includes("!")){
+ 
+ displaymood
+ state.showmood=true
+ mood=state.mood
+ addWorldEntry(state.character +'\'s Author\s Note', mood, isNotHidden = false)
+ 
+}
+//mood=state.mood
+// updateWorldEntry('Author\s Note', mood, isNotHidden = false)
+
+
+
+state.named=false
+if(modifiedText.includes(state.character)){state.named=true}
+if(modifiedText.includes(first)){state.named=true}
+if(modifiedText.includes(last)){state.named=true}
+
+
+ modifiedText =modifiedText.replace(/NaN/g, "")
+modifiedText = modifiedText.replace('bing', 'being')
+modifiedText = modifiedText.replace('a"', 'a."')
+modifiedText = modifiedText.replace('b"', 'b."')
+modifiedText = modifiedText.replace('c"', 'c."')
+modifiedText = modifiedText.replace('d"', 'd."')
+modifiedText = modifiedText.replace('e"', 'e."')
+modifiedText = modifiedText.replace('f"', 'f."')
+modifiedText = modifiedText.replace('g"', 'g."')
+modifiedText = modifiedText.replace('h"', 'h."')
+modifiedText = modifiedText.replace('i"', 'i."')
+modifiedText = modifiedText.replace('j"', 'j."')
+modifiedText = modifiedText.replace('k"', 'k."')
+modifiedText = modifiedText.replace('l"', 'l."')
+modifiedText = modifiedText.replace('m"', 'm."')
+modifiedText = modifiedText.replace('o"', 'o."')
+modifiedText = modifiedText.replace('n"', 'n."')
+modifiedText = modifiedText.replace('p"', 'p."')
+modifiedText = modifiedText.replace('q"', 'q."')
+modifiedText = modifiedText.replace('r"', 'r."')
+modifiedText = modifiedText.replace('s"', 's."')
+modifiedText = modifiedText.replace('t"', 't."')
+modifiedText = modifiedText.replace('u"', 'u."')
+modifiedText = modifiedText.replace('v"', 'v."')
+modifiedText = modifiedText.replace('w"', 'w."')
+modifiedText = modifiedText.replace('x"', 'x."')
+modifiedText = modifiedText.replace('y"', 'y."')
+modifiedText = modifiedText.replace('z"', 'z."')
+
+
+modifiedText = modifiedText.replace('a "', 'a, "')
+modifiedText = modifiedText.replace('b "', 'b, "')
+modifiedText = modifiedText.replace('c "', 'c, "')
+modifiedText = modifiedText.replace('d "', 'd, "')
+modifiedText = modifiedText.replace('e "', 'e, "')
+modifiedText = modifiedText.replace('f "', 'f, "')
+modifiedText = modifiedText.replace('g "', 'g, "')
+modifiedText = modifiedText.replace('h "', 'h, "')
+modifiedText = modifiedText.replace('i "', 'i, "')
+modifiedText = modifiedText.replace('j "', 'j, "')
+modifiedText = modifiedText.replace('k "', 'k, "')
+modifiedText = modifiedText.replace('l "', 'l, "')
+modifiedText = modifiedText.replace('m "', 'm, "')
+modifiedText = modifiedText.replace('n "', 'n, "')
+modifiedText = modifiedText.replace('o "', 'o, "')
+modifiedText = modifiedText.replace('p "', 'p, "')
+modifiedText = modifiedText.replace('q "', 'q, "')
+modifiedText = modifiedText.replace('r "', 'r, "')
+modifiedText = modifiedText.replace('s "', 's, "')
+modifiedText = modifiedText.replace('t "', 't, "')
+modifiedText = modifiedText.replace('u "', 'u, "')
+modifiedText = modifiedText.replace('v "', 'v, "')
+modifiedText = modifiedText.replace('w "', 'w, "')
+modifiedText = modifiedText.replace('x "', 'x, "')
+modifiedText = modifiedText.replace('y "', 'y, "')
+modifiedText = modifiedText.replace('z "', 'z, "')
+
+modifiedText = modifiedText.replace(/I are/gi, "I am")
+modifiedText = modifiedText.replace(/\tyou/gi, "\tYou")
+
+modifiedText = modifiedText.replace(/\,p/gi, "p")
+
+modifiedText = modifiedText.replace(/\n\n/gi, "\n")
+modifiedText = modifiedText.replace(/\n\n/gi, "\n")
+modifiedText = modifiedText.replace(/\n /gi, "\n")
+modifiedText = modifiedText.replace(/\ /gi, " ")
+modifiedText = modifiedText.replace(/\ /gi, " ")
+modifiedText = modifiedText.replace(/\ /gi, " ")
+modifiedText = modifiedText.replace(/\ /gi, " ")
+modifiedText = modifiedText.replace(/\ /gi, " ")
+modifiedText = modifiedText.replace(/,,/gi, ",")
+modifiedText = modifiedText.replace(/>/gi, "")
+
+ modifiedText = modifiedText.replace(/eing/gi, "ing")
+
+         modifiedText=modifiedText.replace(".", ". ")
+modifiedText = modifiedText.replace(/\n/gi, "\n\t")
+ modifiedText = modifiedText.replace(/\t\t/gi, "\t")
+ modifiedText = modifiedText.replace(/,\n/gi, ".\n")
+ 
+ if (talk === true){ 
+
+         modifiedText=modifiedText.replace(/CCCCCCCHHHHEEEEZZZEEEE/gi, ",")
+//    "I hate, " Your pathetic voice trailing to a thin whine, you somehow manage to splutter, ."You."         
+         
+modifiedText = modifiedText.replace(/%%%%%%%%/gi, ",")    
+         modifiedText=modifiedText.replace(", .\"", ", \"")
+         modifiedText=modifiedText.replace(",.\"", ",")         
+         modifiedText=modifiedText.replace(" \"", "\"")         
+         modifiedText=modifiedText.replace(",.\"", ",\"")         
+         modifiedText=modifiedText.replace(", .", ", ")         
+         modifiedText=modifiedText.replace(". .", ".")
+          modifiedText = modifiedText.replace(/\n /gi, "\n")
+  modifiedText = modifiedText.replace(/\t\t/gi, "\t")
+modifiedText = modifiedText.replace(/\.\,/gi, ".")
+ modifiedText = modifiedText.replace(/\. \./gi, ".")
+ modifiedText = modifiedText.replace(/\,\./gi, ".")
+modifiedText = modifiedText.replace(/%%%%%%%%/gi, ",")    
+ }
+ talk=false
+         
+         
+         //modifiedText=modifiedText.replace(", \"", ",\"")         
+         
+
+    
+    modifiedText = modifiedText.replace(/  /gi, ' ')
+      modifiedText = modifiedText.replace(/, \n/gi, '. \n')    
+    
+    
+      modifiedText = modifiedText.replace(/#petname#/gi, state.nickname)
+//      modifiedText = modifiedText.replace(/say. "/gi, 'say "')
+      modifiedText = modifiedText.replace(/\. "/gi, ' "')
+     
+     // modifiedText = modifiedText.replace(/You say./gi, 'You say,')
+      modifiedText = modifiedText.replace(/You say You say/gi, 'You say')
+            modifiedText = modifiedText.replace(/You say\nYou say/gi, 'You say')
+                        modifiedText = modifiedText.replace(/You say\n/gi, '')
+ //                        modifiedText = modifiedText.replace(/"\n/gi, '"')
+      modifiedText = modifiedText.replace(/You say ou say/gi, 'You say')
+      modifiedText = modifiedText.replace(/!!!\"/gi, '."')
+modifiedText = modifiedText.replace(/LLLLLL "/gi, ',"')
+
+modifiedText = modifiedText.replace(/XXXX"/gi, ',')
+modifiedText = modifiedText.replace(/ ,/gi, '')
+modifiedText = modifiedText.replace(/ \./gi, '')
+modifiedText = modifiedText.replace(/,\n/gi, '')
+modifiedText = modifiedText.replace(/"\."/gi, '')
+modifiedText = modifiedText.replace(/"\!"/gi, '')
+modifiedText = modifiedText.replace(/"\?"/gi, '')
+modifiedText = modifiedText.replace(",.", '.')
+modifiedText = modifiedText.replace(action +",", action +'.')
+
+modifiedText = modifiedText.replace('a "', 'a, "')
+modifiedText = modifiedText.replace('b "', 'b, "')
+modifiedText = modifiedText.replace('c "', 'c, "')
+modifiedText = modifiedText.replace('d "', 'd, "')
+modifiedText = modifiedText.replace('e "', 'e, "')
+modifiedText = modifiedText.replace('f "', 'f, "')
+modifiedText = modifiedText.replace('g "', 'g, "')
+modifiedText = modifiedText.replace('h "', 'h, "')
+modifiedText = modifiedText.replace('i "', 'i, "')
+modifiedText = modifiedText.replace('j "', 'j, "')
+modifiedText = modifiedText.replace('k "', 'k, "')
+modifiedText = modifiedText.replace('l "', 'l, "')
+modifiedText = modifiedText.replace('m "', 'm, "')
+modifiedText = modifiedText.replace('n "', 'n, "')
+modifiedText = modifiedText.replace('p "', 'p, "')
+modifiedText = modifiedText.replace('q "', 'q, "')
+modifiedText = modifiedText.replace('r "', 'r, "')
+modifiedText = modifiedText.replace('s "', 's, "')
+modifiedText = modifiedText.replace('t "', 't, "')
+modifiedText = modifiedText.replace('u "', 'u, "')
+modifiedText = modifiedText.replace('v "', 'v, "')
+modifiedText = modifiedText.replace('w "', 'w, "')
+modifiedText = modifiedText.replace('x "', 'x, "')
+modifiedText = modifiedText.replace('y "', 'y, "')
+modifiedText = modifiedText.replace('z "', 'z, "')
+modifiedText = modifiedText.replace(/You You/gi, 'You ')
+modifiedText = modifiedText.replace(/You You/gi, 'You ')
+modifiedText = modifiedText.replace(/You  You/gi, 'You ')
+modifiedText = modifiedText.replace(/You you/gi, 'You ')
+modifiedText = modifiedText.replace(/You she/gi, 'You ')
+modifiedText = modifiedText.replace(/she you/gi, 'You ')
+modifiedText = modifiedText.replace(/she \n/gi, '\n')
+modifiedText = modifiedText.replace(/she "/gi, '"')
+modifiedText = modifiedText.replace(/she, \n/gi, '\n')
+modifiedText = modifiedText.replace(/she, "/gi, '"')
+
+ 
+modifiedText = modifiedText.replace('. a', ', a')
+modifiedText = modifiedText.replace('. b', ', b')
+modifiedText = modifiedText.replace('. c', ', c')
+modifiedText = modifiedText.replace('. d', ', d')
+modifiedText = modifiedText.replace('. e', ', e')
+modifiedText = modifiedText.replace('. f', ', f')
+modifiedText = modifiedText.replace('. g', ', g')
+modifiedText = modifiedText.replace('. h', ', h')
+modifiedText = modifiedText.replace('. i', ', i')
+modifiedText = modifiedText.replace('. j', ', j')
+modifiedText = modifiedText.replace('. k', ', k')
+modifiedText = modifiedText.replace('. l', ', l')
+modifiedText = modifiedText.replace('. m', ', m')
+modifiedText = modifiedText.replace('. o', ', o')
+modifiedText = modifiedText.replace('. n', ', n')
+modifiedText = modifiedText.replace('. p', ', p')
+modifiedText = modifiedText.replace('. q', ', q')
+modifiedText = modifiedText.replace('. r', ', r')
+modifiedText = modifiedText.replace('. s', ', s')
+modifiedText = modifiedText.replace('. t', ', t')
+modifiedText = modifiedText.replace('. u', ', u')
+modifiedText = modifiedText.replace('. v', ', v')
+modifiedText = modifiedText.replace('. w', ', w')
+modifiedText = modifiedText.replace('. x', ', x')
+modifiedText = modifiedText.replace('. y', ', y')
+modifiedText = modifiedText.replace('. z', ', z') 
+ 
+ look=modifiedText
+       modifiedText = modifiedText.replace(/ \./gi, '.')
+            modifiedText = modifiedText.replace(/ \,/gi, ',')
+                        modifiedText = modifiedText.replace(/ \!/gi, '!')
+ 
+//if(look.startsWith(/\tShe|She|\n\tShe/)){modifiedText = modifiedText.replace(/She/gi, 'you ')}
+  
+  if(look.startsWith("She")){modifiedText = modifiedText.replace(/She/gi, 'You ')}
+  if(look.startsWith("\nShe")){modifiedText = modifiedText.replace(/She/gi, 'You ')}
+  if(look.startsWith("\tShe")){modifiedText = modifiedText.replace(/She/gi, 'You ')}
+  if(look.startsWith("\n\tShe")){modifiedText = modifiedText.replace(/She/gi, 'You ')}
+  
+  character=state.character
+   const lowercharacter = character.toLowerCase()
+  
+  modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+modifiedText = modifiedText.replace(lowercharacter, state.character)
+
+
+random =[state.name,state.adjective,state.adjectivec,state.age,state.agec,state.animal,state.animal1,state.animal2,state.animal3,state.animalc,state.appear,state.appearc,state.beaut1,state.beaut2,state.beaut3,state.beaut4,state.beaut5,state.beaut6,state.bignumber,state.bigwordnumber,state.c0,state.c1,state.c2,state.c3,state.c4,state.c5,state.c6,state.c7,state.c8,state.c9,state.character,state.clothcolor2,state.clothcolor2c,state.clothcolorc,state.clothes,state.clothes2,state.clothes2,state.clothesc,state.day,state.desert,state.eyecolor,state.eyecolorc,state.eyefeels,state.eyefeels,state.eyes,state.eyesc,state.firstname   ,state.firstnamr,state.fuck,state.genre,state.h1,state.h2,state.h3,state.h4,state.h5,state.h7,state.haircolour,state.haircolourc,state.hairstyle,state.hairstylec,state.hobbie1,state.hobbie2,state.hobbie2c,state.hobbie3,state.hobbiec,state.honorifc,state.hot,state.hot2,state.hot3,state.hot4,state.hot5,state.hot6,state.hour,state.i1,state.i2,state.i3,state.i4,state.i5,state.i6,state.jo10,state.job,state.job1,state.job11,state.job12,state.job15,state.job16,state.job17,state.job18,state.job19,state.job2,state.job20,state.job21,state.job22,state.job3,state.job4,state.job5,state.job6,state.job7,state.job8,state.job9,state.jobc,state.kidnap,state.lack,state.lackc,state.loc,state.look,state.lookc,state.m,state.manclothes1,state.manclothes2,state.mental,state.mentalc,state.mind,state.mind2,state.mind2c,state.mind3,state.mind3c,state.mindc,state.minute,state.month,state.moves,state.park,state.party,state.nickname,state.nickname1,state.nickname1c,state.nickname2,state.nickname2c,state.nickname3,state.nickname3c,state.nickname4,state.nickname4c,state.nickname5,state.nickname5c,state.nickname6,state.nickname6c,state.nickname7,state.nickname7c,state.nickname8,state.nickname8c,state.nickname9,state.nickname9c,state.place,state.place,state.placec,state.race,state.racec,state.road,state.role,state.rolec,state.smallnumber,state.smallwordnumber,state.state,state.surname,state.theme,state.theme10,state.theme10c,state.theme11,state.theme11c,state.theme12,state.theme12c,state.theme13,state.theme13c,state.theme14,state.theme14c,state.theme15,state.theme15c,state.theme16,state.theme16c,state.theme17,state.theme17c,state.theme18,state.theme18c,state.theme19,state.theme19c,state.theme1c,state.theme2,state.theme20,state.theme20c,state.theme2c,state.theme3,state.theme3c,state.theme4,state.theme4c,state.theme5,state.theme5c,state.theme6,state.theme6c,state.theme7,state.theme7c,state.theme8,state.theme8c,state.theme9,state.theme9c,state.title,state.titlec,state.tone,state.tonec,state.topic,state.topic1,state.topic10,state.topic2,state.topic3,state.topic4,state.topic5,state.topic6,state.topic7,state.topic9,state.tour,state.town,state.town,state.verb,state.worn,state.wornc,state.year][cr(0,229)]
+modifiedText = modifiedText.replace(/undefined/gi, random)
+
+
+modifiedText = modifiedText.replace(/\n\n/gi, '\n')  
+modifiedText = modifiedText.replace(/\n\t\n/gi, '\n')  
+
+                        modifiedText = modifiedText.replace(/\, \n/gi, '\. \n')
+                                                modifiedText = modifiedText.replace(/\,  \n/gi, '\.  \n')
+
+
+modifiedText = modifiedText.replace(/ she \"/gi, ' "')  
+
+
+        modifiedText = modifiedText.replace(/you #############/gi, 'you ')
+        modifiedText = modifiedText.replace(/you ############/gi, 'you ')
+         modifiedText = modifiedText.replace(/you ##########/gi, 'you ')
+
+if(state.commacheck===false){
+if(!modifiedText.includes("\"")){
+  xxx = [cr(0, 1)]
+if (xxx == 1){
+
+modifiedText = modifiedText.replace(/\n\tYou/gi, ' You ')  }}}
+
+
+state.prose = [ ' ']
+state.array = [ ' ']
+
+    modifiedText = modifiedText.replace(/,/gi, '#############')
+    
+    modifiedText = modifiedText.replace(/\" /gi,  '" WOOOORK')
+modifiedText = modifiedText.replace(/ \"/gi,  'WOOOORK "')
+    modifiedText = modifiedText.replace(/\"\n/gi,  '"\nWOOOORK')
+modifiedText = modifiedText.replace(/\n\"/gi,  'WOOOORK\n"')
+    modifiedText = modifiedText.replace(/\" /gi,  '" WOOOORK')
+modifiedText = modifiedText.replace(/ \"/gi,  'WOOOORK "')
+    modifiedText = modifiedText.replace(/\"\t/gi,  '"\tWOOOORK')
+modifiedText = modifiedText.replace(/\t\"/gi,  'WOOOORK\t"')
+
+
+    modifiedText = modifiedText.replace(/\"\t/gi,  '"\tWOOOORK')
+modifiedText = modifiedText.replace(/\t\"/gi,  'WOOOORK\t"')
+
+var result = modifiedText.split("WOOOORK");
+
+array = [" "]
+state.array = [" "]
+result.forEach(gender)
+array= state.array
+modifiedText=array.join()
+modifiedText = modifiedText.replace(/" he /gi,  "\" she ")
+modifiedText = modifiedText.replace(/" He /gi,  "\" She ")
+modifiedText = modifiedText.replace(/" His /gi,  "\" Her ")
+modifiedText = modifiedText.replace(/" his /gi,  "\" her ")
+var n = modifiedText.lastIndexOf("\"");
+   lastclause = modifiedText.substring(n, 10000000);
+state.lastclause = lastclause
+gender(lastclause)
+majority = modifiedText.substring(n-55555555, n);
+modifiedText = majority + lastclause
+
+//modifiedText = JSON.stringify(array)
+
+modifiedText = modifiedText.replace(/WOOOORK/gi,  ' ')
+modifiedText = modifiedText.replace(/,/gi,  ' ')
+    modifiedText = modifiedText.replace(/#############/gi, ',')
+    modifiedText = modifiedText.replace(/ \./gi, '.')
+    modifiedText = modifiedText.replace(/\[|\]/gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace(/\t\t/gi, '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\t\t", '\t')
+modifiedText = modifiedText.replace("\"\t", '"')
+
+modifiedText = modifiedText.replace(/ ,/gi,  ' ')
+modifiedText = modifiedText.replace(/\n,/gi,  '\n')
+modifiedText = modifiedText.replace(/\.,/gi,  '.')
+modifiedText = modifiedText.replace(/\?,/gi,  '?')
+modifiedText = modifiedText.replace(/\!,/gi,  '!')
+modifiedText = modifiedText.replace(/\,,/gi,  ',')
+modifiedText = modifiedText.replace(/ \./gi,  '.')
+modifiedText = modifiedText.replace(/\, \./gi,  '. "')
+modifiedText = modifiedText.replace(/\. \./gi,  '"')
+modifiedText = modifiedText.replace(/\t/gi,  '\n\t')
+modifiedText = modifiedText.replace(/\n\n/gi,  '\n')
+
+modifiedText = modifiedText.replace(/\n \n/gi,  '\n')
+    
+    modifiedText = modifiedText.replace(/#############/gi, ',')
+    modifiedText = modifiedText.replace(/#######/gi, ',')
+
+
+modifiedText = modifiedText.replace(/you ######/gi, 'me,')
+modifiedText = modifiedText.replace(/you ,/gi, 'me,')
+
+
+modifiedText = modifiedText.replace(/aNzac/gi, 'ANZAC')
+
+modifiedText = modifiedText.replace(/n,n/gi, 'n')
+modifiedText = modifiedText.replace(/ bing /gi, ' being ')
+modifiedText = modifiedText.replace(/  /gi, ' ')
+
+low=modifiedText
+
+  place = low.charAt(0).toUpperCase() + low.slice(1)
+modifiedText =place
+
+modifiedText =  "^"+ modifiedText
+
+            modifiedText = modifiedText.replace(/you ,/gi, 'me,')
+            
+            modifiedText = modifiedText.replace(/I are/gi, 'I am')
+
+
+modifiedText = modifiedText.replace(/\. a/gi, ". A")
+modifiedText = modifiedText.replace(/\. b/gi, ". B")
+modifiedText = modifiedText.replace(/\. c/gi, ". C")
+modifiedText = modifiedText.replace(/\. d/gi, ". D")
+modifiedText = modifiedText.replace(/\. e/gi, ". E")
+modifiedText = modifiedText.replace(/\. f/gi, ". F")
+modifiedText = modifiedText.replace(/\. g/gi, ". G")
+modifiedText = modifiedText.replace(/\. h/gi, ". H")
+modifiedText = modifiedText.replace(/\. i/gi, ". I")
+modifiedText = modifiedText.replace(/\. j/gi, ". J")
+modifiedText = modifiedText.replace(/\. k/gi, ". K")
+modifiedText = modifiedText.replace(/\. l/gi, ". L")
+modifiedText = modifiedText.replace(/\. m/gi, ". M")
+modifiedText = modifiedText.replace(/\. n/gi, ". N")
+modifiedText = modifiedText.replace(/\. o/gi, ". O")
+modifiedText = modifiedText.replace(/\. p/gi, ". P")
+modifiedText = modifiedText.replace(/\. q/gi, ". Q")
+modifiedText = modifiedText.replace(/\. r/gi, ". R")
+modifiedText = modifiedText.replace(/\. s/gi, ". S")
+modifiedText = modifiedText.replace(/\. t/gi, ". T")
+modifiedText = modifiedText.replace(/\. u/gi, ". U")
+modifiedText = modifiedText.replace(/\. v/gi, ". V")
+modifiedText = modifiedText.replace(/\. w/gi, ". W")
+modifiedText = modifiedText.replace(/\. x/gi, ". X")
+modifiedText = modifiedText.replace(/\. y/gi, ". Y")
+modifiedText = modifiedText.replace(/\. z/gi, ". Z")
+modifiedText = modifiedText.replace(/\? a/gi, "? A")
+modifiedText = modifiedText.replace(/\? b/gi, "? B")
+modifiedText = modifiedText.replace(/\? c/gi, "? C")
+modifiedText = modifiedText.replace(/\? d/gi, "? D")
+modifiedText = modifiedText.replace(/\? e/gi, "? E")
+modifiedText = modifiedText.replace(/\? f/gi, "? F")
+modifiedText = modifiedText.replace(/\? g/gi, "? G")
+modifiedText = modifiedText.replace(/\? h/gi, "? H")
+modifiedText = modifiedText.replace(/\? i/gi, "? I")
+modifiedText = modifiedText.replace(/\? j/gi, "? J")
+modifiedText = modifiedText.replace(/\? k/gi, "? K")
+modifiedText = modifiedText.replace(/\? l/gi, "? L")
+modifiedText = modifiedText.replace(/\? m/gi, "? M")
+modifiedText = modifiedText.replace(/\? n/gi, "? N")
+modifiedText = modifiedText.replace(/\? o/gi, "? O")
+modifiedText = modifiedText.replace(/\? p/gi, "? P")
+modifiedText = modifiedText.replace(/\? q/gi, "? Q")
+modifiedText = modifiedText.replace(/\? r/gi, "? R")
+modifiedText = modifiedText.replace(/\? s/gi, "? S")
+modifiedText = modifiedText.replace(/\? t/gi, "? T")
+modifiedText = modifiedText.replace(/\? u/gi, "? U")
+modifiedText = modifiedText.replace(/\? v/gi, "? V")
+modifiedText = modifiedText.replace(/\? w/gi, "? W")
+modifiedText = modifiedText.replace(/\? x/gi, "? X")
+modifiedText = modifiedText.replace(/\? y/gi, "? Y")
+modifiedText = modifiedText.replace(/\? z/gi, "? Z")
+modifiedText = modifiedText.replace(/\! a/gi, "! A")
+modifiedText = modifiedText.replace(/\! b/gi, "! B")
+modifiedText = modifiedText.replace(/\! c/gi, "! C")
+modifiedText = modifiedText.replace(/\! d/gi, "! D")
+modifiedText = modifiedText.replace(/\! e/gi, "! E")
+modifiedText = modifiedText.replace(/\! f/gi, "! F")
+modifiedText = modifiedText.replace(/\! g/gi, "! G")
+modifiedText = modifiedText.replace(/\! h/gi, "! H")
+modifiedText = modifiedText.replace(/\! i/gi, "! I")
+modifiedText = modifiedText.replace(/\! j/gi, "! J")
+modifiedText = modifiedText.replace(/\! k/gi, "! K")
+modifiedText = modifiedText.replace(/\! l/gi, "! L")
+modifiedText = modifiedText.replace(/\! m/gi, "! M")
+modifiedText = modifiedText.replace(/\! n/gi, "! N")
+modifiedText = modifiedText.replace(/\! o/gi, "! O")
+modifiedText = modifiedText.replace(/\! p/gi, "! P")
+modifiedText = modifiedText.replace(/\! q/gi, "! Q")
+modifiedText = modifiedText.replace(/\! r/gi, "! R")
+modifiedText = modifiedText.replace(/\! s/gi, "! S")
+modifiedText = modifiedText.replace(/\! t/gi, "! T")
+modifiedText = modifiedText.replace(/\! u/gi, "! U")
+modifiedText = modifiedText.replace(/\! v/gi, "! V")
+modifiedText = modifiedText.replace(/\! w/gi, "! W")
+modifiedText = modifiedText.replace(/\! x/gi, "! X")
+modifiedText = modifiedText.replace(/\! y/gi, "! Y")
+modifiedText = modifiedText.replace(/\! z/gi, "! Z")
+modifiedText = modifiedText.replace(/\n a/gi, "\n A")
+modifiedText = modifiedText.replace(/\n b/gi, "\n B")
+modifiedText = modifiedText.replace(/\n c/gi, "\n C")
+modifiedText = modifiedText.replace(/\n d/gi, "\n D")
+modifiedText = modifiedText.replace(/\n e/gi, "\n E")
+modifiedText = modifiedText.replace(/\n f/gi, "\n F")
+modifiedText = modifiedText.replace(/\n g/gi, "\n G")
+modifiedText = modifiedText.replace(/\n h/gi, "\n H")
+modifiedText = modifiedText.replace(/\n i/gi, "\n I")
+modifiedText = modifiedText.replace(/\n j/gi, "\n J")
+modifiedText = modifiedText.replace(/\n k/gi, "\n K")
+modifiedText = modifiedText.replace(/\n l/gi, "\n L")
+modifiedText = modifiedText.replace(/\n m/gi, "\n M")
+modifiedText = modifiedText.replace(/\n n/gi, "\n N")
+modifiedText = modifiedText.replace(/\n o/gi, "\n O")
+modifiedText = modifiedText.replace(/\n p/gi, "\n P")
+modifiedText = modifiedText.replace(/\n q/gi, "\n Q")
+modifiedText = modifiedText.replace(/\n r/gi, "\n R")
+modifiedText = modifiedText.replace(/\n s/gi, "\n S")
+modifiedText = modifiedText.replace(/\n t/gi, "\n T")
+modifiedText = modifiedText.replace(/\n u/gi, "\n U")
+modifiedText = modifiedText.replace(/\n v/gi, "\n V")
+modifiedText = modifiedText.replace(/\n w/gi, "\n W")
+modifiedText = modifiedText.replace(/\n x/gi, "\n X")
+modifiedText = modifiedText.replace(/\n y/gi, "\n Y")
+modifiedText = modifiedText.replace(/\n z/gi, "\n Z")
+modifiedText = modifiedText.replace(/\na/gi, "\nA")
+modifiedText = modifiedText.replace(/\nb/gi, "\nB")
+modifiedText = modifiedText.replace(/\nc/gi, "\nC")
+modifiedText = modifiedText.replace(/\nd/gi, "\nD")
+modifiedText = modifiedText.replace(/\ne/gi, "\nE")
+modifiedText = modifiedText.replace(/\nf/gi, "\nF")
+modifiedText = modifiedText.replace(/\ng/gi, "\nG")
+modifiedText = modifiedText.replace(/\nh/gi, "\nH")
+modifiedText = modifiedText.replace(/\ni/gi, "\nI")
+modifiedText = modifiedText.replace(/\nj/gi, "\nJ")
+modifiedText = modifiedText.replace(/\nk/gi, "\nK")
+modifiedText = modifiedText.replace(/\nl/gi, "\nL")
+modifiedText = modifiedText.replace(/\nm/gi, "\nM")
+modifiedText = modifiedText.replace(/\nn/gi, "\nN")
+modifiedText = modifiedText.replace(/\no/gi, "\nO")
+modifiedText = modifiedText.replace(/\np/gi, "\nP")
+modifiedText = modifiedText.replace(/\nq/gi, "\nQ")
+modifiedText = modifiedText.replace(/\nr/gi, "\nR")
+modifiedText = modifiedText.replace(/\ns/gi, "\nS")
+modifiedText = modifiedText.replace(/\nt/gi, "\nT")
+modifiedText = modifiedText.replace(/\nu/gi, "\nU")
+modifiedText = modifiedText.replace(/\nv/gi, "\nV")
+modifiedText = modifiedText.replace(/\nw/gi, "\nW")
+modifiedText = modifiedText.replace(/\nx/gi, "\nX")
+modifiedText = modifiedText.replace(/\ny/gi, "\nY")
+modifiedText = modifiedText.replace(/\nz/gi, "\nZ")
+modifiedText = modifiedText.replace(/\"a/gi, "\"A")
+modifiedText = modifiedText.replace(/\"b/gi, "\"B")
+modifiedText = modifiedText.replace(/\"c/gi, "\"C")
+modifiedText = modifiedText.replace(/\"d/gi, "\"D")
+modifiedText = modifiedText.replace(/\"e/gi, "\"E")
+modifiedText = modifiedText.replace(/\"f/gi, "\"F")
+modifiedText = modifiedText.replace(/\"g/gi, "\"G")
+modifiedText = modifiedText.replace(/\"h/gi, "\"H")
+modifiedText = modifiedText.replace(/\"i/gi, "\"I")
+modifiedText = modifiedText.replace(/\"j/gi, "\"J")
+modifiedText = modifiedText.replace(/\"k/gi, "\"K")
+modifiedText = modifiedText.replace(/\"l/gi, "\"L")
+modifiedText = modifiedText.replace(/\"m/gi, "\"M")
+modifiedText = modifiedText.replace(/\"n/gi, "\"N")
+modifiedText = modifiedText.replace(/\"o/gi, "\"O")
+modifiedText = modifiedText.replace(/\"p/gi, "\"P")
+modifiedText = modifiedText.replace(/\"q/gi, "\"Q")
+modifiedText = modifiedText.replace(/\"r/gi, "\"R")
+modifiedText = modifiedText.replace(/\"s/gi, "\"S")
+modifiedText = modifiedText.replace(/\"t/gi, "\"T")
+modifiedText = modifiedText.replace(/\"u/gi, "\"U")
+modifiedText = modifiedText.replace(/\"v/gi, "\"V")
+modifiedText = modifiedText.replace(/\"w/gi, "\"W")
+modifiedText = modifiedText.replace(/\"x/gi, "\"X")
+modifiedText = modifiedText.replace(/\"y/gi, "\"Y")
+modifiedText = modifiedText.replace(/\"z/gi, "\"Z")
+
+modifiedText = modifiedText.replace(/you ######/gi, 'me,')
+modifiedText = modifiedText.replace(/I are/gi, "I'm")
+modifiedText =modifiedText.replace(/\. me /gi, '. I ')
+modifiedText =modifiedText.replace(/\? me /gi, '? I ')
+modifiedText =modifiedText.replace(/\! me /gi, '! I ')
+modifiedText =modifiedText.replace(/\, me /gi, ', I ')
+modifiedText =modifiedText.replace(/\" me /gi, '" I ')
+modifiedText =modifiedText.replace(/\t\t/gi, '\t')
+modifiedText =modifiedText.replace(/\t /gi, '\t')
+
+
+modifiedText = modifiedText.replace(/^ a/gi, "^ A")
+modifiedText = modifiedText.replace(/^ b/gi, "^ B")
+modifiedText = modifiedText.replace(/^ c/gi, "^ C")
+modifiedText = modifiedText.replace(/^ d/gi, "^ D")
+modifiedText = modifiedText.replace(/^ e/gi, "^ E")
+modifiedText = modifiedText.replace(/^ f/gi, "^ F")
+modifiedText = modifiedText.replace(/^ g/gi, "^ G")
+modifiedText = modifiedText.replace(/^ h/gi, "^ H")
+modifiedText = modifiedText.replace(/^ i/gi, "^ I")
+modifiedText = modifiedText.replace(/^ j/gi, "^ J")
+modifiedText = modifiedText.replace(/^ k/gi, "^ K")
+modifiedText = modifiedText.replace(/^ l/gi, "^ L")
+modifiedText = modifiedText.replace(/^ m/gi, "^ M")
+modifiedText = modifiedText.replace(/^ n/gi, "^ N")
+modifiedText = modifiedText.replace(/^ o/gi, "^ O")
+modifiedText = modifiedText.replace(/^ p/gi, "^ P")
+modifiedText = modifiedText.replace(/^ q/gi, "^ Q")
+modifiedText = modifiedText.replace(/^ r/gi, "^ R")
+modifiedText = modifiedText.replace(/^ s/gi, "^ S")
+modifiedText = modifiedText.replace(/^ t/gi, "^ T")
+modifiedText = modifiedText.replace(/^ u/gi, "^ U")
+modifiedText = modifiedText.replace(/^ v/gi, "^ V")
+modifiedText = modifiedText.replace(/^ w/gi, "^ W")
+modifiedText = modifiedText.replace(/^ x/gi, "^ X")
+modifiedText = modifiedText.replace(/^ y/gi, "^ Y")
+modifiedText = modifiedText.replace(/^ z/gi, "^ Z")
+
+modifiedText = modifiedText.replace(/^ \na/gi, "^ \nA")
+modifiedText = modifiedText.replace(/^ \nb/gi, "^ \nB")
+modifiedText = modifiedText.replace(/^ \nc/gi, "^ \nC")
+modifiedText = modifiedText.replace(/^ \nd/gi, "^ \nD")
+modifiedText = modifiedText.replace(/^ \ne/gi, "^ \nE")
+modifiedText = modifiedText.replace(/^ \nf/gi, "^ \nF")
+modifiedText = modifiedText.replace(/^ \ng/gi, "^ \nG")
+modifiedText = modifiedText.replace(/^ \nh/gi, "^ \nH")
+modifiedText = modifiedText.replace(/^ \ni/gi, "^ \nI")
+modifiedText = modifiedText.replace(/^ \nj/gi, "^ \nJ")
+modifiedText = modifiedText.replace(/^ \nk/gi, "^ \nK")
+modifiedText = modifiedText.replace(/^ \nl/gi, "^ \nL")
+modifiedText = modifiedText.replace(/^ \nm/gi, "^ \nM")
+modifiedText = modifiedText.replace(/^ \nn/gi, "^ \nN")
+modifiedText = modifiedText.replace(/^ \no/gi, "^ \nO")
+modifiedText = modifiedText.replace(/^ \np/gi, "^ \nP")
+modifiedText = modifiedText.replace(/^ \nq/gi, "^ \nQ")
+modifiedText = modifiedText.replace(/^ \nr/gi, "^ \nR")
+modifiedText = modifiedText.replace(/^ \ns/gi, "^ \nS")
+modifiedText = modifiedText.replace(/^ \nt/gi, "^ \nT")
+modifiedText = modifiedText.replace(/^ \nu/gi, "^ \nU")
+modifiedText = modifiedText.replace(/^ \nv/gi, "^ \nV")
+modifiedText = modifiedText.replace(/^ \nw/gi, "^ \nW")
+modifiedText = modifiedText.replace(/^ \nx/gi, "^ \nX")
+modifiedText = modifiedText.replace(/^ \ny/gi, "^ \nY")
+modifiedText = modifiedText.replace(/^ \nz/gi, "^ \nZ")
+
+modifiedText = modifiedText.replace(/^ \n\ta/gi, "^ \n\tA")
+modifiedText = modifiedText.replace(/^ \n\tb/gi, "^ \n\tB")
+modifiedText = modifiedText.replace(/^ \n\tc/gi, "^ \n\tC")
+modifiedText = modifiedText.replace(/^ \n\td/gi, "^ \n\tD")
+modifiedText = modifiedText.replace(/^ \n\te/gi, "^ \n\tE")
+modifiedText = modifiedText.replace(/^ \n\tf/gi, "^ \n\tF")
+modifiedText = modifiedText.replace(/^ \n\tg/gi, "^ \n\tG")
+modifiedText = modifiedText.replace(/^ \n\th/gi, "^ \n\tH")
+modifiedText = modifiedText.replace(/^ \n\ti/gi, "^ \n\tI")
+modifiedText = modifiedText.replace(/^ \n\tj/gi, "^ \n\tJ")
+modifiedText = modifiedText.replace(/^ \n\tk/gi, "^ \n\tK")
+modifiedText = modifiedText.replace(/^ \n\tl/gi, "^ \n\tL")
+modifiedText = modifiedText.replace(/^ \n\tm/gi, "^ \n\tM")
+modifiedText = modifiedText.replace(/^ \n\tn/gi, "^ \n\tN")
+modifiedText = modifiedText.replace(/^ \n\to/gi, "^ \n\tO")
+modifiedText = modifiedText.replace(/^ \n\tp/gi, "^ \n\tP")
+modifiedText = modifiedText.replace(/^ \n\tq/gi, "^ \n\tQ")
+modifiedText = modifiedText.replace(/^ \n\tr/gi, "^ \n\tR")
+modifiedText = modifiedText.replace(/^ \n\ts/gi, "^ \n\tS")
+modifiedText = modifiedText.replace(/^ \n\tt/gi, "^ \n\tT")
+modifiedText = modifiedText.replace(/^ \n\tu/gi, "^ \n\tU")
+modifiedText = modifiedText.replace(/^ \n\tv/gi, "^ \n\tV")
+modifiedText = modifiedText.replace(/^ \n\tw/gi, "^ \n\tW")
+modifiedText = modifiedText.replace(/^ \n\tx/gi, "^ \n\tX")
+modifiedText = modifiedText.replace(/^ \n\ty/gi, "^ \n\tY")
+modifiedText = modifiedText.replace(/^ \n\tz/gi, "^ \n\tZ")
+
+modifiedText = modifiedText.replace(/@@@/gi, "...")
+modifiedText = modifiedText.replace(/\. \.\.\./gi, "...")
+
+if(state.ozfactor<=1){state.ozfactor=1}
+if(state.ozfactor>=100){state.ozfactor=100}
+
+
+ if(modifiedText.includes(state.character)){state.zap=true}
+  }}
+ooo
+//// You must return an object with the text property defined.
+ return { text: modifiedText }}
+// Don't modify this part
+modifier(text)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
